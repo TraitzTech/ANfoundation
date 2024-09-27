@@ -58,7 +58,7 @@ const Footer = () => {
       <hr />
       <div className="footer-rbottom">
         <p>The Awahsa’a Ngeniform Foundation - 2024, All rights reserved</p>
-        <a href="www.traitz.tech">By Traitz Tech</a>
+        <a href="www.traitz.tech">By NKA/Traitz Tech</a>
       </div>
     </div>
   );
