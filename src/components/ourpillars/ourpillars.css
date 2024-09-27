@@ -1,0 +1,14 @@
+.ourPillars-container {
+  margin: 10rem 0 5rem 0;
+}
+
+.ourPillars-title {
+  text-align: center;
+  margin: 0 0 10rem 0;
+}
+
+.ourPillars-contents {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}

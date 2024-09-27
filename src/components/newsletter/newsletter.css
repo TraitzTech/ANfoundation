@@ -1,0 +1,86 @@
+.newsletter-contents {
+  max-width: 1202px;
+  margin: 100px auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-contents-left h3 {
+  font-family: Jua;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.newsletter-contents-left p {
+  color: rgba(150, 150, 150, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: center;
+}
+
+.newsletter-contents-right {
+  display: inline-flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+
+.right-button {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.right-button button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 15px;
+}
+
+.right-button input {
+  outline: none;
+  border: none;
+  background: rgba(255, 248, 244, 1);
+  border-radius: 20px;
+  width: 350px;
+  font-family: Jua;
+  padding-left: 12px;
+}
+
+.newsletter-contents-right .right-contact div {
+  display: inline-block;
+  padding: 0px 0 5px 2px;
+}
+
+.newsletter-contents-right .right-contact div p:first-of-type {
+  font-family: Jua;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.newsletter-contents-right .right-contact div p:last-of-type {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: center;
+  color: rgba(150, 150, 150, 1);
+}
+
+.newsletter-contents-right .right-location div {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+  color: rgba(150, 150, 150, 1);
+}

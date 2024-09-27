@@ -1,0 +1,11 @@
+.card-social {
+    text-align: start;
+    /* padding: 10px; */
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* .youtube .tiktok .spotify .instagram {
+
+} */

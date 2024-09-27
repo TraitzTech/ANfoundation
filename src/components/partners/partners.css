@@ -1,0 +1,24 @@
+.OurPartners-container {
+  margin: 50px 0px;
+}
+
+.ourPartners-title {
+  margin: 100px 0 50px 0;
+  text-align: center;
+}
+
+.ourPartner-container-bottom {
+  width: 100%;
+  background: rgba(255, 244, 238, 1);
+  padding: 100px 0px
+}
+
+.ourPartnerCard {
+  width: 1188px;
+  height: 183px;
+  gap: 18px;
+  opacity: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}

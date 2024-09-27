@@ -1,0 +1,11 @@
+.title-container {
+  font-family: Jua;
+  font-size: 34px;
+  font-weight: 200;
+  line-height: 58px;
+  /* text-align: center; */
+}
+
+.title-container .dot {
+  margin: 0px 0px;
+}

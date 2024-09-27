@@ -1,0 +1,27 @@
+.swipper-card {
+  background: rgba(255, 251, 249, 1);
+  max-width: 374px;
+  /* padding: 10px; */
+  margin-bottom: 100px;
+}
+
+.swipper-card .s-img img {
+  max-width: 374px;
+  height: 249px;
+}
+
+.swipper-card h3 {
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.swipper-card p {
+  margin: 20px 0;
+  padding: 0px 20px 20px 20px;
+  color: rgba(150, 150, 150, 1);
+}
+
+.swipper-button {
+  padding: 0px 20px 20px 20px;
+}
