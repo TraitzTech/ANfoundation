@@ -4,11 +4,12 @@ import Button from "../button/Button";
 
 const Inpartners = () => {
   return (
-    <div className="inpartners-container">
+    <div className="inpartners-container" id="partner">
       <div className="inpartners-inner-container">
-        <p className="small">Lorem ipsum</p>
+        <p className="small">Partner with the AN</p>
         <p className="lg">
-          Lorem ipsum dolor sit amet consectetur. Risus proin ut congue nibh.{" "}
+          Support Education & Skills Training. Break the cycle of poverty,
+          partner with us.
         </p>
 
         <div className="inpartners-button">

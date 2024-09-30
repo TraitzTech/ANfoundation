@@ -21,8 +21,6 @@
   font-size: 32px;
   font-weight: 100;
   position: sticky;
-  
-
 }
 
 .dot {
@@ -58,9 +56,92 @@
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    gap: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 35px;
+}
+
+.sticky {
+  position: fixed;
+  height: 185px;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+}
+
+.sticky h3 {
+  margin-top: 20px;
+}
+
+@media (max-width: 968px) {
+  .navtigation-top-contents h3 {
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .navtigation-top-contents h2 {
+    font-size: 56px;
+    line-height: 64px;
+    max-width: 656px;
+  }
+
+  .navtigation-top-contents p {
+    font-size: 19px;
+    max-width: 564px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 568px) {
+  .navtigation-top-contents {
+    padding-top: 50px;
+  }
+
+  .navtigation-top-contents h3 {
+    font-size: 15px;
+    line-height: 34px;
+  }
+
+  .navtigation-top-contents h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .navtigation-top-contents p {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 45px;
+  }
+
+  .h3-container {
+    height: 85px;
+    background: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    padding: 30px 0;
+  }
+
+  .dot {
+    width: 17px;
+    height: 17px;
+  }
+
+  .sticky {
+    height: 155px;
+    background: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  .sticky h3 {
+    margin-top: 5px;
+  }
 }

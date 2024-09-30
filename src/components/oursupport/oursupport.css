@@ -1,8 +1,8 @@
 .oursupport-container {
-  background: url("../../assets//Cameroon\ Map.png"), url("../../assets//Cameroon\ Map.png");
-  background-repeat: repeat;
-  background-size: fit-content fit-content;
-  background-position: top;
+  background: url("../../assets/Cameroon\ Map.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right;
 }
 
 .oursupport-title {
@@ -12,19 +12,89 @@
 
 .swipper-contents {
   margin-left: 150px;
-  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
+  position: relative;
 }
 
-.swiper-pagination {
-  margin-top: 100px;
+.swipper-contents::before,
+.swipper-contents::after {
+  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 70%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
 }
+
+.swipper-contents::before {
+  right: 0;
+}
+
+.swipper-contents::after {
+  left: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.swiperSlide-container {
+  background-color: red;
+  padding: 50px;
+}
+
+/* .swiper-pagination {
+  margin-top: 50px;
+} */
 
 .swiper-pagination-bullet-active {
   background: rgba(255, 115, 21, 1) !important; /* Active bullet color */
   transform: scale(1.2); /* Slightly enlarge active bullet */
 }
 
-.swipper-contents::after {
-  background: linear-gradient(to right, rgba(221, 6, 6, 0.7), rgba(221, 6, 6, 0.7));
-  position: absolute;
+.ipartner-container {
+  margin-top: 50px;
+}
+
+@media (max-width: 968px) {
+  .oursupport-container {
+    /* background-color: pink; */
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .ipartner-container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .swipper-contents {
+    margin-left: 0;
+  }
+
+  .oursupport-title {
+    margin: 10px 0 30px 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .ipartner-container .inpartners-container {
+    max-width: 279px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .ipartner-container .inpartners-inner-container {
+    padding: 0;
+    align-items: center;
+  }
+
+  .inpartners-inner-container .lg {
+    text-align: center !important;
+  }
+
+  .ipartner-container .inpartners-container {
+    background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
+      url("../../assets/mobilerectimg.png");
+    background-position: center;
+    background-size: fit-content;
+    background-repeat: no-repeat;
+  }
 }

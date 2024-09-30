@@ -8,7 +8,7 @@ import Button from "../button/Button";
 
 const Whoweare = () => {
   return (
-    <div className="who-we-are-container">
+    <div className="who-we-are-container" id="about">
       <div className="who-we-are-contents">
         <div className="who-we-are-left">
           <img src={lgimg} alt="community people" />

@@ -2,10 +2,16 @@
   font-family: Jua;
   font-size: 34px;
   font-weight: 200;
-  line-height: 58px;
+  line-height: 38px;
   /* text-align: center; */
 }
 
 .title-container .dot {
   margin: 0px 0px;
+}
+
+@media (max-width: 568px) {
+  .title-container h2{
+    font-size: 34px;
+  }
 }

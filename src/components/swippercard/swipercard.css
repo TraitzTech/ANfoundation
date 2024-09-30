@@ -2,7 +2,7 @@
   background: rgba(255, 251, 249, 1);
   max-width: 374px;
   /* padding: 10px; */
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .swipper-card .s-img img {
@@ -24,4 +24,11 @@
 
 .swipper-button {
   padding: 0px 20px 20px 20px;
+}
+
+
+@media (max-screen: 968px) {
+  /* .swipper-card-container {
+    padding: 0 120px;
+  } */
 }

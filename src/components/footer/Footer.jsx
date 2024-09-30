@@ -1,5 +1,8 @@
 import React from "react";
 import "./footer.css";
+import arrowUp from '../../assets/arrowUp.png'
+
+import { FaArrorUp, FaArrowUp } from "react-icons/fa";
 
 import logo from "../../assets/footerlogo.png";
 import Button from "../button/Button";
@@ -13,8 +16,7 @@ const Footer = () => {
         <div className="footer-contents-b1">
           <img src={logo} alt="footr logo" />
           <p>
-            This is the awashsa Ngeniform foundation This is the awashsa
-            Ngeniform foundation This is the awashsa Ngeniform foundation
+          Join our mission to empower the next generation.
           </p>
 
           <div className="footer-button">
@@ -24,11 +26,11 @@ const Footer = () => {
         <div className="footer-contents-b2">
           <h3>About</h3>
           <div className="a-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Our Pillars</a>
-            <a href="#">What others say</a>
-            <a href="#">Partner with us</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#pillars">Our Pillars</a>
+            {/* <a href="#">What others say</a> */}
+            {/* <a href="#">Partner with us</a> */}
           </div>
         </div>
 
@@ -58,7 +60,9 @@ const Footer = () => {
       <hr />
       <div className="footer-rbottom">
         <p>The Awahsa’a Ngeniform Foundation - 2024, All rights reserved</p>
-        <a href="www.traitz.tech">By NKA/Traitz Tech</a>
+        <div>
+          <a href="www.traitz.tech">By NKA/Traitz Tech <a href="#home"><span> <img src={arrowUp} alt="the arrow" />  </span></a> </a>
+        </div>
       </div>
     </div>
   );

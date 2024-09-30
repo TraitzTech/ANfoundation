@@ -4,19 +4,19 @@ import Button from '../button/Button'
 
 import swiperImg from "../../assets/swipperchildren.png"
 
-const Swippercard = () => {
+const Swippercard = ({bgImage, headercontent, text}) => {
   return (
     <div className='swipper-card-container'>
         <div className="swipper-card">
             <div className="s-img">
-                <img src={swiperImg} alt="" />
+                <img src={bgImage} alt="the background" />
             </div>
 
             <h3>
-                Livelihood Training
+                {headercontent}
             </h3>
             <p>
-            (solar electrification and entrepreneurship) for two at-risk young men in recovery from drug addiction
+            {text}
             </p>
 
             <div className="swipper-button">

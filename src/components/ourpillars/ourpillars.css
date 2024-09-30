@@ -1,14 +1,45 @@
 .ourPillars-container {
-  margin: 10rem 0 5rem 0;
+  margin: 12rem 0 5rem 0;
 }
 
 .ourPillars-title {
   text-align: center;
-  margin: 0 0 10rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .ourPillars-contents {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+  max-width: 1360px;
+  /* background-color: red; */
+  margin: auto;
+}
+
+/* .custom-slide {
+  width: auto !important;
+  height: 234px;
+} */
+
+@media (max-width: 968px) {
+  .ourPillars-contents {
+    max-width: 90%;
+    float: right;
+  }
+
+  .custom-slide {
+    width: auto !important;
+  }
+
+  .ourPillars-title {
+    padding-top: 70px;
+    /* background-color: red; */
+  }
+}
+
+@media (max-width: 568px) {
+  .ourPillars-title {
+    padding-top: 0px;
+  }
+
+  .ourPillars-container {
+    margin: 2rem 0;
+  }
 }

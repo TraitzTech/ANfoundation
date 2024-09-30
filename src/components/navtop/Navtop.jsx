@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./navtop.css";
 import Button from "../button/Button";
 const Navtop = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 100) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="navigation-container">
+    <div className="navigation-container" id="home">
       <div className="navtigation-top-contents">
-        <h3>
-          <span className="dot"></span> The Awahsa'a Ngeniform Foundation
-        </h3>
+        <div className={`h3-container ${isSticky ? "sticky" : ""}`}>
+          <h3>
+            <span className="dot"></span> The Awahsa'a Ngeniform Foundation
+          </h3>
+        </div>
+
         <h2>
           Empowering At-Risk Youth and Fostering  Community Development in
           Conflict- Affected Regions.
@@ -21,8 +42,9 @@ const Navtop = () => {
           challenges and become leaders in their communities.
         </p>
         <div className="buttons">
-          <Button className="fill" content="Partner with us" />
-          <Button className="empty" content="Learn more" />
+          <a href="#partner">
+            <Button className="fill" content="Partner with us" />
+          </a>
         </div>
       </div>
     </div>

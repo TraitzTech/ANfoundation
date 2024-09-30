@@ -40,14 +40,16 @@
   top: 0;
   bottom: 0;
   padding: 0 15px;
+  height: 45px;
 }
 
 .right-button input {
   outline: none;
   border: none;
-  background: rgba(255, 248, 244, 1);
+  background: rgba(255, 224, 204, 1);
   border-radius: 20px;
-  width: 350px;
+  width: 450px;
+  height: 45px;
   font-family: Jua;
   padding-left: 12px;
 }
@@ -83,4 +85,61 @@
   line-height: 16.94px;
   text-align: left;
   color: rgba(150, 150, 150, 1);
+}
+
+.newsletter-info {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+@media (max-width: 968px) {
+  .newsletter-container {
+    /* background-color: red; */
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .newsletter-contents {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .newsletter-contents-left h3 {
+    text-align: center;
+  }
+
+  .newsletter-contents-right {
+    display: block;
+  }
+
+  .newsletter-contents-right .right-button {
+    margin: 20px 0px;
+  }
+}
+
+@media (max-width: 568px) {
+  .right-button input {
+    width: 300px;
+  }
+
+  .newsletter-info {
+    display: block;
+  }
+
+  .right-contact {
+    margin-left: 20px;
+  }
+  .right-location {
+    margin-left: 14px;
+  }
+
+  .right-contact p {
+    margin-left: 20px;
+  }
+
+  .right-location p {
+    margin-left: 14px
+  }
 }

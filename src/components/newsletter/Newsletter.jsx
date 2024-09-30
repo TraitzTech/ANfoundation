@@ -16,22 +16,28 @@ const Newsletter = () => {
         </div>
         <div className="newsletter-contents-right">
           <div className="right-button">
-            <input type="email" placeholder="Enter your email" required></input>
+            <input
+              type="email"
+              placeholder="Your Email address"
+              required
+            ></input>
             <Button content="Subscribe" />
           </div>
-          <div className="right-contact">
-            <img src={phone} alt="phone Icon" />
-            <div className="">
-              <p>+(123) 456 789 0000</p>
-              <p>hello@domainname.org</p>
+          <div className="newsletter-info">
+            <div className="right-contact">
+              <img src={phone} alt="phone Icon" />
+              <div className="">
+                <p>+(123) 456 789 0000</p>
+                <p>hello@domainname.org</p>
+              </div>
             </div>
-          </div>
 
-          <div className="right-location">
-            <img src={location} alt="Location Icon" />
-            <div>
-              <p>steet number, City</p>
-              <p>state, Country</p>
+            <div className="right-location">
+              <img src={location} alt="Location Icon" />
+              <div>
+                <p>steet number, City</p>
+                <p>state, Country</p>
+              </div>
             </div>
           </div>
         </div>

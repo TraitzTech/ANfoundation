@@ -3,8 +3,10 @@
   height: 392px;
   margin: 0px auto 20px auto;
   border-radius: 22px;
-  background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0) 100%),
+  background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
     url("../../assets/rectpartbgim.png");
+    background-position: right;
+
 }
 
 .inpartners-inner-container .small {
@@ -34,4 +36,11 @@
   gap: 30px;
   height: 100%;
   padding-left: 110px;
+}
+@media(max-width: 968px) {
+  .inpartners-container {
+    max-width: 660px;
+  }
+
+  
 }
