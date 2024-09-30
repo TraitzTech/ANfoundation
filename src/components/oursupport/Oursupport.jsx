@@ -94,15 +94,7 @@ const Oursupport = () => {
                 }
               />
             </SwiperSlide>
-            <SwiperSlide className="custom-slide">
-              <Swippercard
-                bgImage={swipperchild}
-                headercontent={"Capacity Building"}
-                text={
-                  "Knowledge exchange and best practices to local community organizations to help them achieve set objectives for the community"
-                }
-              />
-            </SwiperSlide>
+            
           </div>
         </Swiper>
       </div>
