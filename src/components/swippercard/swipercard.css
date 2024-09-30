@@ -3,6 +3,8 @@
   max-width: 374px;
   /* padding: 10px; */
   margin-bottom: 50px;
+  height: 560px;
+  border-radius: 0 0 20px 20px;
 }
 
 .swipper-card .s-img img {
@@ -25,7 +27,6 @@
 .swipper-button {
   padding: 0px 20px 20px 20px;
 }
-
 
 @media (max-screen: 968px) {
   /* .swipper-card-container {

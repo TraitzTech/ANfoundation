@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import "./navtop.css";
-import Button from "../button/Button";
+import Button from "../../components/button/Button";
 const Navtop = () => {
   const [isSticky, setIsSticky] = useState(false);
 

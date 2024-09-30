@@ -1,6 +1,6 @@
 import React from "react";
 import "./inpartner.css";
-import Button from "../button/Button";
+import Button from "../../components/button/Button";
 
 const Inpartners = () => {
   return (

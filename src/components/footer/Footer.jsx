@@ -5,7 +5,7 @@ import arrowUp from "../../assets/arrowUp.png";
 import { FaArrorUp, FaArrowUp } from "react-icons/fa";
 
 import logo from "../../assets/footerlogo.png";
-import Button from "../button/Button";
+import Button from "../../components/button/Button";
 import Socials from "../socials/Socials";
 
 const Footer = () => {
