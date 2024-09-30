@@ -21,7 +21,7 @@ hr {
   width: 292px;
   height: 178px;
   gap: 17px;
-  opacity: 0px;
+  /* opacity: 1px; */
   display: flex;
   flex-direction: column;
 }
@@ -103,8 +103,6 @@ hr {
     grid-column-start: 1;
     grid-column-end: 3;
   }
-
-  
 
   hr {
     max-width: 95%;
