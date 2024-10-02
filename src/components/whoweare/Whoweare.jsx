@@ -2,7 +2,7 @@ import React from "react";
 import "./whoweare.css";
 import lgimg from "../../assets/peoplecommunity.png";
 import kdimg from "../../assets/littlekid.png";
-import child from "../../assets/child.png";
+import child from "../../assets/girls.jpg";
 import Title from "../title/Title";
 import Button from "../button/Button";
 
