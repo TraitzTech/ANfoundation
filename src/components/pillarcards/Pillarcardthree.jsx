@@ -16,6 +16,7 @@ const Pillarcardthree = ({ bgImage, headercontent, text }) => {
         <h3>{headercontent}</h3>
         <p>{text}</p>
         <hr />
+        <span className={isOpen ? "hidden" : ""} id="span"> + </span>
         <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
@@ -39,6 +40,8 @@ const Pillarcardthree = ({ bgImage, headercontent, text }) => {
 
             <span> Music, Dance & Crafts Traditional Practices Events</span>
           </ul>
+          <span id="span"> - </span>
+
         </div>
       </div>
     </div>

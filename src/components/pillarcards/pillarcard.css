@@ -36,3 +36,23 @@
 .pillar-card-container .hidden {
   display: none;
 }
+
+.pillar-card-container hr {
+  margin: 15px 0px;
+  height: 2.5px;
+  background: rgba(255, 115, 21, 1);
+
+  border: none;
+}
+
+#span {
+  font-size: 34px;
+  color: rgba(255, 115, 21, 1);
+
+  cursor: pointer;
+}
+
+.pillar-card-container a {
+  color: rgba(255, 115, 21, 1);
+  text-decoration: none;
+}
