@@ -15,5 +15,6 @@
 @media (max-width: 968px) {
   .partner-us-contents {
     flex-direction: column;
+    
   }
 }
