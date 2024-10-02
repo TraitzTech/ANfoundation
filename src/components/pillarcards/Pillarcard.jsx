@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./pillarcard.css";
 import bgimage from "../../assets/community Icon.png";
 
-const Pillarcard = ({bgImage, headercontent, text}) => {
+const Pillarcard = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -23,15 +23,14 @@ const Pillarcard = ({bgImage, headercontent, text}) => {
         >
           <ul>
             <li>
-            MBECUDA - Bambili, Buea, Limbe, Douala, Yaounde, USA, Canada 
-
+              MBECUDA - Bambili, Buea, Limbe, Douala, Yaounde, USA, Canada
             </li>
             <li>
-            Mbeligi Facebook
+              <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP">
+                Mbeligi Facebook
+              </a>
             </li>
-            <li>
-            The AN Foundation
-            </li>
+            <li>The AN Foundation</li>
           </ul>
         </div>
       </div>
