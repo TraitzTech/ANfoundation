@@ -15,9 +15,9 @@ const Swippercard = ({ bgImage, headercontent, text }) => {
         <h3>{headercontent}</h3>
         <p>{text}</p>
 
-        <div className="swipper-button">
+        {/* <div className="swipper-button">
           <Button className="fill-orange" content="see more" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
