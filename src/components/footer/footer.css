@@ -2,7 +2,7 @@
   background: linear-gradient(180deg, #ffffff 0%, #fff8f4 39.23%, #fff8f4 100%);
 }
 
-hr {
+.footer-container hr {
   width: 1172px;
   height: 0px;
   margin: 50px auto;
@@ -104,7 +104,7 @@ hr {
     grid-column-end: 3;
   }
 
-  hr {
+  .footer-container hr {
     max-width: 95%;
   }
 }
