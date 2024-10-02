@@ -31,13 +31,13 @@ const Pillarcardtwo = ({ bgImage, headercontent, text }) => {
             <li>Business and Trades</li>
             <span>Online Learning</span>
             <li>
-              <a href="#">Edx</a>
+              <a href="https://www.edx.org/">Edx</a>
             </li>
             <li>
-              <a href="#">ChatGPT</a>
+              <a href="https://chat.openai.com/">ChatGPT</a>
             </li>
             <li>
-              <a href="#">Khan Academy</a>
+              <a href="https://www.khanacademy.org/">Khan Academy</a>
             </li>
           </ul>
           <span id="span"> - </span>

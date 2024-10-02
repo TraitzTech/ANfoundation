@@ -27,7 +27,9 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
             <li>Bambili Health Center</li>
             <li>University of Bamenda</li>
             <li>
-              <a href="#">Our Lady of Fatima Parish Bambili</a>
+              <a href="https://www.olfpb.org/">
+                Our Lady of Fatima Parish Bambili
+              </a>
             </li>
           </ul>
           <span id="span"> - </span>

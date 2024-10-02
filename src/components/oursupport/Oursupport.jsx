@@ -3,7 +3,7 @@ import "./oursupport.css";
 import Title from "../title/Title";
 import Swippercard from "../swippercard/Swippercard";
 
-import farmers from "../../assets/farmers.png";
+import farmers from "../../assets/women.jpg";
 import together from "../../assets/together.png";
 import swipperchild from "../../assets/swipperchildren.png";
 import capacity from "../../assets/capacity.png";
@@ -54,7 +54,7 @@ const Oursupport = () => {
           autoplay={{
             delay: 5000, // Delay between slides in milliseconds
             disableOnInteraction: false,
-            reverseDirection: true
+            reverseDirection: true,
           }}
         >
           <div className="swiperSlide-container">
@@ -94,7 +94,6 @@ const Oursupport = () => {
                 }
               />
             </SwiperSlide>
-            
           </div>
         </Swiper>
       </div>

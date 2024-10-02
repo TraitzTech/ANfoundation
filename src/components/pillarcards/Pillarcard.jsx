@@ -26,8 +26,17 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
           <ul>
             <li>
               MBECUDA - Bambili, Buea, Limbe, Douala, Yaounde, USA, Canada
+<<<<<<< HEAD
             </li>
             <li>Mbeligi Facebook</li>
+=======
+            </li>
+            <li>
+              <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP">
+                Mbeligi Facebook
+              </a>
+            </li>
+>>>>>>> 9e1544fcc7dca1ac03c94db4affe9ec34d8c26ac
             <li>The AN Foundation</li>
           </ul>
           <span id="span"> - </span>
