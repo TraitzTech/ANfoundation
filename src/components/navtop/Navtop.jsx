@@ -30,7 +30,7 @@ const Navtop = () => {
           </h3>
         </div>
 
-        <h2>
+        {/* <h2>
           Empowering At-Risk Youth and Fostering  Community Development in
           Conflict- Affected Regions.
         </h2>
@@ -45,7 +45,7 @@ const Navtop = () => {
           <a href="#partner">
             <Button className="fill" content="Partner with us" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

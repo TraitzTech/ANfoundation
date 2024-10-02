@@ -1,5 +1,7 @@
 import React from "react";
-import './partners.css';
+import { Link } from "react-router-dom";
+
+import "./partners.css";
 import Title from "../title/Title";
 import PartnerCard from "../partnercard/PartnerCard";
 

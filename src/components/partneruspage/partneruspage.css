@@ -1,0 +1,19 @@
+.partner-us-contents {
+  max-width: 1087px;
+  margin: auto;
+  background: rgba(255, 251, 249, 1);
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.partner-us-contents-left p {
+  margin-top: 20px;
+}
+
+@media (max-width: 968px) {
+  .partner-us-contents {
+    flex-direction: column;
+  }
+}

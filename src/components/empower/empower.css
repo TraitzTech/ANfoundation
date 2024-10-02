@@ -1,0 +1,55 @@
+.empower-container h2 {
+  max-width: 1184px;
+  margin: -150px auto 0px auto;
+  font-family: Jua;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 73px;
+  text-align: center;
+  color: rgba(48, 48, 48, 1);
+}
+
+.empower-container p {
+  max-width: 702px;
+  margin: 10px auto 0px auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 35px;
+}
+
+@media (max-width: 968px) {
+  .empower-container h2 {
+    font-size: 56px;
+    line-height: 64px;
+    max-width: 656px;
+  }
+
+  .empower-container p {
+    font-size: 19px;
+    max-width: 564px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 568px) {
+  .empower-container h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .empower-container p {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0 45px;
+  }
+}

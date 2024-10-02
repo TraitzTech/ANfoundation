@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import "./inpartner.css";
 import Button from "../../components/button/Button";
 
@@ -13,7 +16,9 @@ const Inpartners = () => {
         </p>
 
         <div className="inpartners-button">
-          <Button className="fill-orange" content="Become our Partner" />
+          <Link to="/partnerwithus">
+            <Button className="fill-orange" content="Become our Partner" />
+          </Link>
         </div>
       </div>
     </div>

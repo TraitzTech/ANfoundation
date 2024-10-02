@@ -34,7 +34,7 @@
   top: 3px;
 }
 
-.navtigation-top-contents h2 {
+/* .navtigation-top-contents h2 {
   max-width: 1184px;
   margin: 30px auto 0px auto;
   font-family: Jua;
@@ -61,7 +61,7 @@
   align-items: center;
   margin-top: 20px;
   gap: 35px;
-}
+} */
 
 .sticky {
   position: fixed;
@@ -120,11 +120,11 @@
 
   .h3-container {
     height: 85px;
-    background: linear-gradient(
+    /* background: linear-gradient(
       180deg,
       #ffffff 0%,
       rgba(255, 255, 255, 0) 100%
-    );
+    ); */
     padding: 30px 0;
   }
 

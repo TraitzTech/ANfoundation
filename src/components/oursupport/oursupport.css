@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.swipper-contents::before,
+/* .swipper-contents::before,
 .swipper-contents::after {
   background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
@@ -33,7 +33,7 @@
   left: 0;
   top: 0;
   transform: rotateZ(180deg);
-}
+} */
 
 .swiperSlide-container {
   background-color: red;

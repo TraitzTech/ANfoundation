@@ -7,15 +7,19 @@ import Partners from "../components/partners/Partners";
 import Inpartners from "../components/inpartners/Inpartners";
 import Newsletter from "../components/newsletter/Newsletter";
 import Footer from "../components/footer/Footer";
+import Contact from "../components/contactus/Contact";
+import Empower from "../components/empower/Empower";
 
 const Home = () => {
   return (
     <div>
-      <Navtop />
+      {/* <Navtop /> */}
+      <Empower />
       <Ourpillars />
       <Whoweare />
       <Oursupport />
-            <Newsletter />
+      <Contact />
+      <Newsletter />
       <Footer />
     </div>
   );

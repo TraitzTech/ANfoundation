@@ -24,9 +24,9 @@ const Whoweare = () => {
             community development with a focus on at-risk youth in fragile and
             conflict contexts.{" "}
           </p>
-          <div className="whobutton">
+          {/* <div className="whobutton">
             <Button content="Learn more" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
