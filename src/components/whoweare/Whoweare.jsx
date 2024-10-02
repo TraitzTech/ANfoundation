@@ -16,7 +16,7 @@ const Whoweare = () => {
           <img src={child} alt="Child image" />
         </div>
 
-        <div className="who-we-are-right">
+        <div className="who-we-are-righr">
           <Title content="Who we are" />
           <p>
             The Awahsa’a Ngeniform Foundation (AN) seeks to support excellence
