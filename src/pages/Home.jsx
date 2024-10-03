@@ -9,6 +9,7 @@ import Newsletter from "../components/newsletter/Newsletter";
 import Footer from "../components/footer/Footer";
 import Contact from "../components/contactus/Contact";
 import Empower from "../components/empower/Empower";
+import Bfooter from "../components/bottomfooter/Bfooter";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       {/* <Contact /> */}
       <Newsletter />
       <Footer />
+      <Bfooter />
     </div>
   );
 };

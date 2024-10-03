@@ -1,0 +1,26 @@
+.partner-page-container {
+  background: url("../assets/Cameroon\ Map.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right;
+}
+
+.partner-page-container a {
+  color: orange;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.partner-page-container hr {
+  width: 1172px;
+  height: 0px;
+  margin: 50px auto;
+  border: 1px solid var(--Border-Neutral-tertiary, rgba(178, 178, 178, 1));
+  opacity: 0px;
+}
+
+@media (max-width: 968px) {
+  .partner-page-container hr {
+    max-width: 95%;
+  }
+}

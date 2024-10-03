@@ -8,13 +8,37 @@
   gap: 30px;
 }
 
+.partner-us-contents-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
 .partner-us-contents-left p {
   margin-top: 20px;
+}
+
+.partner-us-contents-left p a {
+  color: rgba(255, 115, 21, 1);
+  text-decoration: none;
 }
 
 @media (max-width: 968px) {
   .partner-us-contents {
     flex-direction: column;
-    
+  }
+
+  .partner-us-contents-left {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 568px) {
+  .partner-us-contents-left {
+    padding: 10px 30px;
+    text-align: center;
   }
 }

@@ -30,22 +30,7 @@ const Navtop = () => {
           </h3>
         </div>
 
-        {/* <h2>
-          Empowering At-Risk Youth and Fostering  Community Development in
-          Conflict- Affected Regions.
-        </h2>
-
-        <p>
-          The Awahsa'a Ngeniform Foundation is dedicated to supporting at-risk
-          youth in building a brighter future. We offer mentorship,
-          scholarships, and life skills training to help them overcome
-          challenges and become leaders in their communities.
-        </p>
-        <div className="buttons">
-          <a href="#partner">
-            <Button className="fill" content="Partner with us" />
-          </a>
-        </div> */}
+       
       </div>
     </div>
   );

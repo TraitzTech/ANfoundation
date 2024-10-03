@@ -52,3 +52,23 @@
 .form-container .button:hover {
   background: rgba(255, 115, 21, 0.8);
 }
+
+@media (max-width: 968px) {
+  .form-container {
+    padding: 20px;
+    /* background-color: red; */
+    margin: auto;
+    width: 90%;
+  }
+}
+
+@media (max-width: 568px) {
+  .form-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .input-form-g1 input:last-child {
+    margin-left: 10px;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 import "./contact.css";
 
@@ -11,12 +12,13 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_3v5pe3o", "template_6anvm8r", form.current, {
-        publicKey: "6-yM-cUuVbvNhbtcx",
+      .sendForm("-service_t8cwmas", "template_8gijxwf", form.current, {
+        publicKey: "qsSJ0RNlzuH6NU9ZX",
       })
       .then(
         () => {
           console.log("SUCCESS!");
+          alert("Email sent Successfully");
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -35,7 +37,7 @@ const Contact = () => {
 
         <label></label>
         <textarea name="message" placeholder="Tell us more about yourself" />
-        <input type="submit" value="Send" className="button"/>
+        <input type="submit" value="Send" className="button" />
       </form>
     </div>
   );

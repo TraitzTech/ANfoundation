@@ -1,5 +1,8 @@
 import React from "react";
 import "./footer.css";
+
+import { Link } from "react-router-dom";
+
 import arrowUp from "../../assets/arrowUp.png";
 
 import { FaArrorUp, FaArrowUp } from "react-icons/fa";
@@ -18,7 +21,10 @@ const Footer = () => {
           <p>Join our mission to empower the next generation.</p>
 
           <div className="footer-button">
-            <Button className="fill-orange" content="Become a Partner" />
+            <Link to="/partnerwithus">
+              {" "}
+              <Button className="fill" content="Partner with us" />
+            </Link>
           </div>
         </div>
         <div className="footer-contents-b2">
@@ -56,20 +62,6 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="footer-rbottom">
-        <p>The Awahsa’a Ngeniform Foundation - 2024, All rights reserved</p>
-        <div>
-          <a href="www.traitz.tech">
-            Traitz Tech{" "}
-            <a href="#home">
-              <span>
-                {" "}
-                <img src={arrowUp} alt="the arrow" />{" "}
-              </span>
-            </a>{" "}
-          </a>
-        </div>
-      </div>
     </div>
   );
 };

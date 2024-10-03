@@ -98,6 +98,10 @@
 }
 
 @media (max-width: 568px) {
+  .navigation-container {
+    height: 200px;
+  }
+  
   .navtigation-top-contents {
     padding-top: 50px;
   }

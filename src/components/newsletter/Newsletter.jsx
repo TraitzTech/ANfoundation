@@ -1,4 +1,7 @@
 import React from "react";
+import { useRef } from "react";
+// import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "./newsletter.css";
 
 import phone from "../../assets/phoneicon.png";
@@ -7,6 +10,25 @@ import location from "../../assets/location.png";
 import Button from "../button/Button";
 
 const Newsletter = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_t8cwmas", "template_0uo0ck9", form.current, {
+        publicKey: "qsSJ0RNlzuH6NU9ZX",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          alert("Email sent Successfully");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div className="newsletter-container">
       <div className="newsletter-contents">
@@ -15,20 +37,24 @@ const Newsletter = () => {
           <p>Get latest news and updates</p>
         </div>
         <div className="newsletter-contents-right">
-          <div className="right-button">
+          <form ref={form} onSubmit={sendEmail} className="right-button">
             <input
               type="email"
               placeholder="Your Email address"
+              name="user_email"
               required
             ></input>
-            <Button content="Subscribe" />
-          </div>
+            {/* <Button content="Subscribe" /> */}
+            <button type="submit" value="send" className="fill">
+              Send
+            </button>
+          </form>
           <div className="newsletter-info">
             <div className="right-contact">
               <img src={phone} alt="phone Icon" />
               <div className="">
                 <p>+(123) 456 789 0000</p>
-                <p>hello@domainname.org</p>
+                <p>theakwofoundation@gmail.com</p>
               </div>
             </div>
 

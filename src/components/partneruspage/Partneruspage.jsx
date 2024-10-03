@@ -17,11 +17,12 @@ const Partneruspage = () => {
           <p>
             Connect with us by filling out our online form, emailing us at
             <a href="mailto:theakwofoundation@gmail.com">
-              <span> </span>theakwofoundation@gmail.com.
+              <span> </span>theakwofoundation@gmail.com
             </a>
           </p>
 
-          <Socials />
+          <Socials socialColor="rgba(32, 32, 32, 1)" />
+
         </div>
         <div className="partner-us-contents-right">
           <Contact />
