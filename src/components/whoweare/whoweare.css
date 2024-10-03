@@ -90,7 +90,7 @@
 @media (max-width: 568px) {
   .who-we-are-container {
     max-width: 90%;
-    margin: 15rem auto 10px auto;
+    margin: 0rem auto 10px auto;
     /* background-color: red; */
   }
 

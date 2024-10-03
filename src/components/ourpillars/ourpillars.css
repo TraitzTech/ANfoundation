@@ -13,6 +13,8 @@
   margin: auto;
 }
 
+
+
 /* .custom-slide {
   width: auto !important;
   height: 234px;
@@ -21,16 +23,24 @@
 @media (max-width: 968px) {
   .ourPillars-contents {
     max-width: 90%;
-    float: right;
+    /* float: right; */
   }
 
   .custom-slide {
     width: auto !important;
+    height: auto !important;
   }
 
   .ourPillars-title {
     padding-top: 70px;
     /* background-color: red; */
+  }
+
+  .slider-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    margin: 0;
   }
 }
 
