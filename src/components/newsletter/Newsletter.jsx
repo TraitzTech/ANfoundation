@@ -61,7 +61,7 @@ const Newsletter = () => {
             <div className="right-location">
               <img src={location} alt="Location Icon" />
               <div>
-                <p>steet number, City</p>
+                <p>street number, City</p>
                 <p>state, Country</p>
               </div>
             </div>

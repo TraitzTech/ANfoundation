@@ -45,12 +45,18 @@
 } */
 
 .swiper-pagination-bullet-active {
-  background: rgba(255, 115, 21, 1) !important; /* Active bullet color */
-  transform: scale(1.2); /* Slightly enlarge active bullet */
+  background: rgba(255, 115, 21, 1) !important;
+  /* Active bullet color */
+  transform: scale(1.2);
+  /* Slightly enlarge active bullet */
 }
 
 .ipartner-container {
   margin-top: 50px;
+}
+
+.custom-slide {
+  border-radius: 50%;
 }
 
 @media (max-width: 968px) {

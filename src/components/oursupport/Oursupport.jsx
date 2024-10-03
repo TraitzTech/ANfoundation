@@ -22,6 +22,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { specialCharMap } from "@testing-library/user-event/dist/keyboard";
 import Inpartners from "../inpartners/Inpartners";
+import { BiBorderRadius } from "react-icons/bi";
 
 const Oursupport = () => {
   var settings = {
@@ -73,6 +74,7 @@ const Oursupport = () => {
               <div className="custom-slide">
                 <Swippercard
                   bgImage={farmers}
+                  style={{ BiBorderRadius: `30px` }}
                   headercontent={"Livelihood Training"}
                   text={
                     "(solar electrification and entrepreneurship) for two at-risk young men in recovery from drug addiction"
@@ -86,7 +88,7 @@ const Oursupport = () => {
                   bgImage={graduation}
                   headercontent={"Tuition/textbook Scholarship"}
                   text={
-                    "Dedicated to support to a an post-primary girls in Bambili, NWR "
+                    "Dedicated to support to any and all post-primary girls in Bambili, NWR "
                   }
                 />
               </div>

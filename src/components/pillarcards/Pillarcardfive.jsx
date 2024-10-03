@@ -16,13 +16,17 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
         <h3>{headercontent}</h3>
         <p>{text}</p>
         <hr />
-        <span className={isOpen ? "hidden" : ""} id="span"> + </span>
+        <span className={isOpen ? "hidden" : ""} id="span">
+          {" "}
+          +{" "}
+        </span>
         <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
           }
         >
           <ul>
+            <span>Bambili</span> <br />
             <span>Social Services</span>
             <li>Bambili Health Center</li>
             <li>University of Bamenda</li>
@@ -33,7 +37,6 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
             </li>
           </ul>
           <span id="span"> - </span>
-
         </div>
       </div>
     </div>

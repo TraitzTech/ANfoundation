@@ -16,14 +16,17 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
         <h3>{headercontent}</h3>
         <p>{text}</p>
         <hr />
-        <span className={isOpen ? "hidden" : ""} id="span"> + </span>
+        <span className={isOpen ? "hidden" : ""} id="span">
+          {" "}
+          +{" "}
+        </span>
         <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
           }
         >
-          
           <ul>
+            <span>Bambili</span>
             <li>
               MBECUDA - Bambili, Buea, Limbe, Douala, Yaounde, USA, Canada
             </li>
@@ -32,7 +35,7 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
                 Mbeligi Facebook
               </a>
             </li>
-            <li>The AN Foundation</li>
+            <li>The AN</li>
           </ul>
           <span id="span"> - </span>
         </div>

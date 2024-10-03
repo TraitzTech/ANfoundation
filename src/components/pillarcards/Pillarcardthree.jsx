@@ -16,13 +16,17 @@ const Pillarcardthree = ({ bgImage, headercontent, text }) => {
         <h3>{headercontent}</h3>
         <p>{text}</p>
         <hr />
-        <span className={isOpen ? "hidden" : ""} id="span"> + </span>
+        <span className={isOpen ? "hidden" : ""} id="span">
+          {" "}
+          +{" "}
+        </span>
         <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
           }
         >
           <ul>
+            <span>Bambili</span> <br />
             <span>Language</span>
             <li>
               <a href="https://www.youtube.com/@prof_agwandi">
@@ -39,11 +43,9 @@ const Pillarcardthree = ({ bgImage, headercontent, text }) => {
             <li>Bambili Palace</li>
             <li>Quarters</li>
             <li>Lake Bambili</li>
-
             <span> Music, Dance & Crafts Traditional Practices Events</span>
           </ul>
           <span id="span"> - </span>
-
         </div>
       </div>
     </div>
