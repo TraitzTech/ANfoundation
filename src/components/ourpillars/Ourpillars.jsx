@@ -1,6 +1,11 @@
 import React from "react";
 import { useState } from "react";
 import "./ourpillars.css";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Title from "../title/Title";
 import Pillarcard from "../pillarcards/Pillarcard";
 import capacitybuilding from "../../assets/capacitybuilding.png";
@@ -14,59 +19,43 @@ import Pillarcardthree from "../pillarcards/Pillarcardthree";
 import Pillarcardfour from "../pillarcards/Pillarcardfour";
 import Pillarcardfive from "../pillarcards/Pillarcardfive";
 
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-} from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import { specialCharMap } from "@testing-library/user-event/dist/keyboard";
-
 const Ourpillars = () => {
-  // const slides = [
-  //   <Pillarcard
-  //     bgImage={community}
-  //     headercontent={"Community Development"}
-  //     text={"Strengthen Communities, Build peace and resilience"}
-  //   />,
-
-  //   <Pillarcard
-  //     bgImage={skills}
-  //     headercontent={"Skills + Livelihoods"}
-  //     text={
-  //       "Education & vocational training. Equip youth for income generation."
-  //     }
-  //   />,
-
-  //   <Pillarcard
-  //     bgImage={culture}
-  //     headercontent={"Culture"}
-  //     text={"Celebrate heritage. Broaden world view."}
-  //   />,
-
-  //   <Pillarcard
-  //     bgImage={capacitybuilding}
-  //     headercontent={"Avisory Services"}
-  //     text={
-  //       "Train & empower community leaders. Mentorship programs for youth & professionals."
-  //     }
-  //   />,
-
-  //   <Pillarcard
-  //     bgImage={resources}
-  //     headercontent={"Resources"}
-  //     text={
-  //       "Scholarships & education assistance. Trauma-informed care & support."
-  //     }
-  //   />,
-  // ];
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 968,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+    ],
+  };
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -80,43 +69,66 @@ const Ourpillars = () => {
         <Title content="Our Pillars" />
       </div>
       <div className="ourPillars-contents">
-        <Swiper
-          // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          a11y={true}
-          spaceBetween={10}
-          loopedSlides={5}
-          breakpoints={{
-            468: {
-              slidesPerView: 1, // 1 slide for screens 640px and below
-              loopedSlides: 5,
-            },
-            968: {
-              slidesPerView: 2,
-              loopedSlides: 2.5,
-            },
-            1024: {
-              slidesPerView: 5,
-              loopedSlides: 5,
-            },
-          }}
-          // slidesPerView={3.5}
-          // navigation
-          loop={true}
-          allowSlideNext={false}
-          pagination={{
-            clickable: true,
-          }}
-          scrollbar={false}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          autoplay={{
-            delay: 5000, // Delay between slides in milliseconds
-            disableOnInteraction: true,
-            reverseDirection: true,
-          }}
-        >
-          <SwiperSlide className="custom-slide">
+        <div className="slider-container">
+          <Slider {...settings}>
+            <div>
+              <div className="custom-slide">
+                <Pillarcard
+                  bgImage={community}
+                  headercontent={"Community Development"}
+                  text={
+                    "Education & vocational training. Equip youth for income generation."
+                  }
+                />
+              </div>
+            </div>
+            <div>
+              <div className="custom-slide">
+                <Pillarcardtwo
+                  bgImage={skills}
+                  headercontent={"Skills + Livelihoods"}
+                  text={
+                    "Education & vocational training. Equip youth for income generation."
+                  }
+                />
+              </div>
+            </div>
+            <div>
+              <div className="custom-slide">
+                <Pillarcardthree
+                  bgImage={culture}
+                  headercontent={"Culture"}
+                  text={"Celebrate heritage. Broaden world view."}
+                />
+              </div>
+            </div>
+            <div>
+              <div className="custom-slide">
+                <Pillarcardfour
+                  bgImage={capacitybuilding}
+                  headercontent={"Advisory Services"}
+                  text={
+                    "Train & empower community leaders. Mentorship programs for youth & professionals."
+                  }
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="custom-slide">
+                <Pillarcardfive
+                  bgImage={resources}
+                  headercontent={"Resources"}
+                  text={
+                    "Scholarships & education assistance. Trauma-informed care & support."
+                  }
+                />
+              </div>
+            </div>
+          </Slider>
+        </div>
+
+        {/* <SwiperSlide className="custom-slide">
             <Pillarcard
               bgImage={community}
               headercontent={"Community Development"}
@@ -159,8 +171,7 @@ const Ourpillars = () => {
                 "Scholarships & education assistance. Trauma-informed care & support."
               }
             />
-          </SwiperSlide>
-        </Swiper>
+          </SwiperSlide> */}
       </div>
     </div>
   );

@@ -5,6 +5,7 @@
   gap: 10px;
   border-radius: 16px;
   background: rgba(255, 248, 244, 1);
+  margin: auto;
 }
 
 .pillar-card {
@@ -13,7 +14,8 @@
 }
 
 .pillar-card img {
-  margin: 20px 0px 0px 0px;
+  margin: 20px auto 0px auto;
+  
 }
 
 .pillar-card h3 {
