@@ -34,6 +34,12 @@
     margin: auto;
     padding: 20px;
   }
+
+  .partner-us-contents-left .card-social {
+    text-align: center;
+    margin: auto;
+    max-width: fit-content;
+  }
 }
 
 @media (max-width: 568px) {

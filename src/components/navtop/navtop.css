@@ -101,7 +101,7 @@
   .navigation-container {
     height: 200px;
   }
-  
+
   .navtigation-top-contents {
     padding-top: 50px;
   }
@@ -109,6 +109,7 @@
   .navtigation-top-contents h3 {
     font-size: 15px;
     line-height: 34px;
+    font-weight: 700;
   }
 
   .navtigation-top-contents h2 {

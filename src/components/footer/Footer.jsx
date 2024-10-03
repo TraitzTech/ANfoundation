@@ -17,7 +17,11 @@ const Footer = () => {
       <hr />
       <div className="footer-contents">
         <div className="footer-contents-b1">
-          <img src={logo} alt="footr logo" />
+        <div className={`h3-container`}>
+          <h3>
+            <span className="dot"></span> The Awahsa'a Ngeniform Foundation
+          </h3>
+        </div>
           <p>Join our mission to empower the next generation.</p>
 
           <div className="footer-button">

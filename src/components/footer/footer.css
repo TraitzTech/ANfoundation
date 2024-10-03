@@ -26,6 +26,21 @@
   flex-direction: column;
 }
 
+.footer-contents-b1 .h3-container {
+    font-size: 10px;
+    background-color:  rgba(255, 248, 244, 1);
+    /* line-height: 12px; */
+    border-radius: 38px;
+    padding: 15px 0px;
+    text-align: center;
+    
+}
+
+.footer-contents-b1 .h3-container .dot {
+  height: 16px;
+  width: 16px;
+}
+
 .footer-contents-b1 p {
   font-family: Inter;
   font-size: 14px;

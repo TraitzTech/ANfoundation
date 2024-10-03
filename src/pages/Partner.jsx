@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowLeft } from 'react-icons/fa';
 import "./partner.css";
 
 import { Link } from "react-router-dom";
@@ -12,7 +13,7 @@ import Bfooter from "../components/bottomfooter/Bfooter";
 const Partner = () => {
   return (
     <div className="partner-page-container">
-      <Link to="/home">/Home</Link>
+      <Link to="/home"><FaArrowLeft /></Link>
       <Partneruspage />
       <Newsletter />
       <hr />

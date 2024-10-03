@@ -10,9 +10,9 @@ import resources from "../../assets/resources.png";
 import skills from "../../assets/skills.png";
 
 import Pillarcardtwo from "../pillarcards/Pillarcardtwo";
-import Pillarcardthree from "../pillarcards/Pillarcardthree"
-import Pillarcardfour from "../pillarcards/Pillarcardfour"
-import Pillarcardfive from "../pillarcards/Pillarcardfive"
+import Pillarcardthree from "../pillarcards/Pillarcardthree";
+import Pillarcardfour from "../pillarcards/Pillarcardfour";
+import Pillarcardfive from "../pillarcards/Pillarcardfive";
 
 import {
   Navigation,
@@ -88,11 +88,11 @@ const Ourpillars = () => {
           loopedSlides={5}
           breakpoints={{
             468: {
-              slidesPerView: 1.5, // 1 slide for screens 640px and below
+              slidesPerView: 1, // 1 slide for screens 640px and below
               loopedSlides: 5,
             },
             968: {
-              slidesPerView: 2.5,
+              slidesPerView: 2,
               loopedSlides: 2.5,
             },
             1024: {
@@ -103,6 +103,7 @@ const Ourpillars = () => {
           // slidesPerView={3.5}
           // navigation
           loop={true}
+          allowSlideNext={false}
           pagination={{
             clickable: true,
           }}
@@ -111,7 +112,7 @@ const Ourpillars = () => {
           onSlideChange={() => console.log("slide change")}
           autoplay={{
             delay: 5000, // Delay between slides in milliseconds
-            disableOnInteraction: false,
+            disableOnInteraction: true,
             reverseDirection: true,
           }}
         >

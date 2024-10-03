@@ -19,7 +19,11 @@
 
 .who-we-are-left img:last-child {
   position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
   left: -90px;
+  border: 4px solid #fff;
 }
 
 .who-we-are-right {
