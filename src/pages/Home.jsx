@@ -10,6 +10,7 @@ import Footer from "../components/footer/Footer";
 import Contact from "../components/contactus/Contact";
 import Empower from "../components/empower/Empower";
 import Bfooter from "../components/bottomfooter/Bfooter";
+import Whewework from "../components/where-we-work/Whewework";
 
 const Home = () => {
   return (
@@ -18,6 +19,8 @@ const Home = () => {
       <Empower />
       <Ourpillars />
       {/* <Whoweare /> */}
+
+      <Whewework />
       <Oursupport />
       {/* <Contact /> */}
       <Newsletter />

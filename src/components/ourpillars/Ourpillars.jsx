@@ -56,12 +56,6 @@ const Ourpillars = () => {
       },
     ],
   };
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-    console.log("cliked dropdown");
-  };
 
   return (
     <div className="ourPillars-container" id="pillars">
