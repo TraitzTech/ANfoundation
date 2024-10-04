@@ -6,7 +6,7 @@ import Title from "../title/Title";
 
 const Whewework = () => {
   return (
-    <div className="where-we-work-container">
+    <div className="where-we-work-container">s
       <div className="where-we-work-contents">
         <Title content={"Where We Work"} />
         <div className="where-we-work-container-card">
