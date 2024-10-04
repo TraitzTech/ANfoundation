@@ -26,6 +26,7 @@ const Pillarcardtwo = ({ bgImage, headercontent, text }) => {
           }
         >
           <ul>
+            <span>Bambili</span>
             <li>Secondary Education</li>
             <li>Agriculture</li>
             <li>Business and Trades</li>

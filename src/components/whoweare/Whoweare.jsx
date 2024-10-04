@@ -15,19 +15,6 @@ const Whoweare = () => {
           <img src={kdimg} alt="Kids image" />
           <img src={child} alt="Child image" />
         </div>
-
-        <div className="who-we-are-right">
-          <Title content="Who we are" />
-          <p>
-            The Awahsa’a Ngeniform Foundation (AN) seeks to support excellence
-            and leadership in youth livelihoods, scholarship, culture, and
-            community development with a focus on at-risk youth in fragile and
-            conflict contexts.{" "}
-          </p>
-          {/* <div className="whobutton">
-            <Button content="Learn more" />
-          </div> */}
-        </div>
       </div>
     </div>
   );

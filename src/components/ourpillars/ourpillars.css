@@ -13,6 +13,13 @@
   margin: auto;
 }
 
+.slider-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
 
 
 /* .custom-slide {
