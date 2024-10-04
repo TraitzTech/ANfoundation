@@ -14,6 +14,7 @@ const Whoweare = () => {
           <img src={lgimg} alt="community people" />
           <img src={kdimg} alt="Kids image" />
           <img src={child} alt="Child image" />
+          <p>hello</p>
         </div>
       </div>
     </div>

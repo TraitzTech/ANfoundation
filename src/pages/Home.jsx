@@ -19,10 +19,7 @@ const Home = () => {
       <Empower />
       <Ourpillars />
       {/* <Whoweare /> */}
-<<<<<<< HEAD
-=======
       <Whewework />
->>>>>>> 0ec6fa8cb5439f328c91541ea8b38d58bd520772
       <Oursupport />
       {/* <Contact /> */}
       <Newsletter />
