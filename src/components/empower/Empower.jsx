@@ -1,6 +1,6 @@
 import React from "react";
 import "./empower.css";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import Button from "../button/Button";
 
@@ -14,14 +14,15 @@ const Empower = () => {
 
       <p>
         The Awahsa'a Ngeniform Foundation is dedicated to supporting at-risk
-        youth in building a brighter future. We offer mentorship, scholarships,
-        and life skills training to help them overcome challenges and become
+        youths in building a brighter future. We offer mentorship, scholarships,
+        and life skills training to help youths overcome challenges and become
         leaders in their communities.
       </p>
       <div className="buttons">
-        <Link to="/partnerwithus"> <Button className="fill" content="Partner with us" /></Link>
-          
-        
+        <Link to="/partnerwithus">
+          {" "}
+          <Button className="fill" content="Partner with us" />
+        </Link>
       </div>
     </div>
   );

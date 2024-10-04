@@ -115,3 +115,7 @@
   color: rgba(255, 115, 21, 1);
   text-decoration: none;
 }
+
+.pillar-card-container ul {
+  font-family: Inter;
+}

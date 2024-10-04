@@ -19,6 +19,7 @@ const Home = () => {
       <Empower />
       <Ourpillars />
       {/* <Whoweare /> */}
+
       <Whewework />
       <Oursupport />
       {/* <Contact /> */}

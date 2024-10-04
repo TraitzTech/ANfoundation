@@ -17,11 +17,11 @@ const Footer = () => {
       <hr />
       <div className="footer-contents">
         <div className="footer-contents-b1">
-        <div className={`h3-container`}>
-          <h3>
-            <span className="dot"></span> The Awahsa'a Ngeniform Foundation
-          </h3>
-        </div>
+          <div className={`h3-container`}>
+            <h3>
+              <span className="dot"></span> The Awahsa'a Ngeniform Foundation
+            </h3>
+          </div>
           <p>Join our mission to empower the next generation.</p>
 
           <div className="footer-button">
@@ -35,14 +35,14 @@ const Footer = () => {
           <h3>About</h3>
           <div className="a-links">
             <a href="#home">Home</a>
-            <a href="#about">About</a>
+            {/* <a href="#about">About</a> */}
             <a href="#pillars">Our Pillars</a>
             {/* <a href="#">What others say</a> */}
             {/* <a href="#">Partner with us</a> */}
           </div>
         </div>
 
-        <div className="footer-contents-b3">
+        {/* <div className="footer-contents-b3">
           <h3>Quick Links</h3>
           <div className="a-links">
             <a href="#">Work with us</a>
@@ -58,7 +58,7 @@ const Footer = () => {
             <a href="#">Partners</a>
             <a href="#">Social contacts</a>
           </div>
-        </div>
+        </div> */}
 
         <div className="footer-contents-b5">
           <h3>Connect with us</h3>

@@ -4,8 +4,8 @@
   margin: 0px auto 20px auto;
   border-radius: 22px;
   background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
-    url("../../assets/rectpartbgim.png");
-    background-position: right;
+    url("../../assets/partner.png") no-repeat;
+  background-position: right;
 
 }
 
@@ -37,16 +37,42 @@
   height: 100%;
   padding-left: 110px;
 }
+
 @media(max-width: 968px) {
   .inpartners-container {
     max-width: 660px;
   }
 
-  
+
 }
 
 @media(max-width: 568px) {
+
+
   .inpartners-inner-container .lg {
     font-size: 24px;
+
+
+
   }
+
+  .inpartners-container {
+    max-width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* 
+  .inpartners-container {
+    background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
+      url("../../assets/partner.png") no-repeat;
+  } */
+  .ipartner-container .inpartners-container {
+    background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
+      url("../../assets/partner.png") no-repeat;
+    background-position: center;
+
+  }
+
+
 }
