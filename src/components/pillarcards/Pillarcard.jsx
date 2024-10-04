@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./pillarcard.css";
 import bgimage from "../../assets/community Icon.png";
+import {Link} from "react-router-dom"
 
 const Pillarcard = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
