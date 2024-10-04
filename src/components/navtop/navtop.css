@@ -82,6 +82,7 @@
     line-height: 34px;
     text-align: center;
     font-weight: 200;
+
   }
 
   .navtigation-top-contents h2 {
@@ -107,9 +108,10 @@
   }
 
   .navtigation-top-contents h3 {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 34px;
     font-weight: 700;
+    padding: 21px 10px 21px 10px;
   }
 
   .navtigation-top-contents h2 {
@@ -125,6 +127,7 @@
 
   .h3-container {
     height: 85px;
+
     /* background: linear-gradient(
       180deg,
       #ffffff 0%,
@@ -140,12 +143,11 @@
 
   .sticky {
     height: 155px;
-    background: linear-gradient(
-      180deg,
-      #ffffff 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    background: linear-gradient(180deg,
+        #ffffff 0%,
+        rgba(255, 255, 255, 0) 100%);
   }
+
   .sticky h3 {
     margin-top: 5px;
   }

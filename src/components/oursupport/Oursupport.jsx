@@ -73,8 +73,7 @@ const Oursupport = () => {
             <div>
               <div className="custom-slide">
                 <Swippercard
-                  bgImage={farmers}
-                  style={{ BiBorderRadius: `30px` }}
+                  bgImage={swipperchild}
                   headercontent={"Livelihood Training"}
                   text={
                     "(solar electrification and entrepreneurship) for two at-risk young men in recovery from drug addiction"
@@ -86,7 +85,7 @@ const Oursupport = () => {
               <div className="custom-slide">
                 <Swippercard
                   bgImage={graduation}
-                  headercontent={"Tuition/textbook Scholarship"}
+                  headercontent={"Scholarship"}
                   text={
                     "Dedicated to support to any and all post-primary girls in Bambili, NWR "
                   }
@@ -104,7 +103,7 @@ const Oursupport = () => {
                 />
               </div>
             </div>
-            <div>
+            {/* <div>
               <div className="custom-slide">
                 <Swippercard
                   bgImage={swipperchild}
@@ -114,7 +113,7 @@ const Oursupport = () => {
                   }
                 />
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </div>
