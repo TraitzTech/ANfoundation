@@ -38,6 +38,7 @@
 
 .where-we-work-card a {
   text-decoration: none;
+  color: rgba(255, 115, 21, 1);
 }
 
 .where-we-work-card {
@@ -45,7 +46,7 @@
   height: 200px;
 
   border-radius: 28px;
-  box-shadow: 5px 5px 15px rgba(207, 110, 12, 0.5);
+  box-shadow: 5px 5px 15px rgba(243, 125, 7, 0.5);
 }
 
 .where-we-work-card-heading {
