@@ -146,7 +146,7 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
                 </div>
                 <li>
                   {" "}
-                  <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP">
+                  <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP" target="_blank">
                     Mbeligi Facebook
                   </a>
                 </li>
