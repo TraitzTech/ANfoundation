@@ -15,7 +15,6 @@
 
 .pillar-card img {
   margin: 20px auto 0px auto;
-  
 }
 
 .pillar-card h3 {
@@ -25,6 +24,11 @@
   line-height: 20px;
   text-align: center;
   margin: 15px 0px;
+}
+
+.pillar-card-container ul {
+  font-family: Jua;
+  font-weight: 100;
 }
 
 .pillar-card p {
@@ -45,6 +49,59 @@
   background: rgba(255, 115, 21, 1);
 
   border: none;
+}
+
+.pillar-card-container .pillar-card span {
+  cursor: pointer;
+  /* text-align: start !important; */
+}
+
+.pillar-card-container .pillar-card ul div h3 {
+  cursor: pointer;
+  font-family: Jua;
+  /* font-weight: 100;? */
+  text-align: start;
+  font-weight: bold;
+}
+
+.pillar-card-container .pillar-card .dropdwon-start {
+  text-align: start;
+}
+
+.pillar-card-container .pillar-card .dropdowntwo {
+  text-align: start;
+  margin-left: 35px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+}
+
+.pillar-card-container .pillar-card h3:hover {
+  font-size: 19px;
+  transition: 0.5s;
+}
+
+.pillar-card .dropit p {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.pillar-card-container .pillar-card .dropit .dropi {
+  transform: rotate(270deg);
+  display: inline-block;
+  color: rgba(255, 115, 21, 1);
+}
+
+.pillar-card-container .pillar-card .dropit {
+  /* color: red; */
+  /* background: blue; */
+  font-weight: 400 !important;
+}
+
+.pillar-card-container .pillar-card span:hover {
+  font-size: 19px;
+  transition: 1s;
 }
 
 #span {

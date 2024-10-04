@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navtop from "./components/navtop/Navtop";
 import Home from "./pages/Home";
 import Partner from "./pages/Partner";
+import Works from "./pages/Works";
 
 const Layout = () => {
   return (
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       { path: "/home", element: <Home /> },
 
       { path: "/partnerwithus", element: <Partner /> },
+      { path: "/works", element: <Works /> },
     ],
   },
 ]);

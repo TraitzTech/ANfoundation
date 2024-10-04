@@ -56,12 +56,6 @@ const Ourpillars = () => {
       },
     ],
   };
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-    console.log("cliked dropdown");
-  };
 
   return (
     <div className="ourPillars-container" id="pillars">
@@ -86,7 +80,7 @@ const Ourpillars = () => {
               <div className="custom-slide">
                 <Pillarcardtwo
                   bgImage={skills}
-                  headercontent={"Skills + Livelihoods"}
+                  headercontent={"Livelihood & Entrepreneurship"}
                   text={
                     "Education & vocational training. Equip youth for income generation."
                   }
