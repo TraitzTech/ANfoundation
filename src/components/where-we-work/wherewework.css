@@ -1,0 +1,57 @@
+.where-we-work-container {
+  background: url("../../assets/Cameroon\ Map.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.where-we-work-contents {
+  text-align: center;
+}
+
+.where-we-work-container-card {
+  max-width: 85%;
+  /* background: url("../../assets/Cameroon\ Map.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 300px;
+  /* background-color: rgb(216, 185, 185); */
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.where-we-work-card-content h2 {
+  margin-top: 40px;
+}
+
+.where-we-work-card-content ul li {
+  list-style: none;
+  line-height: 24px;
+}
+
+.where-we-work-card-content {
+  padding: 0px 6px;
+}
+
+.where-we-work-card a {
+  text-decoration: none;
+}
+
+.where-we-work-card {
+  max-width: 350px;
+  height: 200px;
+
+  border-radius: 28px;
+  box-shadow: 5px 5px 15px rgba(207, 110, 12, 0.5);
+}
+
+.where-we-work-card-heading {
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgba(207, 110, 12, 0.5);
+  padding: 30px;
+  border-radius: 24px;
+}
