@@ -11,8 +11,7 @@ const Inpartners = () => {
       <div className="inpartners-inner-container">
         <p className="small">Partner with the AN</p>
         <p className="lg">
-          Support Education & Skills Training. Break the cycle of poverty,
-          partner with us.
+          Support Education & Skills Training. Empower communities for sustainable growth.
         </p>
 
         <div className="inpartners-button">

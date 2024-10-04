@@ -3,6 +3,12 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: right;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+}
+
+.custom-slide {
+  /* margin-right: 30px; */
 }
 
 .oursupport-title {
