@@ -1,6 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import "./ourpillars.css";
+import "./externalR.css";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -18,8 +17,9 @@ import Pillarcardtwo from "../pillarcards/Pillarcardtwo";
 import Pillarcardthree from "../pillarcards/Pillarcardthree";
 import Pillarcardfour from "../pillarcards/Pillarcardfour";
 import Pillarcardfive from "../pillarcards/Pillarcardfive";
+import Varpillarcard from "../pillarcards/varpillarcard/Varpillarcard";
 
-const Ourpillars = () => {
+const ExternalR = () => {
   var settings = {
     dots: false,
     infinite: false,
@@ -60,7 +60,7 @@ const Ourpillars = () => {
   return (
     <div className="ourPillars-container" id="pillars">
       <div className="ourPillars-title">
-        <Title content="Our Pillars" />
+        <Title content="Our External Resources" />
       </div>
       <div className="ourPillars-contents">
         <div className="slider-container">
@@ -121,11 +121,9 @@ const Ourpillars = () => {
             </div>
           </Slider>
         </div>
-
-        
       </div>
     </div>
   );
 };
 
-export default Ourpillars;
+export default ExternalR;

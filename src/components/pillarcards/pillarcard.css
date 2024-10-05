@@ -116,6 +116,29 @@
   text-decoration: none;
 }
 
-.pillar-card-container ul {
-  font-family: Inter;
+@media (max-width: 568px) {
+  .pillar-card-container {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .pillar-card h3 {
+    font-size: 24px;
+  }
+
+  .pillar-card-container .pillar-card ul div h3 {
+    font-size: 24px;
+  }
+
+  .pillar-card-container .pillar-card span {
+    font-size: 26px;
+  }
+
+  .pillar-card-container .pillar-card span:hover {
+    font-size: 28px;
+  }
+
+  .pillar-card-container .pillar-card h3:hover {
+    font-size: 28px;
+  }
 }

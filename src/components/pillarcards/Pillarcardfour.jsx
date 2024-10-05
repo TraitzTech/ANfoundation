@@ -74,13 +74,11 @@ const Pillarcardfour = ({ bgImage, headercontent, text }) => {
                   : "dropdowntwo".concat(" hidden")
               }
             >
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScEsBrYu7npRJrq09ZmuVWQ16dRl2L8BV4F-Pp00MJbS_lO1w/viewform"
-                target="_blank"
-              >
-                {" "}
-                <li>Growing Mbeligi Together Inaugural - 21st Sept 2024</li>
-              </a>
+              <li>Guidance in Education</li>
+              <li>Career Developement</li>
+              <li>Leadership Developemnt</li>
+              <li>Policy Advocacy</li>
+              <li>Policy Support</li>
               {/* <h3
                 className="dropit"
                 onClick={() =>

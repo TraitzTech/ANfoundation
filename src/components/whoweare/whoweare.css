@@ -1,11 +1,16 @@
 .who-we-are-contents {
-  /* max-width: 1138px; */
+  max-width: 1138px;
   /* background-color: red; */
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   /* position: relative; */
+}
+
+.who-we-are-container .title-container {
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .who-we-are-left {
@@ -20,16 +25,12 @@
 
 .who-we-are-left img:last-child {
   position: absolute;
-  width: 220px;
-  height: 210px;
+  width: 216px;
+  height: 216px;
   border-radius: 50%;
-  left: -90px;
+  left: -100px;
   border: 4px solid #fff;
 }
-
-
-
-
 
 .who-we-are-right p {
   color: rgba(150, 150, 150, 1);
@@ -39,6 +40,23 @@
 
 .who-we-are-right:last-child {
   margin-top: 10px;
+}
+
+.who-we-are-right-contents a {
+  text-decoration: none;
+  color: black;
+}
+
+.who-we-are-right-contents h3 {
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "EB Garamond";
+}
+
+.who-we-are-right-contents h3:hover {
+  color: orange;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .whobutton {
@@ -62,8 +80,17 @@
     min-width: 100%;
   }
 
+  .who-we-are-container .title-container {
+    margin-bottom: 0px;
+    margin-top: 90px;
+  }
+
+  .who-we-are-right-contents h3 {
+    font-size: 30px;
+  }
+
   .who-we-are-right {
-    text-align: center;
+    text-align: start;
   }
 
   .who-we-are-right p {
@@ -76,7 +103,8 @@
   .who-we-are-contents .title-container {
     text-align: center;
     width: fit-content;
-    margin-left: 55px;
+    /* margin-left: 55px; */
+    margin-bottom: 0;
   }
 }
 
