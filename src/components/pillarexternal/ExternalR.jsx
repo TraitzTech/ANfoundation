@@ -65,7 +65,7 @@ const ExternalR = () => {
   return (
     <div className="ourPillars-container" id="pillars">
       <div className="ourPillars-title">
-        <Title content="Our External Resources" />
+        <Title content="External Resources" />
       </div>
       <div className="ourPillars-contents">
         <div className="slider-container">

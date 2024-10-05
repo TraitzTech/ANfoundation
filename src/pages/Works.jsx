@@ -10,19 +10,18 @@ import Title from "../components/title/Title";
 import Aboutevent from "./aboutevent/Aboutevent";
 
 const Works = () => {
-  // useEffect(() => {
-  
-  //   const hash = window.location.hash;
-  //   if (hash) {
-  //     const section = document.querySelector("#home");
-  //     if (section) {
-  //       section.scrollIntoView({ behavior: "smooth" });
-  //     }
-  //   }
-  // }, []);
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const section = document.querySelector("#home");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
   return (
     <div className="OurWorks-container">
-      <Link to="/home">
+      <Link to="/home" style={{ color: "orange" }}>
         <FaArrowLeft />
       </Link>
       {/* <Title content={"Our Works in Bambili"} /> */}
