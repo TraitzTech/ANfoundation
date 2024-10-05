@@ -75,7 +75,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 >
                   partnership with {""}
                   <a href="https://mynkwa.com/" target="_blank">
-                    myNkwa.com
+                    Nkwa Tech Ltd
                   </a>{" "}
                   <span
                     id="see"

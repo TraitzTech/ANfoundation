@@ -72,17 +72,14 @@ const ExternalR = () => {
           <Slider {...settings}>
             <div>
               <div className="custom-slide">
-                {/* <Pillarcard
-                  bgImage={community}
+                <ExternalP4
+                  bgImage={capacitybuilding}
                   headercontent={"Social Services"}
-                  text={
-                    "Education & vocational training. Equip youths for income generation."
-                  }
-                /> */}
-                <ExternalP1
+                />
+                {/* <ExternalP1
                   bgImage={community}
                   headercontent={"Community Developement"}
-                />
+                /> */}
               </div>
             </div>
             <div>
@@ -95,28 +92,24 @@ const ExternalR = () => {
             </div>
             <div>
               <div className="custom-slide">
-                {/* <Pillarcardthree
-                  bgImage={culture}
-                  headercontent={"Culture"}
-                  text={"Celebrate heritage. Broaden world view."}
-                /> */}
-                <ExternalP3 bgImage={culture} headercontent={"Culture"} />
-              </div>
-            </div>
-            <div>
-              <div className="custom-slide">
-                
-
-                <ExternalP4
-                  bgImage={capacitybuilding}
-                  headercontent={"Social Services"}
+                <ExternalP1
+                  bgImage={community}
+                  headercontent={"Community Developement"}
                 />
               </div>
             </div>
+            <div>
+              <div className="custom-slide">
+                <ExternalP3 bgImage={culture} headercontent={"Culture"} />
+              </div>
+            </div>
 
             <div>
               <div className="custom-slide">
-                <ExternalP5 bgImage={resources} headercontent={"Community Expertise"} />
+                <ExternalP5
+                  bgImage={resources}
+                  headercontent={"Community Expertise"}
+                />
               </div>
             </div>
           </Slider>

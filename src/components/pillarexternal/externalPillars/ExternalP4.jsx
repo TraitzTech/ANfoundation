@@ -88,7 +88,6 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
               <li className="dd-lv-1-1-li-two">
                 &#8226; Mamishang Health Center
               </li>
-              <li className="dd-lv-1-1-li-four">&#8226; Calendar</li>
 
               {/* end of dropdown lv 2 item */}
 
@@ -126,12 +125,7 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 &#8226; St Francis of Quasi Parish Ntewshi
               </li>
 
-              <li className="dd-lv-1-2-li-two">
-                <a href="#" target="_blank">
-                  {" "}
-                  &#8226; PC CCAST Complex
-                </a>
-              </li>
+              <li className="dd-lv-1-2-li-two"> &#8226; PC CCAST Complex</li>
 
               {/* end of dropdown lv 2 item */}
 

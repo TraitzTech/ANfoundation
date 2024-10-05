@@ -135,10 +135,12 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
               </li>
 
               <li className="dd-lv-1-2-li-two">
-                
-                  {" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Palm_wine"
+                  target="_blank"
+                >
                   &#8226; Muluh (palm wine)
-                
+                </a>
               </li>
 
               {/* end of dropdown lv 2 item */}
@@ -167,7 +169,15 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
             >
               <li className="dd-lv-1-1-li-two">&#8226; Bambili Palace</li>
               <li className="dd-lv-1-1-li-three">&#8226; Quarters</li>
-              <li className="dd-lv-1-1-li-four">&#8226; Lake Bambili</li>
+              <li className="dd-lv-1-1-li-four">
+                {" "}
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:The_Amazing_Lake_Bambili.jpg"
+                  target="_blank"
+                >
+                  &#8226; Lake Bambili
+                </a>
+              </li>
             </div>
 
             {/* end of duplication of dropdown level one */}
