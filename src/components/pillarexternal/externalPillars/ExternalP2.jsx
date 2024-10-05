@@ -92,7 +92,7 @@ const ExternalP2 = ({ bgImage, headercontent, text }) => {
               </li>
 
               <li className="dd-lv-1-1-li-one">
-                <a href="https://www.chat.openai.com/" target="_blank">
+                <a href="https://chatgpt.com/" target="_blank">
                   &#8226; Chatgpt
                 </a>
               </li>
