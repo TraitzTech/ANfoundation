@@ -18,7 +18,7 @@
   width: fit-content;
   padding: 21px 48px 21px 48px;
   border-radius: 70px;
-  font-size: 52px;
+  font-size: 62px;
   font-weight: 700;
   /* position: sticky; */
 }
@@ -26,12 +26,12 @@
 .dot {
   background: rgba(255, 115, 21, 1);
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   display: inline-block;
   border: 1px solid rgba(255, 115, 21, 1);
   position: relative;
-  top: 3px;
+  top: -2px;
 }
 
 /* .navtigation-top-contents h2 {
@@ -78,11 +78,10 @@
 
 @media (max-width: 968px) {
   .navtigation-top-contents h3 {
-    font-size: 40px;
+    font-size: 44px;
     line-height: 34px;
     text-align: center;
     font-weight: 700;
-
   }
 
   .navtigation-top-contents h2 {
@@ -143,9 +142,11 @@
 
   .sticky {
     height: 155px;
-    background: linear-gradient(180deg,
-        #ffffff 0%,
-        rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(
+      180deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
 
   .sticky h3 {

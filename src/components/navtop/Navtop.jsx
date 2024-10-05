@@ -14,6 +14,17 @@ const Navtop = () => {
     }
   };
 
+  // useEffect(() => {
+  //   // Scroll to the specific section based on the URL hash
+  //   const hash = window.location.hash;
+  //   if (hash) {
+  //     const section = document.querySelector("#home");
+  //     if (section) {
+  //       section.scrollIntoView({ behavior: "smooth" });
+  //     }
+  //   }
+  // }, []);
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -29,8 +40,6 @@ const Navtop = () => {
             <span className="dot"></span> The Awahsa'a Ngeniform Foundation
           </h3>
         </div>
-
-       
       </div>
     </div>
   );

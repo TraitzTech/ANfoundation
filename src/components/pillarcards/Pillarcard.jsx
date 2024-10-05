@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./pillarcard.css";
 import bgimage from "../../assets/community Icon.png";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Pillarcard = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,36 +17,6 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
   return (
     <div className="pillar-card-container">
       <div className="pillar-card">
-        {/* <img src={bgImage} alt="background image" />
-        <h3>{headercontent}</h3>
-        <p>{text}</p>
-        <hr />
-        <span className={isOpen ? "hidden" : ""} id="span">
-          {" "}
-          +{" "}
-        </span>
-        <div
-          className={
-            isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
-          }
-        >
-          <ul>
-            <span>Bambili</span>
-            <li>
-              MBECUDA - Bambili, Buea, Limbe, Douala, Yaounde, USA, Canada
-            </li>
-            <li>
-              <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP">
-                Mbeligi Facebook
-              </a>
-            </li>
-            <li>The AN</li>
-          </ul>
-          <span id="span"> - </span>
-        </div> */}
-
-        {/* My Change */}
-
         <div onClick={() => toggleDropdown(isOpen, setIsOpen)}>
           <img src={bgImage} alt="background image" />
           <h3>{headercontent}</h3>
@@ -146,39 +116,14 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
                 </div>
                 <li>
                   {" "}
-                  <a href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP" target="_blank">
+                  <a
+                    href="https://www.facebook.com/share/g/Qu3m4i8mPcjca7fu/?mibextid=K35XfP"
+                    target="_blank"
+                  >
                     Mbeligi Facebook
                   </a>
                 </li>
-                {/* <li>Achu and Na'a (Garden egg)</li> */}
               </div>
-
-              {/* <h3
-                className="dropdown-one-three  dropit"
-                onClick={() =>
-                  toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
-                }
-              >
-                Tourism{" "}
-                <p className={isOpenDropdownfour ? "dropi" : ""}> &gt; </p>{" "}
-                <br />
-              </h3>
-              <div
-                className={
-                  isOpenDropdownfour
-                    ? "dropdowntwo".concat("")
-                    : "dropdowntwo".concat(" hidden")
-                }
-              >
-                <li>Bambili Palace</li>
-                <li>Quarters</li>
-                <li>Lake Bambili</li>
-              </div>
-
-              <h3 className="dropit">
-                {" "}
-                Music, Dance & Crafts Traditional Practices Events
-              </h3> */}
             </div>
           </ul>
           <span id="span" onClick={() => toggleDropdown(isOpen, setIsOpen)}>

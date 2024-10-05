@@ -1,0 +1,15 @@
+.varPillarcard-community .head-lv-2-two,
+.varPillarcard-community .head-two,
+.varPillarcard-community .dd-lv-1-1-li-one,
+.varPillarcard-community .dd-lv-1-1-li-two,
+.varPillarcard-community .dd-lv-1-1-li-three {
+    display: none;
+}
+
+.varPillarcard-skills .lv2-one-li-one,
+.varPillarcard-skills .lv2-one-li-two,
+.varPillarcard-skills .head-lv-2-two,
+.varPillarcard-skills .head-lv-2-one,
+.varPillarcard-skills .head-two {
+    display: none;
+}

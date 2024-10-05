@@ -1,12 +1,11 @@
 .inpartners-container {
-  width: 1108px;
+  max-width: 1108px;
   height: 392px;
   margin: 0px auto 20px auto;
   border-radius: 22px;
-  background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
+  background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
     url("../../assets/partner.png") no-repeat;
   background-position: right;
-
 }
 
 .inpartners-inner-container .small {
@@ -36,24 +35,29 @@
   gap: 30px;
   height: 100%;
   padding-left: 110px;
+  position: relative;
 }
 
-@media(max-width: 968px) {
+.cynthia-label {
+  position: absolute;
+  right: 250px;
+  bottom: 30px;
+  color: rgb(245, 228, 228);
+}
+
+.cynthia-label p {
+  font-family: Inter;
+}
+
+@media (max-width: 968px) {
   .inpartners-container {
     max-width: 660px;
   }
-
-
 }
 
-@media(max-width: 568px) {
-
-
+@media (max-width: 568px) {
   .inpartners-inner-container .lg {
     font-size: 24px;
-
-
-
   }
 
   .inpartners-container {
@@ -68,11 +72,17 @@
       url("../../assets/partner.png") no-repeat;
   } */
   .ipartner-container .inpartners-container {
-    background: linear-gradient(90deg, #2E2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
+    background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
       url("../../assets/partner.png") no-repeat;
     background-position: center;
-
+    max-width: 100%;
   }
 
-
+  .cynthia-label {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
 }

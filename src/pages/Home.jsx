@@ -18,11 +18,10 @@ const Home = () => {
       {/* <Navtop /> */}
       <Empower />
       <Ourpillars />
-      {/* <Whoweare /> */}
+      <Whoweare />
 
-      <Whewework />
+      {/* <Whewework /> */}
       <Oursupport />
-      {/* <Contact /> */}
       <Newsletter />
       <Footer />
       <Bfooter />

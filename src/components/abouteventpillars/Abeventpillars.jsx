@@ -1,6 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import "./ourpillars.css";
+import "./abevenpillars.css";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -18,8 +17,11 @@ import Pillarcardtwo from "../pillarcards/Pillarcardtwo";
 import Pillarcardthree from "../pillarcards/Pillarcardthree";
 import Pillarcardfour from "../pillarcards/Pillarcardfour";
 import Pillarcardfive from "../pillarcards/Pillarcardfive";
+import Varpillarcard from "../pillarcards/varpillarcard/Varpillarcard";
+import Varpillar1 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar1";
+import Varpillar2 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar2";
 
-const Ourpillars = () => {
+const Abeventpillars = () => {
   var settings = {
     dots: false,
     infinite: false,
@@ -60,35 +62,44 @@ const Ourpillars = () => {
   return (
     <div className="ourPillars-container" id="pillars">
       <div className="ourPillars-title">
-        <Title content="Our Pillars" />
+        <Title content="Our Works in Bambili" />
       </div>
       <div className="ourPillars-contents">
         <div className="slider-container">
           <Slider {...settings}>
             <div>
-              <div className="custom-slide">
-                <Pillarcard
+              <div className="custom-slide varPillarcard-community">
+                {/* <Pillarcard
                   bgImage={community}
                   headercontent={"Community Development"}
                   text={
                     "Education & vocational training. Equip youths for income generation."
                   }
+                /> */}
+                <Varpillar1
+                  bgImage={community}
+                  headercontent={"Community Development"}
                 />
               </div>
             </div>
             <div>
-              <div className="custom-slide">
-                <Pillarcardtwo
+              <div className="custom-slide varPillarcard-skills">
+                {/* <Pillarcardtwo
                   bgImage={skills}
                   headercontent={"Skills, Livelihoods & Entrepreneurship"}
                   text={
                     "Trainings in renewable energy, construction and skill traits"
                   }
+                /> */}
+
+                <Varpillar2
+                  bgImage={skills}
+                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
                 />
               </div>
             </div>
             <div>
-              <div className="custom-slide">
+              <div className="custom-slide varPillarcard-skills">
                 <Pillarcardthree
                   bgImage={culture}
                   headercontent={"Culture"}
@@ -121,11 +132,9 @@ const Ourpillars = () => {
             </div>
           </Slider>
         </div>
-
-        
       </div>
     </div>
   );
 };
 
-export default Ourpillars;
+export default Abeventpillars;

@@ -22,7 +22,7 @@ const Footer = () => {
               <span className="dot"></span> The Awahsa'a Ngeniform Foundation
             </h3>
           </div>
-          <p>Join our mission to empower the next generation.</p>
+          <p>Join our mission to Empower at risk communities for sustainable growth.</p>
 
           <div className="footer-button">
             <Link to="/partnerwithus">
