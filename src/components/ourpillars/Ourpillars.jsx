@@ -112,7 +112,7 @@ const Ourpillars = () => {
               <div className="custom-slide">
                 <Pillarcardfive
                   bgImage={resources}
-                  headercontent={"Resources"}
+                  headercontent={"Women's Advisory Services"}
                   text={
                     "Scholarships & education assistance. Trauma-informed care & support."
                   }

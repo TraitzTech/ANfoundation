@@ -9,6 +9,9 @@ const Aboutevent = () => {
     <div className="aboutevent-container">
       <div className="aboutevent-container-image">
         <img src={biliImage} alt="" />
+        <div className="image-lebel">
+          <p>Lake Bambili</p>
+        </div>
       </div>
       <div className="aboutevent-container-contents">
         <h2>About Bambili</h2>

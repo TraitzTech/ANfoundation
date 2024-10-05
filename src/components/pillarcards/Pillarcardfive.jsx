@@ -25,13 +25,13 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
           <h3>{headercontent}</h3>
           <p>{text}</p>
           <hr />
-          <span className={isOpen ? "hidden" : ""} id="span">
+          {/* <span className={isOpen ? "hidden" : ""} id="span">
             {" "}
             +{" "}
-          </span>
+          </span> */}
         </div>
 
-        <div
+        {/* <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
           }
@@ -100,7 +100,7 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
               >
                 <li>Experts</li>
                 <li>Research</li>
-              </div>
+              </div> */}
 
               {/* <h3
                 className="dropdown-one-three  dropit"
@@ -128,13 +128,13 @@ const Pillarcardfive = ({ bgImage, headercontent, text }) => {
                 {" "}
                 Music, Dance & Crafts Traditional Practices Events
               </h3> */}
-            </div>
+            {/* </div>
           </ul>
           <span id="span" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
             -{" "}
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

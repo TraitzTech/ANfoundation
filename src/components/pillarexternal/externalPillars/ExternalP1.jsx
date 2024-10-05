@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
-const ExternalP5 = ({ bgImage, headercontent, text }) => {
+const ExternalP1 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
@@ -25,7 +25,7 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
           <img src={bgImage} alt="background image" />
           <h3>{headercontent}</h3>
           <p>{text}</p>
-          <hr />
+          <hr className="hr-mid" />
           <span className={isOpen ? "hidden" : ""} id="span">
             {" "}
             +{" "}
@@ -44,15 +44,15 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
           <ul className="varpillar-gen-ul">
             {/* start of dropdown lv one first item */}
 
-            {/* <h2
+            <h2
               className="varpillar-head-dropdown-lv-1 head-one"
               onClick={() =>
                 toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
               }
             >
-              Social Services
+              MBECUDA
               <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
+            </h2>
             <div
               className={
                 isOpenDropdownOne
@@ -61,52 +61,41 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
               }
             >
               {/* start of dropdown lv 2 */}
-
-              {/* <li className="dd-lv-1-1-li-one">
-                &#8226; Bambili Health Center{" "}
-              </li>
-              <li className="dd-lv-1-1-li-two">
-                &#8226; University of Bamenda Health Center
-              </li>
-              <li className="dd-lv-1-1-li-three">
-                <a href="#" target="_blank">
-                  &#8226; Our Lady of Fatima Parish Bambili
-                </a>{" "}
-              </li>
-              <li className="dd-lv-1-1-li-four">
-                &#8226; St Francis Quasi Parish Ntewshi
-              </li>
-              <li className="dd-lv-1-1-li-five">&#8226; PC CCAST Complex</li> */}
+              {/* <h2
+                className="varpillar-head-dropdown-lv-2 head-lv-2-one"
+                onClick={() =>
+                  toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                }
+              >
+                &#9724; Inaugural consultation on human developement in Bambili
+                for girls and women{" "}
+                <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
+              </h2> */}
+              <li className="dd-lv-1-1-li-one">&#8226; MBECUDA Bambili</li>
+              <li className="dd-lv-1-1-li-two">&#8226; MBECUDA Buea</li>
+              <li className="dd-lv-1-1-li-three">&#8226; MBECUDA Limbe</li>
+              <li className="dd-lv-1-1-li-two">&#8226; MBECUDA Douala</li>
+              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA Yaounde</li>
+              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA USA</li>
+              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA CANADA</li>
+              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA GERMANY</li>
+              <hr className="med" />
 
               {/* end of dropdown lv 2 item */}
 
               {/* start of dropdown lv 2 item 2*/}
-              
 
               {/* end of dropdown lv 2 item 2 */}
             </div>
+            {/* end of dropdown lv one first iteom */}
+            <li style={{ fontFamily: "jua" }}> MBEWELIGI</li>
+            <li style={{ fontFamily: "jua" }}> LEHDE </li>
 
+            {/* duplication dropdown level one */}
+
+            
+            
             {/* end of duplication of dropdown level one */}
-
-            {/* <h2
-              className="varpillar-head-dropdown-lv-1 head-two"
-              onClick={() =>
-                toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
-              }
-            >
-              Techical
-              <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
-            <div
-              className={
-                isOpenDropdowntwo
-                  ? "varpillar-dropdown-lv-1 dd-lv-1-2"
-                  : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
-              }
-            >
-              
-              
-            </div>
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
@@ -120,4 +109,4 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
   );
 };
 
-export default ExternalP5;
+export default ExternalP1;

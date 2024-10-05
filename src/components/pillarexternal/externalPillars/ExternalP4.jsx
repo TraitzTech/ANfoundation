@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
-const ExternalP5 = ({ bgImage, headercontent, text }) => {
+const ExternalP4 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
@@ -44,15 +44,15 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
           <ul className="varpillar-gen-ul">
             {/* start of dropdown lv one first item */}
 
-            {/* <h2
+            <h2
               className="varpillar-head-dropdown-lv-1 head-one"
               onClick={() =>
                 toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
               }
             >
-              Social Services
+              Health
               <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
+            </h2>
             <div
               className={
                 isOpenDropdownOne
@@ -61,52 +61,86 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
               }
             >
               {/* start of dropdown lv 2 */}
-
-              {/* <li className="dd-lv-1-1-li-one">
-                &#8226; Bambili Health Center{" "}
+              {/* <h2
+                className="varpillar-head-dropdown-lv-2 head-lv-2-one"
+                onClick={() =>
+                  toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                }
+              >
+                &#9724; Inaugural consultation on human developement in Bambili
+                for girls and women{" "}
+                <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
+              </h2> */}
+              <li className="dd-lv-1-1-li-one">
+                <a
+                  href="https://www.indeed.com/cmp/Bambilli-Medicalised-Health-Centre"
+                  target="_blank"
+                >
+                  &#8226; Bambili Health Center
+                </a>
               </li>
               <li className="dd-lv-1-1-li-two">
                 &#8226; University of Bamenda Health Center
               </li>
               <li className="dd-lv-1-1-li-three">
-                <a href="#" target="_blank">
-                  &#8226; Our Lady of Fatima Parish Bambili
-                </a>{" "}
+                &#8226; Ntehbang Integrated Health Center
               </li>
-              <li className="dd-lv-1-1-li-four">
-                &#8226; St Francis Quasi Parish Ntewshi
+              <li className="dd-lv-1-1-li-two">
+                &#8226; Mamishang Health Center
               </li>
-              <li className="dd-lv-1-1-li-five">&#8226; PC CCAST Complex</li> */}
+              <li className="dd-lv-1-1-li-four">&#8226; Calendar</li>
 
               {/* end of dropdown lv 2 item */}
 
               {/* start of dropdown lv 2 item 2*/}
-              
 
               {/* end of dropdown lv 2 item 2 */}
             </div>
+            {/* end of dropdown lv one first iteom */}
 
-            {/* end of duplication of dropdown level one */}
+            {/* duplication dropdown level one */}
 
-            {/* <h2
+            <h2
               className="varpillar-head-dropdown-lv-1 head-two"
               onClick={() =>
                 toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
               }
             >
-              Techical
+              Ecumenical{" "}
               <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
+            </h2>
             <div
               className={
                 isOpenDropdowntwo
-                  ? "varpillar-dropdown-lv-1 dd-lv-1-2"
+                  ? "varpillar-dropdown-lv-1 dd-lv-1-1"
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
             >
-              
-              
+              <li className="dd-lv-1-2-li-one">
+                <a href="https://www.olfpb.org/" target="_blank">
+                  {" "}
+                  &#8226; Our Lady of Fatima Parish Bambili
+                </a>
+              </li>
+              <li className="dd-lv-1-2-li-two">
+                &#8226; St Francis of Quasi Parish Ntewshi
+              </li>
+
+              <li className="dd-lv-1-2-li-two">
+                <a href="#" target="_blank">
+                  {" "}
+                  &#8226; PC CCAST Complex
+                </a>
+              </li>
+
+              {/* end of dropdown lv 2 item */}
+
+              {/* start of dropdown lv 2 item 2*/}
+
+              {/* end of dropdown lv 2 item 2 */}
             </div>
+
+            {/* end of duplication of dropdown level one */}
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
@@ -120,4 +154,4 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
   );
 };
 
-export default ExternalP5;
+export default ExternalP4;

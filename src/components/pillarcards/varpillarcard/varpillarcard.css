@@ -121,3 +121,28 @@
 .hidden {
   display: none;
 }
+
+@media (max-width: 598px) {
+  .varpillarcard-container {
+    max-width: 100%;
+  }
+
+  .varpillar-head-dropdown-lv-1 {
+    font-size: 25px;
+  }
+
+  .varpillar-head-dropdown-lv-2 {
+    font-size: 22px;
+  }
+
+  .varpillar-gen-ul li {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .varpillar-std-block h3 {
+    font-size: 28px;
+  }
+
+  
+}

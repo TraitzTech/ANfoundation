@@ -20,6 +20,9 @@ import Pillarcardfive from "../pillarcards/Pillarcardfive";
 import Varpillarcard from "../pillarcards/varpillarcard/Varpillarcard";
 import ExternalP5 from "./externalPillars/ExternalP5";
 import ExternalP3 from "./externalPillars/ExternalP3";
+import ExternalP1 from "./externalPillars/ExternalP1";
+import ExternalP2 from "./externalPillars/ExternalP2";
+import ExternalP4 from "./externalPillars/ExternalP4";
 
 const ExternalR = () => {
   var settings = {
@@ -69,23 +72,24 @@ const ExternalR = () => {
           <Slider {...settings}>
             <div>
               <div className="custom-slide">
-                <Pillarcard
+                {/* <Pillarcard
                   bgImage={community}
-                  headercontent={"Community Development"}
+                  headercontent={"Social Services"}
                   text={
                     "Education & vocational training. Equip youths for income generation."
                   }
+                /> */}
+                <ExternalP1
+                  bgImage={community}
+                  headercontent={"Community Developement"}
                 />
               </div>
             </div>
             <div>
               <div className="custom-slide">
-                <Pillarcardtwo
+                <ExternalP2
                   bgImage={skills}
                   headercontent={"Skills, Livelihoods & Entrepreneurship"}
-                  text={
-                    "Trainings in renewable energy, construction and skill traits"
-                  }
                 />
               </div>
             </div>
@@ -96,25 +100,23 @@ const ExternalR = () => {
                   headercontent={"Culture"}
                   text={"Celebrate heritage. Broaden world view."}
                 /> */}
-                <ExternalP3 bgImage={culture}
-                  headercontent={"Culture"}/>
+                <ExternalP3 bgImage={culture} headercontent={"Culture"} />
               </div>
             </div>
             <div>
               <div className="custom-slide">
-                <Pillarcardfour
+                
+
+                <ExternalP4
                   bgImage={capacitybuilding}
-                  headercontent={"Advisory Services"}
-                  text={
-                    "Train & empower community leaders. Mentorship programs for youths & professionals."
-                  }
+                  headercontent={"Social Services"}
                 />
               </div>
             </div>
 
             <div>
               <div className="custom-slide">
-                <ExternalP5 bgImage={resources} headercontent={"Resources"} />
+                <ExternalP5 bgImage={resources} headercontent={"Community Expertise"} />
               </div>
             </div>
           </Slider>

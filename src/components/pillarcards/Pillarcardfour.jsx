@@ -16,15 +16,16 @@ const Pillarcardfour = ({ bgImage, headercontent, text }) => {
   return (
     <div className="pillar-card-container">
       <div className="pillar-card">
-        {/*   <img src={bgImage} alt="background image" />
+         <div className="">
+         <img src={bgImage} alt="background image" />
         <h3>{headercontent}</h3>
         <p>{text}</p>
         <hr />
-        <span className={isOpen ? "hidden" : ""} id="span">
+        {/* <span className={isOpen ? "hidden" : ""} id="span">
           {" "}
           +{" "}
-        </span>
-        <div
+        </span> */}
+        {/* <div
           className={
             isOpen ? "dropdown".concat("") : "dropdown".concat(" hidden")
           }
@@ -37,11 +38,13 @@ const Pillarcardfour = ({ bgImage, headercontent, text }) => {
             </a>
           </ul>
           <span id="span"> - </span>
-        </div>
-         */}
+        </div> */}
+         </div>
+         
+         
         {/* the new */}
 
-        <div onClick={() => toggleDropdown(isOpen, setIsOpen)}>
+        {/* <div onClick={() => toggleDropdown(isOpen, setIsOpen)}>
           <img src={bgImage} alt="background image" />
           <h3>{headercontent}</h3>
           <p>{text}</p>
@@ -78,7 +81,7 @@ const Pillarcardfour = ({ bgImage, headercontent, text }) => {
               <li>Career Developement</li>
               <li>Leadership Developemnt</li>
               <li>Policy Advocacy</li>
-              <li>Policy Support</li>
+              li */}
               {/* <h3
                 className="dropit"
                 onClick={() =>
@@ -153,13 +156,13 @@ const Pillarcardfour = ({ bgImage, headercontent, text }) => {
                 {" "}
                 Music, Dance & Crafts Traditional Practices Events
               </h3> */}
-            </div>
+            {/* </div>
           </ul>
           <span id="span" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
             -{" "}
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

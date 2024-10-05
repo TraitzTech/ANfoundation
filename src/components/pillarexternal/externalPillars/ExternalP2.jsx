@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
-const ExternalP3 = ({ bgImage, headercontent, text }) => {
+const ExternalP2 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
@@ -50,7 +50,7 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                 toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
               }
             >
-              Language
+              Online Learning
               <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
             </h2>
             <div
@@ -72,28 +72,30 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                 <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
               </h2> */}
               <li className="dd-lv-1-1-li-one">
-                <a href="https://www.youtube.com/@prof_agwandi" target="_blank">
-                  &#8226; Language Matters
+                <a href="https://www.edx.org/" target="_blank">
+                  &#8226; Edx
                 </a>
               </li>
-              <li className="dd-lv-1-1-li-one">
+              <li>
                 <a
-                  href="https://asjp.clld.org/languages/BAMBILI"
+                  href="https://www.indeed.com/cmp/Bambilli-Medicalised-Health-Centre"
                   target="_blank"
                 >
-                  &#8226; Dictionary
-                </a>
-              </li>
-              <li className="dd-lv-1-1-li-one">
-                <a
-                  href="https://www.youtube.com/watch?v=hRoswknY_Pg"
-                  target="_blank"
-                >
-                  &#8226; Bambili Anthem
+                  &#8226; Khan Academy
                 </a>
               </li>
 
-              <li className="dd-lv-1-1-li-four">&#8226; Calendar</li>
+              <li className="dd-lv-1-1-li-one">
+                <a href="https://www.coursera.org/" target="_blank">
+                  &#8226; Coursera
+                </a>
+              </li>
+
+              <li className="dd-lv-1-1-li-one">
+                <a href="https://www.chat.openai.com/" target="_blank">
+                  &#8226; Chatgpt
+                </a>
+              </li>
 
               {/* end of dropdown lv 2 item */}
 
@@ -111,7 +113,7 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                 toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
               }
             >
-              Food and Drinks{" "}
+              Education & Skills{" "}
               <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
             </h2>
             <div
@@ -123,51 +125,46 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
             >
               <li className="dd-lv-1-2-li-one">
                 <a
-                  href="https://images.app.goo.gl/4oY2AYSL1KsSCxiG6"
+                  href="https://ccastaa.org/about-us-2-2/about-us/"
                   target="_blank"
                 >
                   {" "}
-                  &#8226; Achu and Yellow soup
+                  &#8226; Secondary Education
                 </a>
               </li>
-              <li className="dd-lv-1-2-li-two">
-                &#8226; Achu and Na'a (Garden egg)
+
+              <li className="dd-lv-1-2-li-one">
+                <a
+                  href="https://ccastaa.org/about-us-2-2/about-us/"
+                  target="_blank"
+                >
+                  {" "}
+                  &#8226; Higher Education
+                </a>
               </li>
 
-              <li className="dd-lv-1-2-li-two">
-                
+              <li className="dd-lv-1-2-li-one">
+                <a
+                  href="https://ccastaa.org/about-us-2-2/about-us/"
+                  target="_blank"
+                >
                   {" "}
-                  &#8226; Muluh (palm wine)
-                
+                  &#8226; Agriculture
+                </a>
               </li>
+              <li className="dd-lv-1-2-li-two">&#8226; Business and Trades</li>
+              <li className="dd-lv-1-2-li-two">&#8226; Capentry</li>
+              <li className="dd-lv-1-2-li-two">&#8226; Wielding</li>
+              <li className="dd-lv-1-2-li-two">
+                &#8226; Solar Electrification
+              </li>
+              <li className="dd-lv-1-2-li-two">&#8226; Tailoring</li>
 
               {/* end of dropdown lv 2 item */}
 
               {/* start of dropdown lv 2 item 2*/}
 
               {/* end of dropdown lv 2 item 2 */}
-            </div>
-
-            <h2
-              className="varpillar-head-dropdown-lv-1 head-two"
-              onClick={() =>
-                toggleDropdown(isOpenDropdownthree, setIsOpenDropdownthree)
-              }
-            >
-              Tourism{" "}
-              <p className={isOpenDropdownthree ? "for-drop" : ""}>&gt;</p>
-            </h2>
-
-            <div
-              className={
-                isOpenDropdownthree
-                  ? "varpillar-dropdown-lv-1 dd-lv-1-1"
-                  : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
-              }
-            >
-              <li className="dd-lv-1-1-li-two">&#8226; Bambili Palace</li>
-              <li className="dd-lv-1-1-li-three">&#8226; Quarters</li>
-              <li className="dd-lv-1-1-li-four">&#8226; Lake Bambili</li>
             </div>
 
             {/* end of duplication of dropdown level one */}
@@ -184,4 +181,4 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
   );
 };
 
-export default ExternalP3;
+export default ExternalP2;
