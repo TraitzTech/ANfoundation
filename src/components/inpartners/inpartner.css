@@ -4,7 +4,7 @@
   margin: 0px auto 20px auto;
   border-radius: 22px;
   background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
-    url("../../assets/partner.png") no-repeat;
+    url("../../assets/cynthiaF.jpg") no-repeat;
   background-position: right;
 }
 
@@ -40,7 +40,7 @@
 
 .cynthia-label {
   position: absolute;
-  right: 250px;
+  right: 295px;
   bottom: 30px;
   color: rgb(245, 228, 228);
 }
@@ -73,15 +73,16 @@
   } */
   .ipartner-container .inpartners-container {
     background: linear-gradient(90deg, #2e2321 9.3%, rgba(46, 35, 33, 0.1) 100%),
-      url("../../assets/partner.png") no-repeat;
+      url("../../assets/cynthiaF.jpg") no-repeat;
     background-position: center;
+    right: 40px;
     max-width: 100%;
   }
 
   .cynthia-label {
     position: absolute;
-    right: 0px;
-    bottom: 30px;
+    right: 20px;
+    bottom: 20px;
     color: rgb(255, 255, 255);
     font-size: 12px;
   }
