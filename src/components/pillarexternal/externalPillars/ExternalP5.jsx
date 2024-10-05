@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import me from "../../../assets/technical.pdf"
 
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
@@ -53,7 +54,7 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
 
             <li>
               <a
-                href="../../../assets/technical.pdf"
+                href={me}
                 target="_blank"
                 rel="noopener noreferrer"
               >
