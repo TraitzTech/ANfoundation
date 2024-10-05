@@ -95,9 +95,9 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 &#8226; Refuge home (planned) and GBV {""}{" "}
                 <span
                   id="see"
-                  className={isOpenDropdowntwo ? "hidden" : ""}
+                  className={isOpenDropdownthree ? "hidden" : ""}
                   onClick={() =>
-                    toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                    toggleDropdown(isOpenDropdownthree, setIsOpenDropdownthree)
                   }
                 >
                   {" "}
@@ -105,7 +105,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 </span>
                 <span
                   className={
-                    isOpenDropdowntwo
+                    isOpenDropdownthree
                       ? "varpillar-dropdown-lv-1 dd-lv-1-1"
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
@@ -114,9 +114,9 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   and children{" "}
                   <span
                     id="see"
-                    className={isOpenDropdowntwo ? "" : "hidden"}
+                    className={isOpenDropdownthree ? "" : "hidden"}
                     onClick={() =>
-                      toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                      toggleDropdown(isOpenDropdownthree, setIsOpenDropdowntwo)
                     }
                   >
                     {" "}

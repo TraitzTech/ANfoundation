@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../varpillarcard.css";
 
-
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
@@ -68,11 +67,37 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
                 }
               >
-                &#9724; Inaugural consultation on human developement in Bambili
-                for girls and women{" "}
-                <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
+                &#9724; Inaugural consultation/webinar on empowering{" "}
+                <span
+                  id="see"
+                  className={isOpenDropdownfour ? "hidden" : ""}
+                  onClick={() =>
+                    toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
+                  }
+                >
+                  {" "}
+                  see more
+                </span>{" "}
+                <span
+                  className={
+                    isOpenDropdownfour
+                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
+                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
+                  }
+                >
+                  the Mbeligi community by nurturing women and girls .{" "}
+                  <span
+                    id="see"
+                    className={isOpenDropdownfour ? "" : "hidden"}
+                    onClick={() =>
+                      toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
+                    }
+                  >
+                    {" "}
+                    see less
+                  </span>{" "}
+                </span>
               </h2>
-              
 
               <div
                 className={
@@ -98,127 +123,6 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
               {/* end of dropdown lv 2 item */}
 
               {/* start of dropdown lv 2 item 2*/}
-              <h2
-                className="varpillar-head-dropdown-lv-2 head-lv-2-two"
-                onClick={() =>
-                  toggleDropdown(isOpenDropdownthree, setIsOpenDropdownthree)
-                }
-              >
-                &#9724; Inaugaural event in Bambili{" "}
-                <p className={isOpenDropdownthree ? "for-drop" : ""}>&gt;</p>
-              </h2>
-              <div
-                className={
-                  isOpenDropdownthree
-                    ? "varpillar-dropdown-lv-2 lv-2-two"
-                    : "varpillar-dropdown-lv-2 lv-2-two".concat(" hidden")
-                }
-              >
-                <li className="lv2-one-li-one">
-                  <a href="#" target="_blank">
-                    &#8226;
-                  </a>
-                </li>
-                <li className="lv2-one-li-two">
-                  <a href="#" target="_blank">
-                    &#8226;
-                  </a>
-                </li>
-
-                <hr className="varpillar-dropdown-lv-2-hr" />
-              </div>
-
-              {/* end of dropdown lv 2 item 2 */}
-            </div>
-            {/* end of dropdown lv one first iteom */}
-
-            {/* duplication dropdown level one */}
-
-            <h2
-              className="varpillar-head-dropdown-lv-1 head-two"
-              onClick={() =>
-                toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
-              }
-            >
-              {" "}
-              <p className={isOpenDropdownfour ? "for-drop" : ""}>&gt;</p>
-            </h2>
-            <div
-              className={
-                isOpenDropdownfour
-                  ? "varpillar-dropdown-lv-1 dd-lv-1-1"
-                  : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
-              }
-            >
-              {/* start of dropdown lv 2 */}
-              <h2
-                className="varpillar-head-dropdown-lv-2 head-lv-2-twho"
-                onClick={() =>
-                  toggleDropdown(isOpenDropdownfive, setIsOpenDropdownfive)
-                }
-              >
-                &#9724; Inaugaural event in Bambili{" "}
-                <p className={isOpenDropdownfive ? "for-drop" : ""}>&gt;</p>
-              </h2>
-              <li className="dd-lv-1-2-li-one">&#8226;</li>
-              <li className="dd-lv-1-2-li-two">&#8226;</li>
-              <li className="dd-lv-1-2-li-three">&#8226;</li>
-
-              <div
-                className={
-                  isOpenDropdownfive
-                    ? "varpillar-dropdown-lv-2 lv-2-three"
-                    : "varpillar-dropdown-lv-2 lv-2-three".concat(" hidden")
-                }
-              >
-                <li className="lv2-three-li-one">
-                  <a href="#" target="_blank">
-                    &#8226; Event Introduction
-                  </a>
-                </li>
-                <li className="lv2-three-li-one">
-                  <a href="#" target="_blank">
-                    &#8226; Event Summary
-                  </a>
-                </li>
-
-                <hr className="varpillar-dropdown-lv-2-hr" />
-              </div>
-
-              {/* end of dropdown lv 2 item */}
-
-              {/* start of dropdown lv 2 item 2*/}
-              <h2
-                className="varpillar-head-dropdown-lv-2 head-lv-2-four"
-                onClick={() =>
-                  toggleDropdown(isOpenDropdownsix, setIsOpenDropdownsix)
-                }
-              >
-                &#9724; Inaugaural event in Bambili{" "}
-                <p className={isOpenDropdownsix ? "for-drop" : ""}>&gt;</p>
-              </h2>
-              <div
-                className={
-                  isOpenDropdownsix
-                    ? "varpillar-dropdown-lv-2 lv-2-four"
-                    : "varpillar-dropdown-lv-2 lv-2-four".concat(" hidden")
-                }
-              >
-                <li className="lv2-four-li-one">
-                  <a href="#" target="_blank">
-                    &#8226; Event Introduction
-                  </a>
-                </li>
-                <li className="lv2-four-li-two">
-                  <a href="#" target="_blank">
-                    &#8226; Event Summary
-                  </a>
-                </li>
-
-                <hr className="varpillar-dropdown-lv-2-hr" />
-              </div>
-
-              {/* end of dropdown lv 2 item 2 */}
             </div>
 
             {/* end of duplication of dropdown level one */}

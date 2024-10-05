@@ -3,10 +3,10 @@ import "../varpillarcard.css";
 
 const Varpillar3 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
+  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
-  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
+  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
   const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(false);
   const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(false);
 
@@ -42,20 +42,10 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
           }
         >
           <ul className="varpillar-gen-ul">
-            {/* start of dropdown lv one first item */}
-
-            {/* <h2
-              className="varpillar-head-dropdown-lv-1 head-one"
-              onClick={() =>
-                toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
-              }
-            >
-              Community Mobilisation
-              <p className={isOpenDropdownfour ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
+            
             <div
               className={
-                isOpenDropdownfour
+                isOpenDropdownOne
                   ? "varpillar-dropdown-lv-1 dd-lv-1-1"
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
@@ -67,8 +57,36 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdownfive, setIsOpenDropdownfive)
                 }
               >
-                &#9724; Inaugural consultation on human developement in Bambili
-                for girls and women{" "}
+                &#9724; Inaugural consultation/webinar on empowering{" "}
+                <span
+                  id="see"
+                  className={isOpenDropdownfour ? "hidden" : ""}
+                  onClick={() =>
+                    toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
+                  }
+                >
+                  {" "}
+                  see more
+                </span>{" "}
+                <span
+                  className={
+                    isOpenDropdownfour
+                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
+                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
+                  }
+                >
+                  the Mbeligi community by nurturing women and girls .{" "}
+                  <span
+                    id="see"
+                    className={isOpenDropdownfour ? "" : "hidden"}
+                    onClick={() =>
+                      toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
+                    }
+                  >
+                    {" "}
+                    see less
+                  </span>{" "}
+                </span>
                 <p className={isOpenDropdownfive ? "for-drop" : ""}>&gt;</p>
               </h2>
 
@@ -99,7 +117,8 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
 
               {/* end of dropdown lv 2 item 2 */}
 
-              <h2 style={{marginTop: '15px'}}
+              <h2
+                style={{ marginTop: "15px" }}
                 className="varpillar-head-dropdown-lv-2 head-lv-2-one"
                 onClick={() =>
                   toggleDropdown(isOpenDropdownsix, setIsOpenDropdownsix)
@@ -108,9 +127,6 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                 &#9724; Community Library (Planned){" "}
                 {/* <p className={isOpenDropdownsix ? "for-drop" : ""}>&gt;</p> */}
               </h2>
-
-              
-
             </div>
 
             {/* end of duplication of dropdown level one */}

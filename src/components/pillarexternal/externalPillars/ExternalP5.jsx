@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
 const ExternalP5 = ({ bgImage, headercontent, text }) => {
@@ -42,71 +43,31 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
           }
         >
           <ul className="varpillar-gen-ul">
-            {/* start of dropdown lv one first item */}
-
-            {/* <h2
-              className="varpillar-head-dropdown-lv-1 head-one"
-              onClick={() =>
-                toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
-              }
-            >
-              Social Services
-              <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
             <div
               className={
                 isOpenDropdownOne
                   ? "varpillar-dropdown-lv-1 dd-lv-1-1"
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
-            >
-              {/* start of dropdown lv 2 */}
+            ></div>
 
-              {/* <li className="dd-lv-1-1-li-one">
-                &#8226; Bambili Health Center{" "}
-              </li>
-              <li className="dd-lv-1-1-li-two">
-                &#8226; University of Bamenda Health Center
-              </li>
-              <li className="dd-lv-1-1-li-three">
-                <a href="#" target="_blank">
-                  &#8226; Our Lady of Fatima Parish Bambili
-                </a>{" "}
-              </li>
-              <li className="dd-lv-1-1-li-four">
-                &#8226; St Francis Quasi Parish Ntewshi
-              </li>
-              <li className="dd-lv-1-1-li-five">&#8226; PC CCAST Complex</li> */}
+            <li>
+              <a
+                href="../../../assets/technical.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                &#8226; Technical Experts
+              </a>
+            </li>
 
-              {/* end of dropdown lv 2 item */}
-
-              {/* start of dropdown lv 2 item 2*/}
-              
-
-              {/* end of dropdown lv 2 item 2 */}
-            </div>
-
-            {/* end of duplication of dropdown level one */}
-
-            {/* <h2
-              className="varpillar-head-dropdown-lv-1 head-two"
-              onClick={() =>
-                toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
-              }
-            >
-              Techical
-              <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
             <div
               className={
                 isOpenDropdowntwo
                   ? "varpillar-dropdown-lv-1 dd-lv-1-2"
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
-            >
-              
-              
-            </div>
+            ></div>
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
