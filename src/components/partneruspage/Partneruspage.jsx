@@ -11,18 +11,17 @@ const Partneruspage = () => {
         <div className="partner-us-contents-left">
           <Title content="Partner With Us" />
           <p>
-            Ready to empower at-risk youth with us? Schedule a call to discuss
+            Ready to empower at-risk youths with us? Schedule a call to discuss
             how your partnership can make a difference.{" "}
           </p>
           <p>
-            Connect with us by filling out our online form, emailing us at
+            Connect with us by filling out our online form or emailing us at
             <a href="mailto:theakwofoundation@gmail.com">
               <span> </span>theakwofoundation@gmail.com
             </a>
           </p>
 
           <Socials socialColor="rgba(32, 32, 32, 1)" />
-
         </div>
         <div className="partner-us-contents-right">
           <Contact />
