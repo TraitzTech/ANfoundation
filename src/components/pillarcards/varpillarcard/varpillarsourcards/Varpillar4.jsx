@@ -16,7 +16,6 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
     setExpand(!expandToSet);
   };
 
-  
   const toggleDropdown = (objectToSet, setVariable) => {
     setVariable(!objectToSet);
     console.log("cliked dropdown");
@@ -61,12 +60,12 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Support to{" "}
+                &#8226; Advisory support to{" "}
                 <a href="https://www.facebook.com/OLFPBambili" target="_blank">
-                  OLFP
+                  Our Lady of Fatima Parish Bambili
                 </a>{" "}
                 {""}
-                on youth engagement{" "}
+                on{" "}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -84,8 +83,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and programming including on skills and livelihood
-                  opportunities{" "}
+                  youth engagement, skills and livelihood opportunities{" "}
                   <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
@@ -112,7 +110,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   LESA Apostolic Works
                 </a>{" "}
                 {""}
-                including on{" "}
+                on{" "}
                 <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
@@ -130,7 +128,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  Stakeholder Engagement and Monitoring & Evaluation (M&E){" "}
+                  Stakeholder Engagement and Monitoring & Evaluation{" "}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
@@ -152,8 +150,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Advisory services to entrepreneurs, {""}
-                including on{" "}
+                &#8226; Advisory services to entrepreneurs, startups and
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -171,17 +168,13 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  startups, micro and small businesses on professionalization,
-                  bookkeeping, digital tools for productivity, access to finance
-                  and many more.{" "}
+                  small businesses on professionnalisation, digital tools and
+                  access to Finance .{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
-                      toggleDropdown(
-                        isOpenDropdownfour,
-                        setIsOpenDropdownfour
-                      )
+                      toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
                     }
                   >
                     {" "}

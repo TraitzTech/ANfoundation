@@ -72,32 +72,17 @@ const Abeventpillars = () => {
           <Slider {...settings}>
             <div>
               <div className="custom-slide varPillarcard-community">
-                {/* <Pillarcard
-                  bgImage={community}
-                  headercontent={"Community Development"}
-                  text={
-                    "Education & vocational training. Equip youths for income generation."
-                  }
-                /> */}
-                <Varpillar1
-                  bgImage={community}
-                  headercontent={"Community Development"}
+                <Varpillar2
+                  bgImage={skills}
+                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
                 />
               </div>
             </div>
             <div>
-              <div className="custom-slide varPillarcard-skills">
-                {/* <Pillarcardtwo
-                  bgImage={skills}
-                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
-                  text={
-                    "Trainings in renewable energy, construction and skill traits"
-                  }
-                /> */}
-
-                <Varpillar2
-                  bgImage={skills}
-                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
+              <div className="custom-slide varPillarcard-community">
+                <Varpillar1
+                  bgImage={community}
+                  headercontent={"Community Development"}
                 />
               </div>
             </div>
@@ -108,13 +93,6 @@ const Abeventpillars = () => {
             </div>
             <div>
               <div className="custom-slide varPillarcar-capacity">
-                {/* <Pillarcardfour
-                  bgImage={capacitybuilding}
-                  headercontent={"Advisory Services"}
-                  text={
-                    "Train & empower community leaders. Mentorship programs for youths & professionals."
-                  }
-                /> */}
                 <Varpillar4
                   bgImage={capacitybuilding}
                   headercontent={"Advisory Services"}

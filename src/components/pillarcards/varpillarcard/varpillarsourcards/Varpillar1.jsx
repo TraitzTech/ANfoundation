@@ -4,7 +4,7 @@ import "../varpillarcard.css";
 
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
+  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
   const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
@@ -45,7 +45,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
           <ul className="varpillar-gen-ul">
             {/* start of dropdown lv one first item */}
 
-            <h2
+            {/* <h2
               className="varpillar-head-dropdown-lv-1 head-one"
               onClick={() =>
                 toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
@@ -53,7 +53,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
             >
               Community Mobilisation
               <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
-            </h2>
+            </h2> */}
             <div
               className={
                 isOpenDropdownOne

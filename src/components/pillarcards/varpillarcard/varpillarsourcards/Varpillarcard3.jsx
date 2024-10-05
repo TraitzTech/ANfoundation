@@ -44,7 +44,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
           <ul className="varpillar-gen-ul">
             {/* start of dropdown lv one first item */}
 
-            <h2
+            {/* <h2
               className="varpillar-head-dropdown-lv-1 head-one"
               onClick={() =>
                 toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
@@ -52,7 +52,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
             >
               Community Mobilisation
               <p className={isOpenDropdownfour ? "for-drop" : ""}>&gt;</p>
-            </h2>
+            </h2> */}
             <div
               className={
                 isOpenDropdownfour
@@ -98,6 +98,19 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
               {/* start of dropdown lv 2 item 2*/}
 
               {/* end of dropdown lv 2 item 2 */}
+
+              <h2 style={{marginTop: '15px'}}
+                className="varpillar-head-dropdown-lv-2 head-lv-2-one"
+                onClick={() =>
+                  toggleDropdown(isOpenDropdownsix, setIsOpenDropdownsix)
+                }
+              >
+                &#9724; Community Library (Planned){" "}
+                {/* <p className={isOpenDropdownsix ? "for-drop" : ""}>&gt;</p> */}
+              </h2>
+
+              
+
             </div>
 
             {/* end of duplication of dropdown level one */}

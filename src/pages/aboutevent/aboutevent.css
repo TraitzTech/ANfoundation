@@ -28,23 +28,23 @@
 }
 
 .image-lebel {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+@media (max-width: 568px) {
+  .aboutevent-container-contents {
+    max-width: 100%;
+  }
+
+  .image-lebel {
     position: absolute;
     right: 0;
     padding: 20px;
     font-family: Inter;
     font-weight: 600;
-}
-
-@media(max-width: 568px) {
-    .aboutevent-container-contents {
-        max-width: 100%;
-    }
-
-    .image-lebel {
-        position: absolute;
-        right: 0;
-        padding: 20px;
-        font-family: Inter;
-        font-weight: 600;
-    }
+  }
 }

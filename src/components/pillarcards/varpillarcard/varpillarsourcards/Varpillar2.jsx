@@ -66,8 +66,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Training of youths, {""}
-                in renewable{" "}
+                &#8226; Apprenticeship and training of young men in {""}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -85,7 +84,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  energy and skilled trades. In partnership with{" "}
+                  renewable energy and skilled trades in partnership with{" "}
                   <a
                     href="https://www.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d "
                     target="_blank"
@@ -109,30 +108,12 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
 
               {/* Advisory service Item */}
 
-              <li className="lv2-one-li-one">
-                &#8226;{" "}
-                <a href="https://www.facebook.com/AkwoGirlTech" target="_blank">
-                  The Akwo GirlTech Scholarship
-                </a>{" "}
-                {""}{" "}
-                <span
-                  className={
-                    isOpenDropdownthree
-                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
-                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
-                  }
-                >
-                  {" "}
-                </span>
-              </li>
-
               {/* End of advisory service item*/}
 
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Scholarships and textbook support, {""}
-                including on{" "}
+                &#8226; Scholarship and textbook support to, {""}{" "}
                 <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
@@ -150,14 +131,13 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and mentoring for for at-risk post-primary girls in
-                  Partnership with{" "}
-                  <a
+                  post- primary school girls{" "}
+                  {/* <a
                     href="mailto:apostolicworkslesaplatinum@gmail.com"
                     target="_blank"
                   >
                     LESA Platinum Apostolic Works
-                  </a>{" "}
+                  </a>{" "} */}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
@@ -176,6 +156,47 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
 
               {/* End of advisory service item*/}
 
+              <li className="lv2-one-li-one">
+                <a
+                  href="https://www.facebook.com/share/NgdVZ7sUw4n7e7E6/?mibextid=kFxxJD"
+                  target="_blank"
+                >
+                  {" "}
+                  &#8226; Akwo Girls In Technology Scholarship Program
+                </a>{" "}
+                <span
+                  id="see"
+                  className={isOpenDropdownthree ? "hidden" : ""}
+                  onClick={() =>
+                    toggleDropdown(isOpenDropdownthree, setIsOpenDropdownthree)
+                  }
+                >
+                  {" "}
+                  see more
+                </span>{" "}
+                <span
+                  className={
+                    isOpenDropdownthree
+                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
+                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
+                  }
+                >
+                  supports high school girls in STEM{" "}
+                  <span
+                    id="see"
+                    className={isOpenDropdownthree ? "" : "hidden"}
+                    onClick={() =>
+                      toggleDropdown(
+                        isOpenDropdownthree,
+                        setIsOpenDropdownthree
+                      )
+                    }
+                  >
+                    {" "}
+                    see less
+                  </span>{" "}
+                </span>
+              </li>
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
@@ -197,14 +218,13 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  coaching for young men from at-risk regions, including
-                  coaching, career planning, CV/resume reviews, job
-                  opportunities in partnership with{" "}
+                  development support for young men. Some initiatives in
+                  partnership with{" "}
                   <a
                     href="https://www.facebook.com/OLFPBambili/posts/pfbid02H6CaB4kpJihvEmRzbqSSujHCrNorPtHju5dKdEYLwMcCgSTWFv4pWYbxZTQEuyppl "
                     target="_blank"
                   >
-                    OLFP
+                    Our Lady of Fatima Parish Bambili
                   </a>{" "}
                   <span
                     id="see"

@@ -44,7 +44,6 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
           <ul className="varpillar-gen-ul">
             {/* start of dropdown lv one first item */}
 
-            
             <div
               className={
                 isOpenDropdownOne
@@ -52,17 +51,12 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
             >
-                {/* Advisory service Item */}
-                <li>&#8226; Sex Education</li>
+              {/* Advisory service Item */}
+              <li>&#8226; Sex Education</li>
 
               <li className="lv2-one-li-one">
-                &#8226; Savings in Partnership with{" "}
-                <a href="mynkwa.com" target="_blank">
-                  Nkwa Tech
-                </a>{" "}
-                {""}
-                {" "}
-                {/* <span
+                &#8226; Digital savings for economic security in {""}{" "}
+                <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
                   onClick={() =>
@@ -71,16 +65,18 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "} */}
-                {/* <span
+                </span>
+                <span
                   className={
                     isOpenDropdowntwo
                       ? "varpillar-dropdown-lv-1 dd-lv-1-1"
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and programming including on skills and livelihood
-                  opportunities{" "}
+                  partnership with {""}
+                  <a href="https://mynkwa.com/" target="_blank">
+                    myNkwa.com
+                  </a>{" "}
                   <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
@@ -91,12 +87,43 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                     {" "}
                     see less
                   </span>{" "}
-                </span> */}
+                </span>
               </li>
 
               {/* End of advisory service item*/}
-              <li>&#8226; Refuge Homes</li>
-
+              <li className="lv2-one-li-one">
+                &#8226; Refuge home (planned) and GBV {""}{" "}
+                <span
+                  id="see"
+                  className={isOpenDropdowntwo ? "hidden" : ""}
+                  onClick={() =>
+                    toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                  }
+                >
+                  {" "}
+                  see more
+                </span>
+                <span
+                  className={
+                    isOpenDropdowntwo
+                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
+                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
+                  }
+                >
+                  prevention/response resources for at-risk or affected women
+                  and children{" "}
+                  <span
+                    id="see"
+                    className={isOpenDropdowntwo ? "" : "hidden"}
+                    onClick={() =>
+                      toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
+                    }
+                  >
+                    {" "}
+                    see less
+                  </span>{" "}
+                </span>
+              </li>
             </div>
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
