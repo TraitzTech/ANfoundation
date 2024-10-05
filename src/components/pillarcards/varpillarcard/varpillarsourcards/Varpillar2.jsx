@@ -66,7 +66,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Training of recovery drug addicts, {""}
+                &#8226; Training of youths, {""}
                 in renewable{" "}
                 <span
                   id="see"
