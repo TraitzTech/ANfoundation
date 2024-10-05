@@ -1,27 +1,22 @@
-// import React from 'react'
-
-// const Varpillar2 = () => {
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
-// export default Varpillar2
-
 import React, { useState } from "react";
 import "../varpillarcard.css";
 
-const Varpillar2 = ({ bgImage, headercontent, text }) => {
+const Varpillar4 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
   const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
-  const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(false);
-  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(false);
 
+  const [isExpandedOne, setIsExpandedOne] = useState(false);
+  const [isExpandedtwo, setIsExpandedtwo] = useState(false);
+  const [isExpandedthree, setIsExpandedthree] = useState(false);
+
+  const toggleExpand = (expandToSet, setExpand) => {
+    setExpand(!expandToSet);
+  };
+
+  
   const toggleDropdown = (objectToSet, setVariable) => {
     setVariable(!objectToSet);
     console.log("cliked dropdown");
@@ -66,8 +61,12 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Training of recovery drug addicts, {""}
-                in renewable{" "}
+                &#8226; Support to{" "}
+                <a href="https://www.facebook.com/OLFPBambili" target="_blank">
+                  OLFP
+                </a>{" "}
+                {""}
+                on youth engagement{" "}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -85,13 +84,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  energy and skilled trades. In partnership with{" "}
-                  <a
-                    href="https://www.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d "
-                    target="_blank"
-                  >
-                    Sunlight - To - The Rescue Cameroun
-                  </a>{" "}
+                  and programming including on skills and livelihood
+                  opportunities{" "}
                   <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
@@ -110,28 +104,14 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226;{" "}
-                <a href="https://www.facebook.com/AkwoGirlTech" target="_blank">
-                  The Akwo GirlTech Scholarship
-                </a>{" "}
-                {""}{" "}
-                <span
-                  className={
-                    isOpenDropdownthree
-                      ? "varpillar-dropdown-lv-1 dd-lv-1-1"
-                      : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
-                  }
+                &#8226; Advisory to{" "}
+                <a
+                  href="mailto:apostolicworkslesaplatinum@gmail.com"
+                  target="_blank"
                 >
-                  {" "}
-                </span>
-              </li>
-
-              {/* End of advisory service item*/}
-
-              {/* Advisory service Item */}
-
-              <li className="lv2-one-li-one">
-                &#8226; Scholarships and textbook support, {""}
+                  LESA Apostolic Works
+                </a>{" "}
+                {""}
                 including on{" "}
                 <span
                   id="see"
@@ -150,14 +130,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and mentoring for for at-risk post-primary girls in
-                  Partnership with{" "}
-                  <a
-                    href="mailto:apostolicworkslesaplatinum@gmail.com"
-                    target="_blank"
-                  >
-                    LESA Platinum Apostolic Works
-                  </a>{" "}
+                  Stakeholder Engagement and Monitoring & Evaluation (M&E){" "}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
@@ -179,7 +152,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Digital skills and Career{" "}
+                &#8226; Advisory services to entrepreneurs, {""}
+                including on{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -197,20 +171,17 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  coaching for young men from at-risk regions, including
-                  coaching, career planning, CV/resume reviews, job
-                  opportunities in partnership with{" "}
-                  <a
-                    href="https://www.facebook.com/OLFPBambili/posts/pfbid02H6CaB4kpJihvEmRzbqSSujHCrNorPtHju5dKdEYLwMcCgSTWFv4pWYbxZTQEuyppl "
-                    target="_blank"
-                  >
-                    OLFP
-                  </a>{" "}
+                  startups, micro and small businesses on professionalization,
+                  bookkeeping, digital tools for productivity, access to finance
+                  and many more.{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
-                      toggleDropdown(isOpenDropdownfour, setIsOpenDropdownfour)
+                      toggleDropdown(
+                        isOpenDropdownfour,
+                        setIsOpenDropdownfour
+                      )
                     }
                   >
                     {" "}
@@ -220,8 +191,10 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               </li>
 
               {/* End of advisory service item*/}
-              <li>&#8226; Other mentoring services</li>
             </div>
+            {/* end of dropdown lv one first iteom */}
+
+            {/* end of duplication of dropdown level one */}
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>
             {" "}
@@ -235,4 +208,4 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
   );
 };
 
-export default Varpillar2;
+export default Varpillar4;

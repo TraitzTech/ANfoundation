@@ -8,7 +8,10 @@ const Varpillarcard = ({
   text,
   items = [
     ["Community Developement-1", "Community Developement-2"],
-    ["Inaugural consultation on human dev in mbili for girls and women", "Inaguaral Girls-2"],
+    [
+      "Inaugural consultation on human dev in mbili for girls and women",
+      "Inaguaral Girls-2",
+    ],
     [
       "Event Information-1",
       "Event summary-2",

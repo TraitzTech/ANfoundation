@@ -18,6 +18,8 @@ import Pillarcardthree from "../pillarcards/Pillarcardthree";
 import Pillarcardfour from "../pillarcards/Pillarcardfour";
 import Pillarcardfive from "../pillarcards/Pillarcardfive";
 import Varpillarcard from "../pillarcards/varpillarcard/Varpillarcard";
+import ExternalP5 from "./externalPillars/ExternalP5";
+import ExternalP3 from "./externalPillars/ExternalP3";
 
 const ExternalR = () => {
   var settings = {
@@ -89,11 +91,13 @@ const ExternalR = () => {
             </div>
             <div>
               <div className="custom-slide">
-                <Pillarcardthree
+                {/* <Pillarcardthree
                   bgImage={culture}
                   headercontent={"Culture"}
                   text={"Celebrate heritage. Broaden world view."}
-                />
+                /> */}
+                <ExternalP3 bgImage={culture}
+                  headercontent={"Culture"}/>
               </div>
             </div>
             <div>
@@ -110,13 +114,7 @@ const ExternalR = () => {
 
             <div>
               <div className="custom-slide">
-                <Pillarcardfive
-                  bgImage={resources}
-                  headercontent={"Resources"}
-                  text={
-                    "Scholarships & education assistance. Trauma-informed care & support."
-                  }
-                />
+                <ExternalP5 bgImage={resources} headercontent={"Resources"} />
               </div>
             </div>
           </Slider>

@@ -15,21 +15,33 @@
   cursor: pointer;
 }
 
+.varpillarcard-contents li {
+  font-family: Inter;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.varpillarcard-contents li a {
+  color: rgba(255, 115, 21, 1);
+  text-decoration: none;
+  padding-left: 8px;
+}
+
 .varpillar-std-block {
   text-align: center;
 }
 
 .varpillar-std-block img {
-    margin: auto;
-    padding: 10px 0px;
+  margin: auto;
+  padding: 10px 0px;
 }
 .varpillar-std-block h3 {
-    font-family: Jua;
-    font-weight: 400;
+  font-family: Jua;
+  font-weight: 400;
 }
 
 .varpillar-gen-ul {
-    list-style: none;
+  list-style: none;
 }
 .varpillar-std-block hr {
   background-color: rgba(255, 115, 21, 1);
@@ -41,14 +53,15 @@
 }
 
 .varpillar-head-dropdown-lv-1 {
-  font-size: 24px;
+  font-size: 18px;
   font-family: Jua;
   cursor: pointer;
   padding: 10px 0px;
 }
 
 .varpillar-head-dropdown-lv-1 p,
-.varpillar-head-dropdown-lv-2 p {
+.varpillar-head-dropdown-lv-2 p,
+.varpillar-gen-ul li p {
   transform: rotate(90deg);
   display: inline-block;
 }
@@ -60,7 +73,7 @@
 }
 
 .varpillar-head-dropdown-lv-2 {
-  font-size: 20px;
+  font-size: 17px;
   padding-left: 2px;
   font-family: "EB Garamond";
   font-weight: 600;
@@ -90,7 +103,20 @@
   padding: 3px;
 }
 
+.hr-mid {
+  background-color: rgba(255, 115, 21, 1);
+  height: 5px;
+  border: none;
+  outline: none;
+  max-width: 70%;
+  margin: 10px auto;
+  padding: 3px;
+}
 
+#see {
+  color: rgb(149, 153, 153);
+  cursor: pointer;
+}
 
 .hidden {
   display: none;

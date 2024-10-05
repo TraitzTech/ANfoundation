@@ -72,14 +72,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                 for girls and women{" "}
                 <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
               </h2>
-              {/* <li className="dd-lv-1-1-li-one">&#8226; </li>
-              <li className="dd-lv-1-1-li-two">&#8226; </li>
-              <li className="dd-lv-1-1-li-three">&#8226; </li>
-              <li className="dd-lv-1-1-li-four">&#8226; </li>
-              <li className="dd-lv-1-1-li-five">&#8226; </li>
-              <li className="dd-lv-1-1-li-six">&#8226; </li>
-              <li className="dd-lv-1-1-li-seven">&#8226; </li>
-              <li className="dd-lv-1-1-li-eight">&#8226; </li> */}
+              
 
               <div
                 className={

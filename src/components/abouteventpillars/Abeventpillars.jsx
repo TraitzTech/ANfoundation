@@ -20,6 +20,9 @@ import Pillarcardfive from "../pillarcards/Pillarcardfive";
 import Varpillarcard from "../pillarcards/varpillarcard/Varpillarcard";
 import Varpillar1 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar1";
 import Varpillar2 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar2";
+import Varpillar3 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillarcard3";
+import Varpillar4 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar4";
+import Varpillar5 from "../pillarcards/varpillarcard/varpillarsourcards/Varpillar5";
 
 const Abeventpillars = () => {
   var settings = {
@@ -62,7 +65,7 @@ const Abeventpillars = () => {
   return (
     <div className="ourPillars-container" id="pillars">
       <div className="ourPillars-title">
-        <Title content="Our Works in Bambili" />
+        <Title content="Programs" />
       </div>
       <div className="ourPillars-contents">
         <div className="slider-container">
@@ -100,34 +103,28 @@ const Abeventpillars = () => {
             </div>
             <div>
               <div className="custom-slide varPillarcard-skills">
-                <Pillarcardthree
-                  bgImage={culture}
-                  headercontent={"Culture"}
-                  text={"Celebrate heritage. Broaden world view."}
-                />
+                <Varpillar3 bgImage={culture} headercontent={"Culture"} />
               </div>
             </div>
             <div>
-              <div className="custom-slide">
-                <Pillarcardfour
+              <div className="custom-slide varPillarcar-capacity">
+                {/* <Pillarcardfour
                   bgImage={capacitybuilding}
                   headercontent={"Advisory Services"}
                   text={
                     "Train & empower community leaders. Mentorship programs for youths & professionals."
                   }
+                /> */}
+                <Varpillar4
+                  bgImage={capacitybuilding}
+                  headercontent={"Advisory Services"}
                 />
               </div>
             </div>
 
             <div>
               <div className="custom-slide">
-                <Pillarcardfive
-                  bgImage={resources}
-                  headercontent={"Resources"}
-                  text={
-                    "Scholarships & education assistance. Trauma-informed care & support."
-                  }
-                />
+                 <Varpillar5 bgImage={resources} headercontent={"Womens Health & Resilience"} />
               </div>
             </div>
           </Slider>
