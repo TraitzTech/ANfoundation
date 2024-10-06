@@ -76,7 +76,7 @@ const Oursupport = () => {
                   bgImage={swipperchild}
                   headercontent={"Livelihood Training"}
                   text={
-                    "(solar electrification and entrepreneurship) for two at-risk young men in recovery from drug addiction"
+                    "(solar electrification and entrepreneurship) for  at-risk youths in the Community"
                   }
                 />
               </div>
@@ -87,7 +87,7 @@ const Oursupport = () => {
                   bgImage={graduation}
                   headercontent={"Scholarship"}
                   text={
-                    "Dedicated to support to any and all post-primary girls in Bambili, NWR "
+                    "Dedicated to support any and all post-primary girls in Bambili, NWR "
                   }
                 />
               </div>

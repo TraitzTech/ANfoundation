@@ -82,7 +82,7 @@ const Ourpillars = () => {
                   bgImage={skills}
                   headercontent={"Skills, Livelihoods & Entrepreneurship"}
                   text={
-                    "Trainings in renewable energy, construction and skill traits"
+                    "Trainings in renewable energy, construction and skill trades"
                   }
                 />
               </div>
@@ -112,17 +112,15 @@ const Ourpillars = () => {
               <div className="custom-slide">
                 <Pillarcardfive
                   bgImage={resources}
-                  headercontent={"Women's Advisory Services"}
+                  headercontent={"Women's Health & Resilience"}
                   text={
-                    "Scholarships & education assistance. Trauma-informed care & support."
+                    "Financial security, sex and reproductive health education and gender base violence prevention"
                   }
                 />
               </div>
             </div>
           </Slider>
         </div>
-
-        
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import "./whoweare.css";
 import { FaArrowRight } from "react-icons/fa";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import lgimg from "../../assets/peoplecommunity.png";
 import kdimg from "../../assets/littlekid.png";
@@ -22,10 +22,12 @@ const Whoweare = () => {
 
         <div className="who-we-are-right">
           <div className="who-we-are-right-contents">
-            <Link to="/works#home"><h3>
-              <FaArrowRight size={30} color="orange" /> Bambili
-            </h3></Link>
-            
+            <Link to="/works#home">
+              <h3 style={{ color: "orange" }}>
+                <FaArrowRight size={30} color="orange" /> Bambili
+              </h3>
+            </Link>
+
             <h3>
               <FaArrowRight size={30} color="orange" /> Limbe
             </h3>
