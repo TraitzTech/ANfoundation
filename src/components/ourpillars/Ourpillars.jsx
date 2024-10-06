@@ -80,9 +80,9 @@ const Ourpillars = () => {
               <div className="custom-slide">
                 <Pillarcardtwo
                   bgImage={skills}
-                  headercontent={"Skills, Livelihood & Entrepreneurship"}
+                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
                   text={
-                    "Promote Education and Economic empowerment of women and young persons."
+                    "Promote Education and Economic empowerment of at risk youths and women."
                   }
                 />
               </div>
