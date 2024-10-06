@@ -71,7 +71,7 @@ const Ourpillars = () => {
                   bgImage={community}
                   headercontent={"Community Development"}
                   text={
-                    "Education & vocational training. Equip youths for income generation."
+                    "Collaborate with community organizations, promote community ownership, build capacity and promote sustainable practices."
                   }
                 />
               </div>
@@ -80,9 +80,9 @@ const Ourpillars = () => {
               <div className="custom-slide">
                 <Pillarcardtwo
                   bgImage={skills}
-                  headercontent={"Skills, Livelihoods & Entrepreneurship"}
+                  headercontent={"Skills, Livelihood & Entrepreneurship"}
                   text={
-                    "Trainings in renewable energy, construction and skill trades"
+                    "Promote Education and Economic empowerment of women and young persons."
                   }
                 />
               </div>
@@ -102,7 +102,7 @@ const Ourpillars = () => {
                   bgImage={capacitybuilding}
                   headercontent={"Advisory Services"}
                   text={
-                    "Train & empower community leaders. Mentorship programs for youths & professionals."
+                    "Empower community leaders.Mentorship programs for youths and professionals."
                   }
                 />
               </div>

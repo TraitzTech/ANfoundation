@@ -87,7 +87,7 @@ const Oursupport = () => {
                   bgImage={graduation}
                   headercontent={"Scholarship"}
                   text={
-                    "Dedicated to support any and all post-primary girls in Bambili, NWR "
+                    "Dedicated to support post-primary school girls, girls in STEM."
                   }
                 />
               </div>
