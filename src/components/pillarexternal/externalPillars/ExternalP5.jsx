@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import me from "../../../assets/technical.pdf"
+import me from "../../../assets/technical.pdf";
 
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
@@ -53,11 +53,7 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
             ></div>
 
             <li>
-              <a
-                href={me}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={me} target="_blank" rel="noopener noreferrer">
                 &#8226; Technical Experts
               </a>
             </li>

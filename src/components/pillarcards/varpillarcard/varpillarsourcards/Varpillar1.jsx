@@ -107,12 +107,18 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                 }
               >
                 <li className="lv2-one-li-one">
-                  <a href="#" target="_blank">
-                    &#8226; Event Information;
+                  <a
+                    href=" https://forms.gle/SJ2KSig1sYrvvSCH8"
+                    target="_blank"
+                  >
+                    &#8226; Event Introduction;
                   </a>
                 </li>
                 <li className="lv2-one-li-two">
-                  <a href="#" target="_blank">
+                  <a
+                    href=" https://drive.google.com/file/d/1cxIAwqM4TntJr36Pb_ER0-vEbjrg5rAY/view?usp=drivesdk"
+                    target="_blank"
+                  >
                     &#8226; Event Summary;
                   </a>
                 </li>
