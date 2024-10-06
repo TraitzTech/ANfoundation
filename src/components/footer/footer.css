@@ -33,7 +33,6 @@
   border-radius: 38px;
   padding: 15px 0px;
   text-align: center;
-
 }
 
 .footer-contents-b1 .h3-container .dot {
@@ -107,6 +106,10 @@
 
   .footer-contents-b1 p {
     text-align: center;
+  }
+
+  .footer-contents .dot {
+    top: 4px;
   }
 
   .footer-button {

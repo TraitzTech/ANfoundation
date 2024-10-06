@@ -60,9 +60,9 @@ const Newsletter = () => {
 
           <div className="newsletter-info">
             <div className="content-right-email">
-              <img src={phone} alt="phone Icon" />
+              <img className="phone-Icon" src={phone} alt="phone Icon" />
               <div className="">
-                <p>+(123) 456 789 0000</p>
+                <p>+237 677 77 41 75</p>
                 {/* <p>theakwofoundation@gmail.com</p> */}
               </div>
             </div>

@@ -138,6 +138,7 @@
   .dot {
     width: 17px;
     height: 17px;
+    top: 0px;
   }
 
   .sticky {

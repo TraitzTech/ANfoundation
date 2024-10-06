@@ -98,10 +98,7 @@
 
   .newsletter-contents-right {
     display: block;
-    
   }
-
-  
 }
 
 @media (max-width: 568px) {
@@ -121,13 +118,15 @@
     display: block;
   }
 
- 
-
   .right-contact p {
     margin-left: 20px;
   }
 
   .right-location p {
     margin-left: 14px;
+  }
+
+  .phone-Icon {
+    padding-left: 5px;
   }
 }
