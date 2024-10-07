@@ -14,7 +14,7 @@ const Works = () => {
     const hash = window.location.hash;
     if (hash) {
       const section = document.querySelector("#home");
-      if (hash !== section) {
+      if (section) {
         section.scrollIntoView({ behavior: "smooth" });
       }
     }
