@@ -3,7 +3,14 @@ import "./pillarcard.css";
 import bgimage from "../../assets/community Icon.png";
 import { Link } from "react-router-dom";
 
-const Pillarcard = ({ bgImage, headercontent, text }) => {
+const Pillarcard = ({
+  bgImage,
+  headercontent,
+  headercontent1 = "",
+  headercontent2 = "",
+  headercontent3 = "",
+  text,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
@@ -20,6 +27,17 @@ const Pillarcard = ({ bgImage, headercontent, text }) => {
         <div onClick={() => toggleDropdown(isOpen, setIsOpen)}>
           <img src={bgImage} alt="background image" />
           <h3>{headercontent}</h3>
+          <h3>
+            {" "}
+            <Link to="/works">{headercontent1}</Link>
+          </h3>
+          <h3>
+            {" "}
+            {/* <Link to="./works"> */}
+            {headercontent2}
+            {/* </Link> */}
+          </h3>
+          <h3>{headercontent3}</h3>
           <p>{text}</p>
           <hr />
           {/* <span className={isOpen ? "hidden" : ""} id="span">

@@ -11,7 +11,7 @@ const Partneruspage = () => {
         <div className="partner-us-contents-left">
           <Title content="Partner With Us" />
           <p>
-            Ready to empower at-risk youths with us? Schedule a call to discuss
+            Ready to empower at-risk comunities for sustainable growth with us? Schedule a call to discuss
             how your partnership can make a difference.{" "}
           </p>
           <p>

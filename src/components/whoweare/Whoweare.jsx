@@ -3,11 +3,14 @@ import "./whoweare.css";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import culture from "../../assets/culture.png";
+
 import lgimg from "../../assets/peoplecommunity.png";
 import kdimg from "../../assets/littlekid.png";
 import child from "../../assets/girls.jpg";
 import Title from "../title/Title";
 import Button from "../button/Button";
+import Pillarcard from "../pillarcards/Pillarcard";
 
 const Whoweare = () => {
   return (
@@ -21,23 +24,12 @@ const Whoweare = () => {
         </div>
 
         <div className="who-we-are-right">
-          <div className="who-we-are-right-contents">
-            <Link to="/works#home">
-              <h3 style={{ color: "orange" }}>
-                <FaArrowRight size={30} color="orange" /> Bambili
-              </h3>
-            </Link>
-
-            <h3>
-              <FaArrowRight size={30} color="orange" /> Limbe
-            </h3>
-            <h3>
-              <FaArrowRight size={30} color="orange" /> Buea
-            </h3>
-            <h3>
-              <FaArrowRight size={30} color="orange" /> Douala
-            </h3>
-          </div>
+          <Pillarcard
+            bgImage={culture}
+            headercontent1="Bambili"
+            headercontent2="Limbe"
+            headercontent3="Douala"
+          />
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Inpartners = () => {
           </Link>
         </div>
         <div className="cynthia-label">
-          <p>Miss Maria-Cynthia Ngwenui, 18 years</p>
+          <p>Miss Maria-Cynthia Ngwenui, Age: 18</p>
           <p>Youth Advisor, The AN</p>
         </div>
       </div>

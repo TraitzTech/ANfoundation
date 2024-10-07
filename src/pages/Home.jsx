@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import Navtop from "../components/navtop/Navtop";
 import Ourpillars from "../components/ourpillars/Ourpillars";
 import Whoweare from "../components/whoweare/Whoweare";
@@ -13,6 +14,16 @@ import Bfooter from "../components/bottomfooter/Bfooter";
 import Whewework from "../components/where-we-work/Whewework";
 
 const Home = () => {
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const section = document.querySelector("#home");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
+
   return (
     <div>
       {/* <Navtop /> */}
@@ -21,7 +32,7 @@ const Home = () => {
       <Whoweare />
 
       {/* <Whewework /> */}
-      <Oursupport />
+      {/* <Oursupport /> */}
       <Newsletter />
       <Footer />
       <Bfooter />

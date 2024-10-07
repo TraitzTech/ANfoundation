@@ -6,7 +6,7 @@ import Button from "../button/Button";
 
 const Empower = () => {
   return (
-    <div className="empower-container">
+    <div className="empower-container" >
       <h2>
         Empowering At-Risk Youth and Fostering  Community Development in
         Conflict- Affected Regions.

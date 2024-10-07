@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import { Link } from "react-router-dom";
+
 import "./navtop.css";
 import Button from "../../components/button/Button";
 const Navtop = () => {
@@ -14,7 +16,6 @@ const Navtop = () => {
     }
   };
 
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -23,12 +24,16 @@ const Navtop = () => {
   }, []);
 
   return (
-    <div className="navigation-container" id="home">
-      <div className="navtigation-top-contents">
-        <div className={`h3-container ${isSticky ? "sticky" : ""}`}>
-          <h3>
-            <span className="dot"></span> The Awahsa'a Ngeniform Foundation
-          </h3>
+    <div id="home">
+      <div className="navigation-container">
+        <div className="navtigation-top-contents">
+          <div className={`h3-container ${isSticky ? "sticky" : ""}`}>
+            <Link to="/home">
+              <h3>
+                <span className="dot"></span> The Awahsa'a Ngeniform Foundation
+              </h3>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
