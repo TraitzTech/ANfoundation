@@ -29,7 +29,7 @@ const Pillarcard = ({
           <h3>{headercontent}</h3>
           <h3>
             {" "}
-            <Link to="/works">{headercontent1}</Link>
+            <Link to="/works#home">{headercontent1}</Link>
           </h3>
           <h3>
             {" "}

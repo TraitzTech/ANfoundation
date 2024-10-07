@@ -79,7 +79,6 @@ const ExternalP1 = ({ bgImage, headercontent, text }) => {
               <li className="dd-lv-1-1-li-four">&#8226; MBECUDA USA</li>
               <li className="dd-lv-1-1-li-four">&#8226; MBECUDA CANADA</li>
               <li className="dd-lv-1-1-li-four">&#8226; MBECUDA GERMANY</li>
-              <hr className="med" />
 
               {/* end of dropdown lv 2 item */}
 
@@ -93,8 +92,6 @@ const ExternalP1 = ({ bgImage, headercontent, text }) => {
 
             {/* duplication dropdown level one */}
 
-            
-            
             {/* end of duplication of dropdown level one */}
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>

@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="footer-contents-b2">
           <h3>About</h3>
           <div className="a-links">
-            <a href="#home" >Home</a>
+            {/* <Link to="/home#home">Home</Link> */}
             {/* <a href="#about">About</a> */}
             <a href="#pillars">Our Pillars</a>
             {/* <a href="#">What others say</a> */}

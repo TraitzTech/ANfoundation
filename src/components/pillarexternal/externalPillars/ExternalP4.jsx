@@ -51,7 +51,12 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
               }
             >
               Health
-              <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
+              <p
+                style={{ fontWeight: "800", paddingLeft: "5px" }}
+                className={isOpenDropdownOne ? "for-drop" : ""}
+              >
+                &gt;
+              </p>
             </h2>
             <div
               className={

@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "../varpillarcard.css";
 
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
-  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
+  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(true);
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
-  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
+  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
   const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(false);
   const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(false);
 
@@ -42,17 +42,6 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
           }
         >
           <ul className="varpillar-gen-ul">
-            {/* start of dropdown lv one first item */}
-
-            {/* <h2
-              className="varpillar-head-dropdown-lv-1 head-one"
-              onClick={() =>
-                toggleDropdown(isOpenDropdownOne, setIsOpenDropdownOne)
-              }
-            >
-              Community Mobilisation
-              <p className={isOpenDropdownOne ? "for-drop" : ""}>&gt;</p>
-            </h2> */}
             <div
               className={
                 isOpenDropdownOne
@@ -67,7 +56,8 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
                 }
               >
-                &#9724; Inaugural consultation/webinar on empowering{" "}
+                &#9724; Inaugural consultation/webinar on empowering the Mbeligi
+                community by nurturing women and girls{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -85,7 +75,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  the Mbeligi community by nurturing women and girls .{" "}
+                  .{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}

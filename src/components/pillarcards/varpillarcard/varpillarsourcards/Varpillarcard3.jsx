@@ -56,7 +56,8 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdownfive, setIsOpenDropdownfive)
                 }
               >
-                &#9724; Inaugural consultation/webinar on empowering{" "}
+                &#9724; Inaugural consultation/webinar on empowering the Mbeligi
+                community by nurturing women and girls{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -74,7 +75,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  the Mbeligi community by nurturing women and girls .{" "}
+                  .{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
@@ -86,7 +87,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                     see less
                   </span>{" "}
                 </span>
-                <p className={isOpenDropdownfive ? "for-drop" : ""}>&gt;</p>
+                {/* <p className={isOpenDropdownfive ? "for-drop" : ""}>&gt;</p> */}
               </h2>
 
               <div

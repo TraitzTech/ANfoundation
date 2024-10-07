@@ -24,7 +24,7 @@
 .varpillarcard-contents li a {
   color: rgba(255, 115, 21, 1);
   text-decoration: none;
-  padding-left: 8px;
+  /* padding-left: 8px; */
 }
 
 .varpillar-std-block {
@@ -64,6 +64,8 @@
 .varpillar-gen-ul li p {
   transform: rotate(90deg);
   display: inline-block;
+  font-weight: 800;
+  padding-left: 5px;
 }
 
 .varpillar-head-dropdown-lv-1 .for-drop,
@@ -143,6 +145,4 @@
   .varpillar-std-block h3 {
     font-size: 28px;
   }
-
-  
 }

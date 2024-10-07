@@ -16,19 +16,12 @@ const Navtop = () => {
     }
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
     <div id="home">
       <div className="navigation-container">
         <div className="navtigation-top-contents">
           <div className={`h3-container ${isSticky ? "sticky" : ""}`}>
-            <Link to="/home">
+            <Link to="/home#home">
               <h3>
                 <span className="dot"></span> The Awahsa'a Ngeniform Foundation
               </h3>

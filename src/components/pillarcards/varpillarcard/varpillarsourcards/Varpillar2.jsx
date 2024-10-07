@@ -160,8 +160,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 <a
                   href="https://www.facebook.com/share/NgdVZ7sUw4n7e7E6/?mibextid=kFxxJD"
                   target="_blank"
-                >
-                  {" "}
+                > 
                   &#8226; Akwo Girls In Technology Scholarship Program
                 </a>{" "}
                 <span

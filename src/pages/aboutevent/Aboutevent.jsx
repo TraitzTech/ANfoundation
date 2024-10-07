@@ -16,17 +16,17 @@ const Aboutevent = () => {
       <div className="aboutevent-container-contents">
         <h2>About Bambili</h2>
         <p>
-          Bambili is a picturesque town in Cameroon's North West region. It is
+          Bambili is a vibrant University town in Cameroon's North West region. It is
           home to approximately 32,000 inhabitants. Lake Bambili and the
           University of Bamenda are key landmarks within the town, the latter
           drawing many youth from across the country. Like many areas in the
-          North West, Bambili has been affected by the ongoing conflict{" "}
+          North West, Bambili has been affected by the ongoing {""}
           <a
             href="https://en.wikipedia.org/wiki/Anglophone_Crisis"
             target="_blank"
             rel="noreferrer"
           >
-            Wikipedia
+            conflict
           </a>
           , leading to insecurity, forced displacement, human development
           challenges, and humanitarian concerns. Bambili's rich cultural
