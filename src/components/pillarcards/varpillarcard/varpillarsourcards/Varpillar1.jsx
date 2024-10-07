@@ -56,7 +56,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
                 }
               >
-                &#9724; Inaugural consultation/webinar on empowering the Mbeligi
+                &#8226; Inaugural consultation/webinar on empowering the Mbeligi
                 community by nurturing women and girls{" "}
                 <span
                   id="see"

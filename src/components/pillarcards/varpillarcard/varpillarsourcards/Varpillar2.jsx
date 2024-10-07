@@ -66,7 +66,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Apprenticeship and training of young men in {""}
+                &#8226; Apprenticeship and training of young men in renewable
+                energy{""}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -84,7 +85,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  renewable energy and skilled trades in partnership with{" "}
+                  and skilled trades in partnership with{" "}
                   <a
                     href="https://www.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d "
                     target="_blank"
@@ -113,7 +114,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Scholarship and textbook support to, {""}{" "}
+                &#8226; Scholarship and textbook support to, post-primary school
+                girls {""}{" "}
                 <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
@@ -122,7 +124,6 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   {" "}
-                  see more
                 </span>{" "}
                 <span
                   className={
@@ -131,7 +132,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  post- primary school girls{" "}
+                  {" "}
                   {/* <a
                     href="mailto:apostolicworkslesaplatinum@gmail.com"
                     target="_blank"
@@ -160,7 +161,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 <a
                   href="https://www.facebook.com/share/NgdVZ7sUw4n7e7E6/?mibextid=kFxxJD"
                   target="_blank"
-                > 
+                >
                   &#8226; Akwo Girls In Technology Scholarship Program
                 </a>{" "}
                 <span
@@ -199,7 +200,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Digital skills and Career{" "}
+                &#8226; Digital skills and Career development support for young
+                men.{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -217,8 +219,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  development support for young men. Some initiatives in
-                  partnership with{" "}
+                  Some initiatives in partnership with{" "}
                   <a
                     href="https://www.facebook.com/OLFPBambili/posts/pfbid02H6CaB4kpJihvEmRzbqSSujHCrNorPtHju5dKdEYLwMcCgSTWFv4pWYbxZTQEuyppl "
                     target="_blank"

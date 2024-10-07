@@ -28,10 +28,10 @@ const Home = () => {
     <div>
       {/* <Navtop /> */}
       <Empower />
+      <Whewework />
       <Ourpillars />
       <Whoweare />
 
-      {/* <Whewework /> */}
       {/* <Oursupport /> */}
       <Newsletter />
       <Footer />

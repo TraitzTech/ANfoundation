@@ -55,7 +55,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
               <li>&#8226; Sex Education</li>
 
               <li className="lv2-one-li-one">
-                &#8226; Digital savings for economic security in {""}{" "}
+                &#8226; Digital savings for economic security{" "}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -73,9 +73,9 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  partnership with {""}
+                  in partnership with {""}
                   <a href="https://mynkwa.com/" target="_blank">
-                    Nkwa Tech Ltd
+                    myNkwa.com
                   </a>{" "}
                   <span
                     id="see"

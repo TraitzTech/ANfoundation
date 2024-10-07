@@ -56,7 +56,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdownfive, setIsOpenDropdownfive)
                 }
               >
-                &#9724; Inaugural consultation/webinar on empowering the Mbeligi
+                &#8226; Inaugural consultation/webinar on empowering the Mbeligi
                 community by nurturing women and girls{" "}
                 <span
                   id="see"
@@ -130,7 +130,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   toggleDropdown(isOpenDropdownsix, setIsOpenDropdownsix)
                 }
               >
-                &#9724; Community Library (Planned){" "}
+                &#8226; Community Library (Planned){" "}
                 {/* <p className={isOpenDropdownsix ? "for-drop" : ""}>&gt;</p> */}
               </h2>
             </div>

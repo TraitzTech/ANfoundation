@@ -82,7 +82,7 @@ const Ourpillars = () => {
                   bgImage={skills}
                   headercontent={"Skills, Livelihoods & Entrepreneurship"}
                   text={
-                    "Promote education and economic empowerment of at risk youth and women."
+                    "Promote education and economic empowerment of at-risk youth and women."
                   }
                 />
               </div>
