@@ -10,9 +10,11 @@ import ExternalR from "../../components/pillarexternal/ExternalR";
 const Aboutevent = () => {
   var settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 2000,
+    slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
   };
@@ -25,7 +27,14 @@ const Aboutevent = () => {
             <img src={biliImage} alt="" />
             <div className="image-lebel">
               <p>Lake Bambili</p>
-            </div>  
+            </div>
+          </div>
+
+          <div className="aboutevent-container-image">
+            <img src={biliImage} alt="" />
+            <div className="image-lebe">
+              <p>Lake Bambili</p>
+            </div>
           </div>
         </Slider>
       </div>
