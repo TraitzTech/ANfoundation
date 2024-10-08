@@ -28,7 +28,7 @@ const Whewework = () => {
           <p>
             Our approach emphasizes local ownership, fostering sustainable
             solutions for income-generating activities, and ensuring long-term
-            impact through beneficiary continuity programs. Our mission is to
+            impact through beneficiary continuity programs. Our goal is to
             create a supportive and enabling environment for at-risk youth and
             communities in Cameroon, providing them with needed tools to achieve
             their positive aspirations for development and a prosperous,

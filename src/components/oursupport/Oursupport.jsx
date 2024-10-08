@@ -61,7 +61,7 @@ const Oursupport = () => {
   };
   return (
     <div className="oursupport-container">
-      <div className="oursupport-contents">
+      {/* <div className="oursupport-contents">
         <div className="oursupport-title">
           <Title content="What we support" />
         </div>
@@ -103,7 +103,7 @@ const Oursupport = () => {
                 />
               </div>
             </div>
-            {/* <div>
+            <div>
               <div className="custom-slide">
                 <Swippercard
                   bgImage={swipperchild}
@@ -113,10 +113,10 @@ const Oursupport = () => {
                   }
                 />
               </div>
-            </div> */}
+            </div>
           </Slider>
         </div>
-      </div>
+      </div> */}
       <div className="ipartner-container">
         <Inpartners />
       </div>
