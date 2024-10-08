@@ -127,7 +127,7 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                   target="_blank"
                 >
                   {" "}
-                  &#8226; Achu and Yellow soup
+                  &#8226; Achu and Yellow soup (Bambili Traditional Meal)
                 </a>
               </li>
               <li className="dd-lv-1-2-li-two">
@@ -139,7 +139,7 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                   href="https://en.wikipedia.org/wiki/Palm_wine"
                   target="_blank"
                 >
-                  &#8226; Muluh (palm wine)
+                  &#8226; Palm Wine (Bambili Traditional Drink)
                 </a>
               </li>
 
@@ -179,6 +179,10 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                 </a>
               </li>
             </div>
+
+            <li>
+              &#8226; About Bambili - <a href="https://joshuaproject.net/people_groups/10618/CM">The Joshua Project</a>
+            </li>
 
             {/* end of duplication of dropdown level one */}
           </ul>
