@@ -76,8 +76,10 @@ const ExternalP1 = ({ bgImage, headercontent, text }) => {
               <li className="dd-lv-1-1-li-three">&#8226; MBECUDA Limbe</li>
               <li className="dd-lv-1-1-li-two">&#8226; MBECUDA Douala</li>
               <li className="dd-lv-1-1-li-four">&#8226; MBECUDA Yaounde</li>
-              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA USA</li>
-              <li className="dd-lv-1-1-li-four">&#8226; MBECUDA CANADA</li>
+              <li className="dd-lv-1-1-li-four">
+                &#8226; MBECUDA North America
+              </li>
+              {/* <li className="dd-lv-1-1-li-four">&#8226; MBECUDA CANADA</li> */}
               <li className="dd-lv-1-1-li-four">&#8226; MBECUDA GERMANY</li>
 
               {/* end of dropdown lv 2 item */}

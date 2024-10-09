@@ -168,7 +168,7 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
               }
             >
               <li className="dd-lv-1-1-li-two">&#8226; Bambili Palace</li>
-              <li className="dd-lv-1-1-li-three">&#8226; Quarters</li>
+              {/* <li className="dd-lv-1-1-li-three">&#8226; Quarters</li> */}
               <li className="dd-lv-1-1-li-four">
                 {" "}
                 <a
@@ -181,7 +181,13 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
             </div>
 
             <li>
-              &#8226; About Bambili - <a href="https://joshuaproject.net/people_groups/10618/CM">The Joshua Project</a>
+              &#8226; About Bambili -{" "}
+              <a
+                href="https://joshuaproject.net/people_groups/10618/CM"
+                target="_blank"
+              >
+                The Joshua Project
+              </a>
             </li>
 
             {/* end of duplication of dropdown level one */}

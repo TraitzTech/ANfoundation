@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import biliImage from "../../assets/Lakdbili.jpg";
+import image2 from "../../assets/image two.jpg";
 // import Varpillarcard from "../../components/pillarcards/varpillarcard/Varpillarcard";
 import Abeventpillars from "../../components/abouteventpillars/Abeventpillars";
 import ExternalR from "../../components/pillarexternal/ExternalR";
@@ -24,17 +25,13 @@ const Aboutevent = () => {
       <div className="slider-container">
         <Slider {...settings}>
           <div className="aboutevent-container-image">
-            <img src={biliImage} alt="" />
-            <div className="image-lebel">
-              <p>Lake Bambili</p>
-            </div>
+            <img src={image2} alt="" />
+            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
           </div>
 
           <div className="aboutevent-container-image">
             <img src={biliImage} alt="" />
-            <div className="image-lebe">
-              <p>Lake Bambili</p>
-            </div>
+            <div className="image-lebe">{/* <p>Lake Bambili</p> */}</div>
           </div>
         </Slider>
       </div>
