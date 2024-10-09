@@ -3,6 +3,7 @@ import "./wherewework.css";
 import { Link } from "react-router-dom";
 
 import Title from "../title/Title";
+import Button from "../button/Button";
 
 const Whewework = () => {
   return (
@@ -35,6 +36,9 @@ const Whewework = () => {
             resilient society.{" "}
           </p>
         </p>
+        <a href="#" target="__blank">
+          <Button content={"Read more"} />
+        </a>
       </div>
     </div>
   );

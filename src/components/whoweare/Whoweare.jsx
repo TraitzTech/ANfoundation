@@ -11,6 +11,7 @@ import child from "../../assets/girls.jpg";
 import Title from "../title/Title";
 import Button from "../button/Button";
 import Pillarcard from "../pillarcards/Pillarcard";
+import image from "../../assets/skills.png";
 
 const Whoweare = () => {
   return (
@@ -25,7 +26,7 @@ const Whoweare = () => {
 
         <div className="who-we-are-right">
           <Pillarcard
-            bgImage={culture}
+            bgImage={image}
             headercontent1="Bambili"
             headercontent2="Limbe"
             headercontent3="Douala"
