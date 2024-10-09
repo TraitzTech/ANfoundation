@@ -36,7 +36,7 @@ const Whewework = () => {
             resilient society.{" "}
           </p>
         </p>
-        <a href="#" target="__blank">
+        <a href="https://drive.google.com/file/d/13K-pM2Vn5TDLqRGt1jv8h8Q19zzguiRQ/view?usp=drivesdk" target="__blank">
           <Button content={"Read more"} />
         </a>
       </div>
