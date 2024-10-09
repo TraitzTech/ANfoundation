@@ -23,8 +23,8 @@ const Footer = () => {
             </h3>
           </div>
           <p>
-            Join our mission to empower at-risk communities for sustainable
-            growth.
+            Join our mission equip at-risk youth and communities for resilience
+            and sustainable growth
           </p>
 
           <div className="footer-button">
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="footer-contents-b5">
           <h3>Connect with us</h3>
-          <Socials socialColor="rgba(32, 32, 32, 1)" />
+          {/* <Socials socialColor="rgba(32, 32, 32, 1)" /> */}
         </div>
       </div>
       <hr />

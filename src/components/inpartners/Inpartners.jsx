@@ -10,7 +10,10 @@ const Inpartners = () => {
     <div className="inpartners-container" id="partner">
       <div className="inpartners-inner-container">
         <p className="small">Partner with the AN</p>
-        <p className="lg">Empower at risk communities for sustainable growth</p>
+        <p className="lg">
+          Equip at-risk youth and communities for resilience and sustainable
+          growth
+        </p>
 
         <div className="inpartners-button">
           <Link to="/partnerwithus">
@@ -18,7 +21,7 @@ const Inpartners = () => {
           </Link>
         </div>
         <div className="cynthia-label">
-          <p>Miss Maria-Cynthia Ngwenui, Age: 18</p>
+          <p>Miss Maria-Cynthia Ngwenui, Age 18.</p>
           <p>Youth Advisor, The AN</p>
         </div>
       </div>

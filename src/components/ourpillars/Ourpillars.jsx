@@ -92,7 +92,9 @@ const Ourpillars = () => {
                 <Pillarcardthree
                   bgImage={culture}
                   headercontent={"Culture"}
-                  text={"Celebrate heritage. Broaden world view."}
+                  text={
+                    "Foster equitable traditions, harness local content, and promote sustainable tourism"
+                  }
                 />
               </div>
             </div>
@@ -102,7 +104,7 @@ const Ourpillars = () => {
                   bgImage={capacitybuilding}
                   headercontent={"Advisory Services"}
                   text={
-                    "Empower community leaders. mentorship programs for youths and professionals."
+                    "Empower community leaders. mentorship programs for youth and professionals."
                   }
                 />
               </div>

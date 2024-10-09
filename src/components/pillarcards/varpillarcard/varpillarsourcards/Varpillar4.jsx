@@ -201,3 +201,4 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
 };
 
 export default Varpillar4;
+
