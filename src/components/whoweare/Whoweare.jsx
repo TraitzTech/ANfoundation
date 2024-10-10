@@ -29,6 +29,7 @@ const Whoweare = () => {
             bgImage={image}
             headercontent1="Bambili"
             headercontent2="Limbe"
+            plus={"+"}
             headercontent3="Douala"
           />
         </div>

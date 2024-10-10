@@ -11,6 +11,7 @@ const Pillarcard = ({
   headercontent2 = "",
   headercontent3 = "",
   text,
+  plus,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
@@ -33,20 +34,20 @@ const Pillarcard = ({
             <Link to="/works#home">
               {" "}
               {/* <FaArrowRight size={20} /> */}
-              {headercontent1} <span style={{ float: "right" }}>+</span>
+              {headercontent1} <span style={{ float: "right" }}>{plus}</span>
             </Link>
           </h3>
           <h3>
             {" "}
             {/* <Link to="./works"> */}
             <a href="#" target="_blank">
-              {headercontent2} <span style={{ float: "right" }}>+</span>
+              {headercontent2} <span style={{ float: "right" }}>{plus}</span>
             </a>
             {/* </Link> */}
           </h3>
           <h3>
             <a href="#" target="_blank">
-              {headercontent3} <span style={{ float: "right" }}>+</span>
+              {headercontent3} <span style={{ float: "right" }}>{plus}</span>
             </a>
           </h3>
           <p>{text}</p>
