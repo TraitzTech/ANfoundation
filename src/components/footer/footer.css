@@ -71,6 +71,12 @@
   margin-top: -40px;
 }
 
+.footer-connect {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+}
+
 @media (max-width: 968px) {
   .footer-container {
     max-width: 95%;

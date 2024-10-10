@@ -116,7 +116,7 @@ const Ourpillars = () => {
                   bgImage={resources}
                   headercontent={"Women's Health & Resilience"}
                   text={
-                    "Financial security, sex and reproductive health education and gender base violence prevention"
+                    "Financial security, sex and reproductive health education, and gender-based violence(GBV) prevention"
                   }
                 />
               </div>

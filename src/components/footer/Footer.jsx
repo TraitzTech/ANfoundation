@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import arrowUp from "../../assets/arrowUp.png";
 
 import { FaArrorUp, FaArrowUp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 import logo from "../../assets/footerlogo.png";
 import Button from "../../components/button/Button";
@@ -23,8 +24,8 @@ const Footer = () => {
             </h3>
           </div>
           <p>
-            Join our mission equip at-risk youth and communities for resilience
-            and sustainable growth
+            Join us to equip at-risk youth and communities for resilience and
+            sustainable growth
           </p>
 
           <div className="footer-button">
@@ -66,6 +67,10 @@ const Footer = () => {
         <div className="footer-contents-b5">
           <h3>Connect with us</h3>
           {/* <Socials socialColor="rgba(32, 32, 32, 1)" /> */}
+          <div className="footer-connect">
+            <FaWhatsapp size={30} color="green" />
+            <span>+237 653 54 98 47</span>
+          </div>
         </div>
       </div>
       <hr />

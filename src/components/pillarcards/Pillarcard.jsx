@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./pillarcard.css";
+import { FaArrowRight } from "react-icons/fa";
 import bgimage from "../../assets/community Icon.png";
 import { Link } from "react-router-dom";
 
@@ -29,15 +30,25 @@ const Pillarcard = ({
           <h3>{headercontent}</h3>
           <h3>
             {" "}
-            <Link to="/works#home">{headercontent1}</Link>
+            <Link to="/works#home">
+              {" "}
+              {/* <FaArrowRight size={20} /> */}
+              {headercontent1} <span style={{ float: "right" }}>+</span>
+            </Link>
           </h3>
           <h3>
             {" "}
             {/* <Link to="./works"> */}
-            {headercontent2}
+            <a href="#" target="_blank">
+              {headercontent2} <span style={{ float: "right" }}>+</span>
+            </a>
             {/* </Link> */}
           </h3>
-          <h3>{headercontent3}</h3>
+          <h3>
+            <a href="#" target="_blank">
+              {headercontent3} <span style={{ float: "right" }}>+</span>
+            </a>
+          </h3>
           <p>{text}</p>
           <hr />
           {/* <span className={isOpen ? "hidden" : ""} id="span">

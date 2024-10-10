@@ -19,23 +19,24 @@ const Whewework = () => {
           intersecting challenges of unemployment, gender inequality and related
           violence, social exclusion, conflict, climate fragility, and forced
           displacement.
-          <p>
-            We believe in the potential of every young person and strive to
-            create a brighter future for all at-risk youth in Cameroon. We
-            provide comprehensive support through education and skills,
-            psychosocial support services, leadership development, and advocacy
-            for policy change.{" "}
-          </p>
-          <p>
-            Our approach emphasizes local ownership, fostering sustainable
-            solutions for income-generating activities, and ensuring long-term
-            impact through beneficiary continuity programs. Our goal is to
-            create a supportive and enabling environment for at-risk youth and
-            communities in Cameroon, providing them with needed tools to achieve
-            their positive aspirations for development and a prosperous,
-            resilient society.{" "}
-          </p>
         </p>
+        <p>
+          We believe in the potential of every young person and strive to create
+          a brighter future for all at-risk youth in Cameroon. We provide
+          comprehensive support through education and skills, psychosocial
+          support services, leadership development, and advocacy for policy
+          change.{" "}
+        </p>
+        <p>
+          Our approach emphasizes local ownership, fostering sustainable
+          solutions for income-generating activities, and ensuring long-term
+          impact through beneficiary continuity programs. Our goal is to create
+          a supportive and enabling environment for at-risk youth and
+          communities in Cameroon, providing them with needed tools to achieve
+          their equipping aspirations for development and a prosperous,
+          resilient society.{" "}
+        </p>
+
         <a
           href="https://drive.google.com/file/d/13K-pM2Vn5TDLqRGt1jv8h8Q19zzguiRQ/view?usp=drivesdk"
           target="__blank"

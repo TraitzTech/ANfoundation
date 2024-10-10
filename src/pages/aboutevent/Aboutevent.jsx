@@ -14,7 +14,7 @@ const Aboutevent = () => {
     infinite: true,
     speed: 500,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 2000,
+    autoplaySpeed: 8000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -39,7 +39,7 @@ const Aboutevent = () => {
       <div className="aboutevent-container-contents">
         <h2>About Bambili</h2>
         <p>
-          Bambili is a vibrant University town in Cameroon's North West region.
+          Bambili is a vibrant university town in Cameroon's North West region.
           It is home to approximately 32,000 inhabitants. Lake Bambili and the
           University of Bamenda are key landmarks within the town, the latter
           drawing many youth from across the country. Like many areas in the
