@@ -40,13 +40,19 @@ const Pillarcard = ({
           <h3>
             {" "}
             {/* <Link to="./works"> */}
-            <a href="#" target="_blank">
+            <a
+              href="https://web.facebook.com/AkwoGirlTech?mibextid=kFxxJD&rdid=CFDHyinc8VJ6ZKKc&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2FNgdVZ7sUw4n7e7E6%2F%3Fmibextid%3DkFxxJD%26_rdc%3D1%26_rdr"
+              target="_blank"
+            >
               {headercontent2} <span style={{ float: "right" }}>{plus}</span>
             </a>
             {/* </Link> */}
           </h3>
           <h3>
-            <a href="#" target="_blank">
+            <a
+              href="https://web.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d&_rdc=1&_rdr"
+              target="_blank"
+            >
               {headercontent3} <span style={{ float: "right" }}>{plus}</span>
             </a>
           </h3>

@@ -30,7 +30,7 @@ const Whoweare = () => {
             headercontent1="Bambili"
             headercontent2="Limbe"
             plus={"+"}
-            headercontent3="Douala"
+            headercontent3="Douala SSR"
           />
         </div>
       </div>

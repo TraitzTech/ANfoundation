@@ -9,7 +9,7 @@ const Empower = () => {
     <div className="empower-container">
       <h2>
         Empowering At-Risk Youth and Fostering  Community Development in
-        Conflict- Affected Regions.
+        Conflict-Affected Regions.
       </h2>
 
       <div className="buttons">

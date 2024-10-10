@@ -31,11 +31,29 @@
   margin: 20px 0px;
 }
 
+.where-we-work-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.where-we-work-text img {
+  width: 300px;
+  border-radius: 24px;
+}
+
 @media (max-width: 568px) {
   .where-we-work-text {
     max-width: 95%;
     padding: 10px;
     text-align: center;
     font-size: 18px;
+  }
+
+  .where-we-work-text {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    flex-direction: column-reverse;
   }
 }
