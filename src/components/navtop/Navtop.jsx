@@ -36,7 +36,6 @@ const Navtop = () => {
             </Link>
           </div>
         </div>
-        r
       </div>
     </div>
   );

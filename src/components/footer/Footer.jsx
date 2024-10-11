@@ -24,7 +24,7 @@ const Footer = () => {
             </h3>
           </div>
           <p>
-            Join us equip at-risk youth and communities for resilience and
+            Join us to equip at-risk youth and communities for resilience and
             sustainable growth
           </p>
 

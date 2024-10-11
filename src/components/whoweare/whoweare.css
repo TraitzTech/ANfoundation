@@ -162,14 +162,15 @@
   }
 
   .who-we-are-left img:nth-child(2) {
-    width: 72px;
-    height: 72px;
+    width: 130px;
+    height: 130px;
     right: -40px;
+    bottom: -35px;
   }
 
   .who-we-are-left img:last-child {
     width: 130px;
-    height: 126px;
+    height: 130px;
     left: -40px;
     border-radius: 50%;
   }

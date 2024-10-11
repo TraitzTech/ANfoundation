@@ -73,6 +73,10 @@
   font-size: 17px;
 }
 
+.phone-Icon {
+  width: 20px;
+}
+
 .newsletter-info {
   display: inline-flex;
   justify-content: space-between;
