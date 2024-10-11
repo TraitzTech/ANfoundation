@@ -115,6 +115,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .footer-contents-b5 {
+    margin-bottom: 15px;
+  }
+
   /* .footer-contents-b1 {
     grid-column-start: 1;
     grid-column-end: 3;
