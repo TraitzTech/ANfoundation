@@ -75,10 +75,12 @@
   margin-top: -40px;
 }
 
-.footer-connect {
+.footer-connect a {
   display: flex;
   align-items: center;
   font-family: Inter;
+  text-decoration: none;
+  color: black;
 }
 
 .footer-contents .dot {
