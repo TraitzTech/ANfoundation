@@ -31,7 +31,6 @@ const Navtop = () => {
             <Link to="/home#home">
               <h3 className="nav-top-header">
                 <span className="dot"></span> The Awahsa'a Ngeniform Foundation
-                (AN)
               </h3>
             </Link>
           </div>

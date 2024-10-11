@@ -1,6 +1,9 @@
 .aboutevent-container-image img {
-  width: 100%;
+  /* width: 100%; */
   position: relative;
+  height: 450px;
+  margin: auto;
+  border-radius: 24px;
 }
 
 .aboutevent-container-contents {
@@ -38,6 +41,14 @@
 @media (max-width: 568px) {
   .aboutevent-container-contents {
     max-width: 100%;
+  }
+
+  .aboutevent-container-image img {
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin: auto;
+    border-radius: 12px;
   }
 
   .image-lebel {
