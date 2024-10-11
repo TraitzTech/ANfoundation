@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import culture from "../../assets/culture.png";
 
 import lgimg from "../../assets/Mask group (1).png";
-import kdimg from "../../assets/Mask group (2).png";
+import kdimg from "../../assets/solarpanels.jpg";
 import child from "../../assets/Mask group.png";
 import Title from "../title/Title";
 import Button from "../button/Button";
