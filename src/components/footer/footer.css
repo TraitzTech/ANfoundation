@@ -129,4 +129,8 @@
   .footer-button {
     text-align: center;
   }
+
+  .footer-connect span {
+    font-size: 15px;
+  }
 }
