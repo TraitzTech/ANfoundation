@@ -3,7 +3,7 @@ import "./aboutevent.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import biliImage from "../../assets/Lakdbili.jpg";
+import biliImage from "../../assets/Lakdbili1.jpg";
 import image2 from "../../assets/image two.jpg";
 // import Varpillarcard from "../../components/pillarcards/varpillarcard/Varpillarcard";
 import Abeventpillars from "../../components/abouteventpillars/Abeventpillars";
@@ -14,7 +14,7 @@ const Aboutevent = () => {
     infinite: true,
     speed: 500,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 8000,
+    autoplaySpeed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,

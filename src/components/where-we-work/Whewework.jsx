@@ -26,16 +26,16 @@ const Whewework = () => {
             We believe in the potential of every young person and strive to
             create a brighter future for all at-risk youth in Cameroon. We
             provide comprehensive support through education and skills,
-            psychosocial support services, leadership development, and advocacy
+            psychosocial support services, leadership development and advocacy
             for policy change.{" "}
           </p>
           <p>
             Our approach emphasizes local ownership, fostering sustainable
-            solutions for income-generating activities, and ensuring long-term
+            solutions for income-generating activities and ensuring long-term
             impact through beneficiary continuity programs. Our goal is to
             create a supportive and enabling environment for at-risk youth and
-            communities in Cameroon, providing them with needed tools to achieve
-            their equipping aspirations for development and a prosperous,
+            communities in Cameroon, equipping them with the necessary tools to achieve
+            their aspirations for a developed and prosperous,
             resilient society.{" "}
           </p>
 

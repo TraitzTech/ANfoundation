@@ -7,7 +7,7 @@
 }
 
 .navtigation-top-contents {
-  padding-top: 150px;
+  padding-top: 180px;
   position: relative;
   text-align: center;
 }
@@ -18,9 +18,16 @@
   width: fit-content;
   padding: 21px 48px 21px 48px;
   border-radius: 70px;
-  font-size: 62px;
-  font-weight: 700;
+  font-size: 92px;
+  font-weight: 400;
   /* position: sticky; */
+  letter-spacing: -6px;
+  line-height: 93px;
+}
+
+.nav-top-header .dot {
+  width: 60px;
+  height: 60px;
 }
 
 .dot {

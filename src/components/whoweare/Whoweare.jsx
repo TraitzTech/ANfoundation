@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 import culture from "../../assets/culture.png";
 
-import lgimg from "../../assets/chiefs.jpg";
-import kdimg from "../../assets/littlekid.jpg";
-import child from "../../assets/girls.jpg";
+import lgimg from "../../assets/Mask group (1).png";
+import kdimg from "../../assets/Mask group (2).png";
+import child from "../../assets/Mask group.png";
 import Title from "../title/Title";
 import Button from "../button/Button";
 import Pillarcard from "../pillarcards/Pillarcard";
@@ -30,7 +30,7 @@ const Whoweare = () => {
             headercontent1="Bambili"
             headercontent2="Limbe"
             plus={"+"}
-            headercontent3="Douala SSR"
+            headercontent3="Douala (with SSTR)"
           />
         </div>
       </div>

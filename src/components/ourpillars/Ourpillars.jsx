@@ -93,7 +93,7 @@ const Ourpillars = () => {
                   bgImage={culture}
                   headercontent={"Culture"}
                   text={
-                    "Foster equitable traditions, harness local content, and promote sustainable tourism"
+                    "Foster equitable traditions, harness local content, and promote sustainable tourism."
                   }
                 />
               </div>
@@ -104,7 +104,7 @@ const Ourpillars = () => {
                   bgImage={capacitybuilding}
                   headercontent={"Advisory Services"}
                   text={
-                    "Empower community leaders. mentorship programs for youth and professionals."
+                    "Empower community leaders, mentor youth and professionals."
                   }
                 />
               </div>
@@ -116,7 +116,7 @@ const Ourpillars = () => {
                   bgImage={resources}
                   headercontent={"Women's Health & Resilience"}
                   text={
-                    "Financial security, sex and reproductive health education, and gender-based violence(GBV) prevention"
+                    "Financial security, sex and reproductive health education, and Gender-based violence (GBV) prevention."
                   }
                 />
               </div>
