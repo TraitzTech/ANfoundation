@@ -1,5 +1,6 @@
 import React from "react";
 import "./whoweare.css";
+import location from "../../assets/location.png";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -26,7 +27,7 @@ const Whoweare = () => {
 
         <div className="who-we-are-right">
           <Pillarcard
-            bgImage={image}
+            bgImage={location}
             headercontent1="Bambili"
             headercontent2="Limbe"
             plus={"+"}

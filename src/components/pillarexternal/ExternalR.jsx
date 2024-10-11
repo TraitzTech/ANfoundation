@@ -12,6 +12,7 @@ import community from "../../assets/community Icon.png";
 import culture from "../../assets/culture.png";
 import resources from "../../assets/resources.png";
 import skills from "../../assets/skills.png";
+import social from "../../assets/Social Service.png"
 
 import Pillarcardtwo from "../pillarcards/Pillarcardtwo";
 import Pillarcardthree from "../pillarcards/Pillarcardthree";
@@ -73,7 +74,7 @@ const ExternalR = () => {
             <div>
               <div className="custom-slide">
                 <ExternalP4
-                  bgImage={capacitybuilding}
+                  bgImage={social}
                   headercontent={"Social Services"}
                 />
                 {/* <ExternalP1
