@@ -11,13 +11,13 @@ const Partneruspage = () => {
         <div className="partner-us-contents-left">
           <Title content="Partner With Us" />
           <p>
-            Join us equip at-risk youth and communities for resilience
-            and sustainable growth?{" "}
+            Join us equip at-risk youth and communities for resilience and
+            sustainable growth?{" "}
           </p>
           <p>
             Connect with us by filling out our online form or emailing us at
-            <a href="mailto:theanfoundation0@gmail.com">
-              <span> </span>theanfoundation0@gmail.com  
+            <a href="mailto:awahsaangeniformfdn@gmail.com">
+              <span> </span>awahsaangeniformfdn@gmail.com
             </a>
           </p>
 
