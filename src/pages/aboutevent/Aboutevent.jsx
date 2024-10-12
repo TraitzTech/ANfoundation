@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./aboutevent.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -26,22 +27,32 @@ import sittingWomen from "../../assets/sitting_women.jpg";
 import Abeventpillars from "../../components/abouteventpillars/Abeventpillars";
 import ExternalR from "../../components/pillarexternal/ExternalR";
 const Aboutevent = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
   var settings = {
     dots: false,
     infinite: true,
     speed: 500,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 4000,
+    autoplaySpeed: 18000,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     initialSlide: 0,
+    beforeChange: (current, next) => {
+      // Prevent moving to the fixed slide (e.g., slide at index 2)
+      if (next % 4 === 2) {
+        return false; // Prevent transition
+      }
+    },
+    afterChange: (index) => {
+      setCurrentSlide(index);
+    },
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           // dots: true,
         },
       },
@@ -51,6 +62,7 @@ const Aboutevent = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          infinite: true,
           // dots: true,
         },
       },
@@ -118,37 +130,12 @@ const Aboutevent = () => {
 
             <div className="aboutevent-container-image">
               <img src={stud} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+              <div className="image-lebel"></div>
             </div>
 
-            <div className="aboutevent-container-image">
-              <img src={isoschool} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
-            <div className="aboutevent-container-image">
-              <img src={tradPeople} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
-            <div className="aboutevent-container-image">
-              <img src={biliImage} alt="" />
-              <div className="image-lebe">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
-            <div className="aboutevent-container-image">
-              <img src={gogmap} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
-            <div className="aboutevent-container-image">
-              <img src={school} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
-            <div className="aboutevent-container-image">
-              <img src={sittingWomen} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            {/* <div className="aboutevent-container-image">
+              <img src={stud} alt="" />
+              <div className="image-lebel"></div>
             </div>
 
             <div className="aboutevent-container-image static-slider">
@@ -158,13 +145,70 @@ const Aboutevent = () => {
               >
                 <img src={biliMap} alt="" />
               </a>
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+              <div className="image-lebel"></div>
             </div>
 
-            {/* <div className="aboutevent-container-image">
-              <img src={sittingPeople} alt="" />
+            <div className="aboutevent-container-image">
+              <img src={isoschool} alt="" />
               <div className="image-lebel"></div>
-            </div> */}
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={tradPeople} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image static-slider">
+              <a
+                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
+                target="_blank"
+              >
+                <img src={biliMap} alt="" />
+              </a>
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={biliImage} alt="" />
+              <div className="image-lebe"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={gogmap} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image static-slider">
+              <a
+                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
+                target="_blank"
+              >
+                <img src={biliMap} alt="" />
+              </a>
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={school} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={sittingWomen} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image static-slider">
+              <a
+                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
+                target="_blank"
+              >
+                <img src={biliMap} alt="" />
+              </a>
+              <div className="image-lebel"></div>
+            </div>
+
+           
 
             <div className="aboutevent-container-image">
               <img src={image2} alt="" />
@@ -173,8 +217,8 @@ const Aboutevent = () => {
 
             <div className="aboutevent-container-image">
               <img src={isoschool} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
+              <div className="image-lebel"></div>
+            </div> */}
           </Slider>
         </div>
       </div>
