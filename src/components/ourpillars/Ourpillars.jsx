@@ -13,6 +13,8 @@ import community from "../../assets/community Icon.png";
 import culture from "../../assets/culture.png";
 import resources from "../../assets/resources.png";
 import skills from "../../assets/skills.png";
+import whr from "../../assets/whr.png";
+import advisory from "../../assets/advisoryicon.png";
 
 import Pillarcardtwo from "../pillarcards/Pillarcardtwo";
 import Pillarcardthree from "../pillarcards/Pillarcardthree";
@@ -101,7 +103,7 @@ const Ourpillars = () => {
             <div>
               <div className="custom-slide">
                 <Pillarcardfour
-                  bgImage={capacitybuilding}
+                  bgImage={advisory}
                   headercontent={"Advisory Services"}
                   text={
                     "Empower community leaders, mentor youth and enterprise"
@@ -113,7 +115,7 @@ const Ourpillars = () => {
             <div>
               <div className="custom-slide">
                 <Pillarcardfive
-                  bgImage={resources}
+                  bgImage={whr}
                   headercontent={"Women's Health & Resilience"}
                   text={
                     "Financial security, sex and reproductive health education, and gender-based violence (GBV) prevention."

@@ -40,7 +40,7 @@ const Whewework = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/13K-pM2Vn5TDLqRGt1jv8h8Q19zzguiRQ/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/14_Q3dg2bwbFf8dpA4zxDcP-zbLurASP2/view?usp=drivesdk"
             target="__blank"
           >
             <button className="fill">Read more</button>

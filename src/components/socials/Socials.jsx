@@ -22,10 +22,16 @@ const Socials = ({
 }) => {
   return (
     <div className="card-social">
-      <a href={instagram} target="_blank" rel="noopener noreferrer">
+      {/* <a href={instagram} target="_blank" rel="noopener noreferrer">
         <FaInstagram size={size} color={socialColor} className="instagram" />
-      </a>
-      <a href={facebook} target="_blank" rel="noopener noreferrer">
+      </a> */}
+      <a
+        href={
+          "https://www.facebook.com/profile.php?id=61566791462397&mibextid=LQQJ4d"
+        }
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaFacebook size={size} color={socialColor} className="spotify" />
       </a>
 
