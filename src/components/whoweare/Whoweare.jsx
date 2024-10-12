@@ -31,7 +31,7 @@ const Whoweare = () => {
             headercontent1="Bambili"
             headercontent2="Limbe"
             plus={"+"}
-            headercontent3="Douala (with SSTR)"
+            headercontent3="Douala (with STTR)"
           />
         </div>
       </div>

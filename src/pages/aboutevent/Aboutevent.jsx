@@ -17,6 +17,8 @@ import sattimg1 from "../../assets/sattimg1.jpg";
 import sattimg2 from "../../assets/sattimg2.jpg";
 import gogmap from "../../assets/mapimg.jpg";
 import biliImage from "../../assets/The_Lake_Bambili_1.jpg";
+import biliMap from "../../assets/bilimap.png";
+import sittingWomen from "../../assets/sitting_women.jpg";
 
 // End of Slider Images import
 
@@ -29,16 +31,16 @@ const Aboutevent = () => {
     infinite: true,
     speed: 500,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 7000,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    autoplaySpeed: 4000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           infinite: true,
           // dots: true,
         },
@@ -65,70 +67,6 @@ const Aboutevent = () => {
 
   return (
     <div className="aboutevent-container">
-      <div className="slider-container">
-        <Slider {...settings}>
-          <div className="aboutevent-container-image">
-            <img src={stud} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={women} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={sittingPeople} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={tradPeople} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={image2} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={image3} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={school} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={isoschool} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={sattimg1} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={sattimg2} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={gogmap} alt="" />
-            <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-
-          <div className="aboutevent-container-image">
-            <img src={biliImage} alt="" />
-            <div className="image-lebe">{/* <p>Lake Bambili</p> */}</div>
-          </div>
-        </Slider>
-      </div>
-
       <div className="aboutevent-container-contents">
         <h2>About Bambili</h2>
         <p>
@@ -159,6 +97,88 @@ const Aboutevent = () => {
           brighter future.
         </p>
       </div>
+
+      <div className="aboutevent-slider-container">
+        <div className="slider-container">
+          <Slider {...settings}>
+            <div className="aboutevent-container-image static-slider">
+              <a
+                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
+                target="_blank"
+              >
+                <img src={biliMap} alt="" />
+              </a>
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image slider-static-img">
+              <img src={women} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={stud} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={isoschool} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={tradPeople} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={biliImage} alt="" />
+              <div className="image-lebe">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={gogmap} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={school} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={sittingWomen} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            <div className="aboutevent-container-image static-slider">
+              <a
+                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
+                target="_blank"
+              >
+                <img src={biliMap} alt="" />
+              </a>
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+
+            {/* <div className="aboutevent-container-image">
+              <img src={sittingPeople} alt="" />
+              <div className="image-lebel"></div>
+            </div> */}
+
+            <div className="aboutevent-container-image">
+              <img src={image2} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={isoschool} alt="" />
+              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+            </div>
+          </Slider>
+        </div>
+      </div>
+
       <div className="aboutevent-container-Abeventpillars">
         <Abeventpillars />
       </div>

@@ -66,7 +66,7 @@ const Footer = () => {
 
         <div className="footer-contents-b5">
           <h3>Connect with us</h3>
-          {/* <Socials socialColor="rgba(32, 32, 32, 1)" /> */}
+          <Socials socialColor="rgba(32, 32, 32, 1)" />
           <div className="footer-connect">
             <a href="https://wa.me/+237653549847" target="_blank">
               <FaWhatsapp size={30} color="green" />

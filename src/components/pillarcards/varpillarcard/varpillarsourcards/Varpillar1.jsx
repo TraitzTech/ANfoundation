@@ -2,13 +2,13 @@ import React, { useState, useRef } from "react";
 import "../varpillarcard.css";
 
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(true);
-  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
+  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(true);
   const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
-  const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(false);
-  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(false);
+  const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(true);
+  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(true );
 
   const toggleDropdown = (objectToSet, setVariable) => {
     setVariable(!objectToSet);

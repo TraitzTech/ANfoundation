@@ -8,6 +8,7 @@ import Bfooter from "../components/bottomfooter/Bfooter";
 import Newsletter from "../components/newsletter/Newsletter";
 import Title from "../components/title/Title";
 import Aboutevent from "./aboutevent/Aboutevent";
+import Footer from "../components/footer/Footer";
 
 const Works = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const Works = () => {
       {/* <Title content={"Our Works in Bambili"} /> */}
       <Aboutevent />
       <Newsletter />
+      <Footer />
       <Bfooter />
     </div>
   );

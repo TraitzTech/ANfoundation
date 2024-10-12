@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "../varpillarcard.css";
 
 const Varpillar4 = ({ bgImage, headercontent, text }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
-  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
-  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
-  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
+  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(true);
+  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(true);
+  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
 
   const [isExpandedOne, setIsExpandedOne] = useState(false);
   const [isExpandedtwo, setIsExpandedtwo] = useState(false);
@@ -168,7 +168,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                   on professionnalisation, digital tools and access to Finance .{" "}
+                  on professionnalisation, digital tools and access to Finance .{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
@@ -201,4 +201,3 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
 };
 
 export default Varpillar4;
-

@@ -13,7 +13,7 @@ const Pillarcard = ({
   text,
   plus,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
   const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);

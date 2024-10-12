@@ -4,13 +4,13 @@ import me from "../../../assets/technical.pdf";
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 
 const ExternalP5 = ({ bgImage, headercontent, text }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(false);
-  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(false);
-  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(false);
-  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(false);
-  const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(false);
-  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
+  const [isOpenDropdownOne, setIsOpenDropdownOne] = useState(true);
+  const [isOpenDropdowntwo, setIsOpenDropdowntwo] = useState(true);
+  const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(true);
+  const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
+  const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(true);
+  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(true);
 
   const toggleDropdown = (objectToSet, setVariable) => {
     setVariable(!objectToSet);

@@ -1,47 +1,51 @@
-import React from 'react'
-import './socials.css'
+import React from "react";
+import "./socials.css";
 
-import { FaInstagram, FaSpotify, FaYoutube, FaTimes, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaSpotify,
+  FaYoutube,
+  FaTimes,
+  FaFacebook,
+} from "react-icons/fa";
 import { SiTiktok } from "react-icons/si";
 
-
-const Socials = ({instagram, spotify, youtube, tiktok, x, facebook,  size='20', socialColor="rgba(48, 232, 66, 1)" }) => {
+const Socials = ({
+  instagram,
+  spotify,
+  youtube,
+  tiktok,
+  x,
+  facebook,
+  size = "20",
+  socialColor = "rgba(48, 232, 66, 1)",
+}) => {
   return (
-    
-      <div className="card-social">
-                  <a
-                    href={instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaInstagram size={size} color={socialColor} className='instagram' />
-                  </a>
-                  <a
-                    href={facebook}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaFacebook size={size} color={socialColor} className='spotify' />
-                  </a>
+    <div className="card-social">
+      <a href={instagram} target="_blank" rel="noopener noreferrer">
+        <FaInstagram size={size} color={socialColor} className="instagram" />
+      </a>
+      <a href={facebook} target="_blank" rel="noopener noreferrer">
+        <FaFacebook size={size} color={socialColor} className="spotify" />
+      </a>
 
-                  <a
+      {/* <a
                     href={youtube}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaYoutube size={size} color={socialColor} className='youtube' />
-                  </a>
+                  </a> */}
 
-                  {/* <a
+      {/* <a
                     href={x}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FaTimes size={size} color={socialColor} className='tiktok' />
                   </a> */}
-                </div>
-    
-  )
-}
+    </div>
+  );
+};
 
-export default Socials
+export default Socials;

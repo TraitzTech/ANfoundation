@@ -70,8 +70,14 @@ const Newsletter = () => {
             <div className="content-right-email">
               <img src={location} alt="Location Icon" />
               <div>
-                <p>3 Corners, Bambili</p>
-                <p>North West Region, Cameroon</p>
+                <a
+                  href="https://www.google.com/maps/place/3+Corners+Bambili/@5.9971251,10.2518852,13.18z/data=!4m6!3m5!1s0x105f3f752248e359:0xec2c5e93e4df4022!8m2!3d6.0045324!4d10.2555844!16s%2Fg%2F11h24f228m?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D
+"
+                  target="_blank"
+                >
+                  <p>3 Corners, Bambili</p>
+                  <p>North West Region, Cameroon</p>
+                </a>
               </div>
             </div>
           </div>
