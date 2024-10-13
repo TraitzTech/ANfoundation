@@ -2,8 +2,6 @@ import React from "react";
 import "./swipercard.css";
 import Button from "../../components/button/Button";
 
-import swiperImg from "../../assets/swipperchildren.png";
-
 const Swippercard = ({ bgImage, headercontent, text }) => {
   return (
     <div className="swipper-card-container">

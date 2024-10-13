@@ -16,6 +16,9 @@ import gogmap from "../../assets/mapimg.jpg";
 import biliImage from "../../assets/The_Lake_Bambili_1.jpg";
 import biliMap from "../../assets/bilimap.png";
 import sittingWomen from "../../assets/sitting_women.jpg";
+import corners from "../../assets/corners.jpg";
+import ubahttc from "../../assets/ubahttc.jpg";
+import ccast from "../../assets/ccast.jpg";
 
 // End of Slider Images import
 
@@ -138,16 +141,6 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            {/* <div className="aboutevent-container-image static-slider">
-              <a
-                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
-                target="_blank"
-              >
-                <img src={biliMap} alt="" />
-              </a>
-              <div className="image-lebel"></div>
-            </div> */}
-
             <div className="aboutevent-container-image">
               <img src={isoschool} alt="" />
               <div className="image-lebel"></div>
@@ -164,7 +157,17 @@ const Aboutevent = () => {
             </div>
 
             <div className="aboutevent-container-image">
-              <img src={gogmap} alt="" />
+              <img src={ccast} alt="" />
+              <div className="image-lebe"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={ubahttc} alt="" />
+              <div className="image-lebel"></div>
+            </div>
+
+            <div className="aboutevent-container-image">
+              <img src={corners} alt="" />
               <div className="image-lebel"></div>
             </div>
 
