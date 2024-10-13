@@ -63,6 +63,9 @@
 }
 
 @media (max-width: 968px) {
+  .main-content{
+    padding-top: 50px;
+  }
   .navtigation-top-contents h3 {
     font-size: 44px;
     line-height: 34px;
