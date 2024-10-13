@@ -34,8 +34,8 @@ const Aboutevent = () => {
     speed: 500,
     autoplay: true, // Enable autoplay
     autoplaySpeed: 18000,
-    slidesToShow: 3,
-    slidesToScroll: 0,
+    slidesToShow: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     beforeChange: (current, next) => {
       // Prevent moving to the fixed slide (e.g., slide at index 2)
@@ -50,7 +50,7 @@ const Aboutevent = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: false,
           // dots: true,
@@ -92,9 +92,21 @@ const Aboutevent = () => {
           >
             The University of Bamenda
           </a>{" "}
-          (in Bambili) and Lake Bambili are key landmarks within the town, the
-          former drawing many youth from across the country. Like many parts of
-          the North West Region, Bambili has been affected by the ongoing {""}
+          (in Bambili),{" "}
+          <a style={{ color: "orange" }} href="#" target="_blank">
+            CCAST Bambili
+          </a>
+          , and{" "}
+          <a
+            style={{ color: "orange" }}
+            href="https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Lake_Bambili.jpg"
+            target="_blank"
+          >
+            Lake Bambili
+          </a>{" "}
+          are key landmarks within the town, with the educational institutions
+          drawing many youth from across the country. Like many parts of the
+          North West Region, Bambili has been affected by the ongoing {""}
           <a
             style={{ color: "orange" }}
             href="https://en.wikipedia.org/wiki/Anglophone_Crisis"
@@ -111,21 +123,18 @@ const Aboutevent = () => {
       </div>
 
       <div className="aboutevent-slider-container">
+        <div className="aboutevent-container-image static-slider">
+          <a href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8" target="_blank">
+            <img src={biliMap} alt="" />
+          </a>
+          <div className="image-lebel"></div>
+        </div>
+
         <div className="slider-container">
           <Slider {...settings}>
-            <div className="aboutevent-container-image static-slider">
-              <a
-                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
-                target="_blank"
-              >
-                <img src={biliMap} alt="" />
-              </a>
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
-            </div>
-
             <div className="aboutevent-container-image slider-static-img">
               <img src={women} alt="" />
-              <div className="image-lebel">{/* <p>Lake Bambili</p> */}</div>
+              <div className="image-lebel"></div>
             </div>
 
             <div className="aboutevent-container-image">
@@ -133,12 +142,8 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            {/* <div className="aboutevent-container-image">
-              <img src={stud} alt="" />
-              <div className="image-lebel"></div>
-            </div>
-
-            <div className="aboutevent-container-image static-slider">
+           
+            {/* <div className="aboutevent-container-image static-slider">
               <a
                 href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
                 target="_blank"
@@ -146,7 +151,7 @@ const Aboutevent = () => {
                 <img src={biliMap} alt="" />
               </a>
               <div className="image-lebel"></div>
-            </div>
+            </div> */}
 
             <div className="aboutevent-container-image">
               <img src={isoschool} alt="" />
@@ -158,16 +163,7 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            <div className="aboutevent-container-image static-slider">
-              <a
-                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
-                target="_blank"
-              >
-                <img src={biliMap} alt="" />
-              </a>
-              <div className="image-lebel"></div>
-            </div>
-
+            
             <div className="aboutevent-container-image">
               <img src={biliImage} alt="" />
               <div className="image-lebe"></div>
@@ -178,16 +174,7 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            <div className="aboutevent-container-image static-slider">
-              <a
-                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
-                target="_blank"
-              >
-                <img src={biliMap} alt="" />
-              </a>
-              <div className="image-lebel"></div>
-            </div>
-
+            
             <div className="aboutevent-container-image">
               <img src={school} alt="" />
               <div className="image-lebel"></div>
@@ -198,18 +185,7 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            <div className="aboutevent-container-image static-slider">
-              <a
-                href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
-                target="_blank"
-              >
-                <img src={biliMap} alt="" />
-              </a>
-              <div className="image-lebel"></div>
-            </div>
-
-           
-
+            
             <div className="aboutevent-container-image">
               <img src={image2} alt="" />
               <div className="image-lebel"></div>
@@ -218,7 +194,7 @@ const Aboutevent = () => {
             <div className="aboutevent-container-image">
               <img src={isoschool} alt="" />
               <div className="image-lebel"></div>
-            </div> */}
+            </div>
           </Slider>
         </div>
       </div>
