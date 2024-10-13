@@ -66,7 +66,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Apprenticeship and training of young men in renewable
+                &#8226; Apprenticeship and training of youth in renewable
                 energy{""}
                 <span
                   id="see"
@@ -114,7 +114,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Scholarship and textbook support to, post-primary school
+                &#8226; Scholarship and textbook support to post-primary school
                 girls {""}{" "}
                 <span
                   id="see"
@@ -200,8 +200,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Digital skills and Career development support for young
-                men.{" "}
+                &#8226; Digital skills and Career development support for youth.{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
