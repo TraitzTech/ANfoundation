@@ -31,7 +31,7 @@ const Pillarcard = ({
           <h3>{headercontent}</h3>
           <h3>
             {" "}
-            <Link to="/works#home">
+            <Link to="/Bambili#home">
               {" "}
               {/* <FaArrowRight size={20} /> */}
               {headercontent1} <span style={{ float: "right" }}>{plus}</span>

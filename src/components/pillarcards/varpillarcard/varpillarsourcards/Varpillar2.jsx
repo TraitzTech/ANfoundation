@@ -66,8 +66,8 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Apprenticeship and training of youth in renewable
-                energy{""}
+                &#8226; Apprenticeship and training of youth in renewable energy
+                {""}
                 <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
@@ -90,7 +90,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                     href="https://www.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d "
                     target="_blank"
                   >
-                    Sunlight - To - The Rescue Cameroun
+                    Sunlight - To - The Rescue Cameroun.
                   </a>{" "}
                   <span
                     id="see"
@@ -115,7 +115,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
 
               <li className="lv2-one-li-one">
                 &#8226; Scholarship and textbook support to post-primary school
-                girls {""}{" "}
+                girls. {""}{" "}
                 <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
@@ -181,7 +181,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  supports high school girls in STEM{" "}
+                  supports high school girls in STEM.{" "}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
@@ -223,7 +223,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                     href="https://www.facebook.com/OLFPBambili/posts/pfbid02H6CaB4kpJihvEmRzbqSSujHCrNorPtHju5dKdEYLwMcCgSTWFv4pWYbxZTQEuyppl "
                     target="_blank"
                   >
-                    Our Lady of Fatima Parish Bambili
+                    Our Lady of Fatima Parish Bambili.
                   </a>{" "}
                   <span
                     id="see"
@@ -239,7 +239,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               </li>
 
               {/* End of advisory service item*/}
-              <li>&#8226; Other mentoring services</li>
+              <li>&#8226; Other mentoring services.</li>
             </div>
           </ul>
           <span id="spane" onClick={() => toggleDropdown(isOpen, setIsOpen)}>

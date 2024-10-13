@@ -82,7 +82,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  skills and livelihood opportunities{" "}
+                  skills and livelihood opportunities.{" "}
                   <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
@@ -127,7 +127,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and Monitoring & Evaluation{" "}
+                  and Monitoring & Evaluation.{" "}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
@@ -168,7 +168,8 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  on professionalization, digital tools for productivity and access to Finance .{" "}
+                  on professionalization, digital tools for productivity and
+                  access to Finance.{" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}

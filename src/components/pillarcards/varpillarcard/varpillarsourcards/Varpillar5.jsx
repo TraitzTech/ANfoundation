@@ -52,7 +52,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
               }
             >
               {/* Advisory service Item */}
-              <li>&#8226; Sex and reproductive health education</li>
+              <li>&#8226; Sex and reproductive health education.</li>
 
               <li className="lv2-one-li-one">
                 &#8226; Digital savings for economic security{" "}
@@ -111,7 +111,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   prevention/response resources for at-risk or affected women
-                  and children{" "}
+                  and children.{" "}
                   <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}

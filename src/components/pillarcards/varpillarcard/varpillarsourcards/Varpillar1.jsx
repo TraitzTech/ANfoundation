@@ -8,7 +8,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
   const [isOpenDropdownthree, setIsOpenDropdownthree] = useState(true);
   const [isOpenDropdownfour, setIsOpenDropdownfour] = useState(true);
   const [isOpenDropdownfive, setIsOpenDropdownfive] = useState(true);
-  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(true );
+  const [isOpenDropdownsix, setIsOpenDropdownsix] = useState(true);
 
   const toggleDropdown = (objectToSet, setVariable) => {
     setVariable(!objectToSet);
@@ -57,7 +57,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                 }
               >
                 &#8226; Inaugural consultation/webinar on empowering the Mbeligi
-                community by nurturing women and girls{" "}
+                community by nurturing women and girls.{" "}
                 <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
@@ -75,7 +75,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  .{" "}
+                  {" "}
                   <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
