@@ -7,11 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 import Swippercard from "../swippercard/Swippercard";
 
-import farmers from "../../assets/women.jpg";
-import together from "../../assets/together.png";
-import swipperchild from "../../assets/swipperchildren.png";
-import capacity from "../../assets/capacity.png";
-import graduation from "../../assets/graduation.png";
 
 import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

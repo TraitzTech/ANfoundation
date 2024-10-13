@@ -8,14 +8,10 @@ import "slick-carousel/slick/slick-theme.css";
 // Start of slider images import
 import stud from "../../assets/slide2.jpg";
 import women from "../../assets/slide3.jpg";
-import sittingPeople from "../../assets/image two.jpg";
 import tradPeople from "../../assets/slide5.jpg";
 import image2 from "../../assets/juju.png";
-import image3 from "../../assets/schooluniversity.png";
 import school from "../../assets/slide4.jpg";
 import isoschool from "../../assets/isoschool.jpg";
-import sattimg1 from "../../assets/sattimg1.jpg";
-import sattimg2 from "../../assets/sattimg2.jpg";
 import gogmap from "../../assets/mapimg.jpg";
 import biliImage from "../../assets/The_Lake_Bambili_1.jpg";
 import biliMap from "../../assets/bilimap.png";
