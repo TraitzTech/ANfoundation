@@ -32,9 +32,8 @@
   /* gap: 13px; */
 }
 
-.aboutevent-slider-container .slider-container {
-  /* background-color: red; */
-  justify-content: space-between !important;
+.aboutevent-slider-container .slider-container img {
+  border: 3px solid white;
 }
 
 .aboutevent-container-contents h2 {
@@ -63,7 +62,15 @@
     max-width: 100%;
     margin-top: 10px;
   }
-
+  .aboutevent-slider-container {
+    max-width: 100%;
+    margin: auto;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 32.5% 66%;
+    /* gap: 13px; */
+  }
+  
   .aboutevent-container-image img {
     width: 100%;
     position: relative;

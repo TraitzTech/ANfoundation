@@ -33,7 +33,7 @@ const Aboutevent = () => {
     infinite: true,
     speed: 500,
     autoplay: true, // Enable autoplay
-    autoplaySpeed: 18000,
+    autoplaySpeed: 15000,
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -142,7 +142,6 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-           
             {/* <div className="aboutevent-container-image static-slider">
               <a
                 href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8"
@@ -163,7 +162,6 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            
             <div className="aboutevent-container-image">
               <img src={biliImage} alt="" />
               <div className="image-lebe"></div>
@@ -174,7 +172,6 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            
             <div className="aboutevent-container-image">
               <img src={school} alt="" />
               <div className="image-lebel"></div>
@@ -185,7 +182,6 @@ const Aboutevent = () => {
               <div className="image-lebel"></div>
             </div>
 
-            
             <div className="aboutevent-container-image">
               <img src={image2} alt="" />
               <div className="image-lebel"></div>
