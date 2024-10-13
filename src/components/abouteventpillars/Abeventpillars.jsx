@@ -106,7 +106,7 @@ const Abeventpillars = () => {
               <div className="custom-slide">
                 <Varpillar5
                   bgImage={whr}
-                  headercontent={"Women's Health & Resilience"}
+                  headercontent={"Sex and Reproductive Health Education"}
                 />
               </div>
             </div>
