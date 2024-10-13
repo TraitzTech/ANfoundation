@@ -99,7 +99,7 @@ const Aboutevent = () => {
           <a
             style={{ color: "orange" }}
             href="https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Lake_Bambili.jpg"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Lake Bambili
           </a>{" "}
@@ -123,7 +123,7 @@ const Aboutevent = () => {
 
       <div className="aboutevent-slider-container">
         <div className="aboutevent-container-image static-slider">
-          <a href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8" target="_blank">
+          <a href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8" target="_blank" rel="noreferrer">
             <img src={biliMap} alt="" />
           </a>
           <div className="image-lebel"></div>
