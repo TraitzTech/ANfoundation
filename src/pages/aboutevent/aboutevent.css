@@ -23,11 +23,6 @@
   /* background-color: red; */
 }
 
-.aboutevent-slider-container .static-slider {
-  max-width: 80%;
-  margin: auto;
-}
-
 .aboutevent-slider-container {
   max-width: 80%;
   margin: auto;
@@ -70,10 +65,14 @@
   .aboutevent-slider-container {
     max-width: 100%;
     margin: auto;
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
-      }
+  }
+
+  .aboutevent-slider-container .static-slider {
+    max-width: 80%;
+    margin: auto;
+  }
 
   .aboutevent-container-image img {
     width: 100%;
