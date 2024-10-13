@@ -23,6 +23,11 @@
   /* background-color: red; */
 }
 
+.aboutevent-slider-container .static-slider {
+  max-width: 80%;
+  margin: auto;
+}
+
 .aboutevent-slider-container {
   max-width: 80%;
   margin: auto;
@@ -66,11 +71,10 @@
     max-width: 100%;
     margin: auto;
     /* background-color: red; */
-    display: grid;
-    grid-template-columns: 32.5% 66%;
-    /* gap: 13px; */
-  }
-  
+    display: flex;
+    flex-direction: column;
+      }
+
   .aboutevent-container-image img {
     width: 100%;
     position: relative;
