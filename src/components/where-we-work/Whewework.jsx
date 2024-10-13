@@ -1,5 +1,6 @@
 import React from "react";
 import "./wherewework.css";
+import document from "../../assets/Who we are.pdf";
 import { Link } from "react-router-dom";
 
 import Title from "../title/Title";
@@ -34,15 +35,12 @@ const Whewework = () => {
             solutions for income-generating activities and ensuring long-term
             impact through beneficiary continuity programs. Our goal is to
             create a supportive and enabling environment for at-risk youth and
-            communities in Cameroon, equipping them with the necessary tools to achieve
-            their aspirations for a developed and prosperous,
-            resilient society.{" "}
+            communities in Cameroon, equipping them with the necessary tools to
+            achieve their aspirations for a developed and prosperous, resilient
+            society.{" "}
           </p>
 
-          <a
-            href="https://drive.google.com/file/d/1-fXZQJ97fB-bXdEjbdf7a-o67EALSwRv/view?usp=drivesdk "
-            target="__blank"
-          >
+          <a href={document} target="__blank">
             <button className="fill">Read more</button>
           </a>
         </div>

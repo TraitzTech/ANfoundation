@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import document from "../../../../assets/Inaugural SUMMARY REPORT 21Sep2024-1.pdf";
+
 import "../varpillarcard.css";
 
 const Varpillar3 = ({ bgImage, headercontent, text }) => {
@@ -106,10 +108,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   </a>
                 </li>
                 <li className="lv2-one-li-two">
-                  <a
-                    href=" https://drive.google.com/file/d/1cxIAwqM4TntJr36Pb_ER0-vEbjrg5rAY/view?usp=drivesdk"
-                    target="_blank"
-                  >
+                  <a href={document} target="_blank">
                     &#8226; Event Summary;
                   </a>
                 </li>

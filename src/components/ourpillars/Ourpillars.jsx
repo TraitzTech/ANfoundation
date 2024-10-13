@@ -106,7 +106,7 @@ const Ourpillars = () => {
                   bgImage={advisory}
                   headercontent={"Advisory Services"}
                   text={
-                    "Empower community leaders, mentor youth and enterprise"
+                    "Empower community leaders, mentor youth and enterprise."
                   }
                 />
               </div>
