@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
-
 import { Link } from "react-router-dom";
-
 import "./navtop.css";
-import Button from "../../components/button/Button";
+
 const Navtop = () => {
   const [isSticky, setIsSticky] = useState(false);
-
-  // const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,7 +13,6 @@ const Navtop = () => {
 
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup function to remove the event listener
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -35,6 +30,9 @@ const Navtop = () => {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="main-content">
+        {/* Your main content goes here */}
       </div>
     </div>
   );

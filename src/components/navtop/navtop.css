@@ -20,7 +20,6 @@
   border-radius: 70px;
   font-size: 92px;
   font-weight: 500;
-  /* position: sticky; */
   letter-spacing: -6px;
   line-height: 93px;
 }
@@ -59,6 +58,10 @@
   margin-top: 20px;
 }
 
+.main-content {
+  padding-top: 100px; /* Adjust this value based on the height of your sticky header */
+}
+
 @media (max-width: 968px) {
   .navtigation-top-contents h3 {
     font-size: 44px;
@@ -78,7 +81,7 @@
     width: 25px;
     height: 25px;
   }
-  
+
   .navtigation-top-contents p {
     font-size: 19px;
     max-width: 564px;
@@ -115,12 +118,6 @@
 
   .h3-container {
     height: 85px;
-
-    /* background: linear-gradient(
-      180deg,
-      #ffffff 0%,
-      rgba(255, 255, 255, 0) 100%
-    ); */
     padding: 30px 0;
   }
 
