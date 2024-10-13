@@ -12,10 +12,9 @@ import tradPeople from "../../assets/slide5.jpg";
 import image2 from "../../assets/juju.png";
 import school from "../../assets/slide4.jpg";
 import isoschool from "../../assets/isoschool.jpg";
-import gogmap from "../../assets/mapimg.jpg";
 import biliImage from "../../assets/The_Lake_Bambili_1.jpg";
 import biliMap from "../../assets/bilimap.png";
-import sittingWomen from "../../assets/sitting_women.jpg";
+import sittingWomena from "../../assets/sitting_women.jpg";
 import corners from "../../assets/corners.jpg";
 import ubahttc from "../../assets/ubahttc.jpg";
 import ccast from "../../assets/ccast.jpg";
@@ -99,7 +98,7 @@ const Aboutevent = () => {
           <a
             style={{ color: "orange" }}
             href="https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Lake_Bambili.jpg"
-            target="_blank" rel="noreferrer"
+            target="_blank"
           >
             Lake Bambili
           </a>{" "}
@@ -123,7 +122,7 @@ const Aboutevent = () => {
 
       <div className="aboutevent-slider-container">
         <div className="aboutevent-container-image static-slider">
-          <a href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8" target="_blank" rel="noreferrer">
+          <a href="https://maps.app.goo.gl/qyUYBSox5ESrDyuD8" target="_blank">
             <img src={biliMap} alt="" />
           </a>
           <div className="image-lebel"></div>
@@ -177,7 +176,7 @@ const Aboutevent = () => {
             </div>
 
             <div className="aboutevent-container-image">
-              <img src={sittingWomen} alt="" />
+              <img src={sittingWomena} alt="" />
               <div className="image-lebel"></div>
             </div>
 
