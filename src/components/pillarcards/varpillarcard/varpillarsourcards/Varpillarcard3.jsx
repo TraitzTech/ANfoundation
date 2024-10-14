@@ -104,12 +104,12 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                     href=" https://forms.gle/SJ2KSig1sYrvvSCH8"
                     target="_blank"
                   >
-                    &#8226; Event Introduction;
+                    &#8226; Introduction & Survey;
                   </a>
                 </li>
                 <li className="lv2-one-li-two">
                   <a href={document} target="_blank">
-                    &#8226; Event Summary;
+                    &#8226; Consultation Report;
                   </a>
                 </li>
 

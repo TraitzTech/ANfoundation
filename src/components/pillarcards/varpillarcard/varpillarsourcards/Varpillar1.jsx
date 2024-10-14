@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import document from "../../../../assets/Inaugural Consultation SUMMARY REPORT 21Sep2024.pdf";
+import panelist from "../../../../assets/PANELISTS - Growing Together as Mbeligi -21Sep2024.pdf";
 import "../varpillarcard.css";
 
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
@@ -102,12 +103,17 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                     href=" https://forms.gle/SJ2KSig1sYrvvSCH8"
                     target="_blank"
                   >
-                    &#8226; Event Introduction;
+                    &#8226; Introduction & Survey;
+                  </a>
+                </li>
+                <li className="lv2-one-li-one">
+                  <a href={panelist} target="_blank">
+                    &#8226; Panelist;
                   </a>
                 </li>
                 <li className="lv2-one-li-two">
                   <a href={document} target="_blank">
-                    &#8226; Event Summary;
+                    &#8226; Consultation Report;
                   </a>
                 </li>
 
