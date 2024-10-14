@@ -110,7 +110,7 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 toggleDropdown(isOpenDropdowntwo, setIsOpenDropdowntwo)
               }
             >
-              Ecumenical{" "}
+              Faith-based{" "}
               <p className={isOpenDropdowntwo ? "for-drop" : ""}>&gt;</p>
             </h2>
             <div
