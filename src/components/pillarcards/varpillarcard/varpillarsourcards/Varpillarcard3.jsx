@@ -60,7 +60,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
               >
                 &#8226; Inaugural consultation/webinar on empowering the Mbeligi
                 community by nurturing women and girls.{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
                   onClick={() =>
@@ -69,7 +69,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownfour
@@ -78,7 +78,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   {" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
@@ -87,7 +87,7 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
                 {/* <p className={isOpenDropdownfive ? "for-drop" : ""}>&gt;</p> */}
               </h2>

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import document from "../../../../assets/Inaugural SUMMARY REPORT 21Sep2024-1.pdf";
+import document from "../../../../assets/Inaugural Consultation SUMMARY REPORT 21Sep2024.pdf";
 import "../varpillarcard.css";
 
 const Varpillar1 = ({ bgImage, headercontent, text }) => {
@@ -59,7 +59,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
               >
                 &#8226; Inaugural consultation/webinar on empowering the Mbeligi
                 community by nurturing women and girls.{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
                   onClick={() =>
@@ -68,7 +68,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownfour
@@ -77,7 +77,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   {" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
@@ -86,7 +86,7 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </h2>
 

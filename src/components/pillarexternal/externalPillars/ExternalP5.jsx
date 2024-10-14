@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import document from "../../../assets/Working List of Technical Experts - Mbeligi Community.pdf";
+import document from "../../../assets/Working List of Technical Experts - Mbeligi Community[1].pdf";
 
 import "../../pillarcards/varpillarcard/varpillarcard.css";
 

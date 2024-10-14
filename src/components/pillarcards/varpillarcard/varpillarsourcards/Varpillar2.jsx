@@ -68,7 +68,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               <li className="lv2-one-li-one">
                 &#8226; Apprenticeship and training of youth in renewable energy
                 {""}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
                   onClick={() =>
@@ -77,7 +77,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdowntwo
@@ -92,7 +92,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     Sunlight - To - The Rescue Cameroun.
                   </a>{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
                     onClick={() =>
@@ -101,7 +101,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
@@ -139,7 +139,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     LESA Platinum Apostolic Works
                   </a>{" "} */}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
                     onClick={() =>
@@ -151,7 +151,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
@@ -164,7 +164,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 >
                   &#8226; Akwo Girls In Technology Scholarship Program
                 </a>{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
                   onClick={() =>
@@ -173,7 +173,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownthree
@@ -182,7 +182,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   supports high school girls in STEM.{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
                     onClick={() =>
@@ -194,14 +194,14 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
                 &#8226; Digital skills and Career development support for youth.{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
                   onClick={() =>
@@ -210,7 +210,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownfour
@@ -225,7 +225,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     Our Lady of Fatima Parish Bambili.
                   </a>{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
@@ -234,7 +234,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 

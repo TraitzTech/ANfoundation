@@ -56,7 +56,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
 
               <li className="lv2-one-li-one">
                 &#8226; Digital savings for economic security{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
                   onClick={() =>
@@ -65,7 +65,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>
+                </span> */}
                 <span
                   className={
                     isOpenDropdowntwo
@@ -77,7 +77,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   <a href="https://mynkwa.com/" target="_blank">
                     myNkwa.com
                   </a>{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
                     onClick={() =>
@@ -86,14 +86,14 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
               {/* End of advisory service item*/}
               <li className="lv2-one-li-one">
                 &#8226; Refuge home (planned) and GBV {""}{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
                   onClick={() =>
@@ -102,7 +102,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>
+                </span> */}
                 <span
                   className={
                     isOpenDropdownthree
@@ -112,7 +112,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                 >
                   prevention/response resources for at-risk or affected women
                   and children.{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
                     onClick={() =>
@@ -121,7 +121,7 @@ const Varpillar5 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
             </div>

@@ -65,7 +65,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   Our Lady of Fatima Parish Bambili
                 </a>{" "}
                 on youth engagement,
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdowntwo ? "hidden" : ""}
                   onClick={() =>
@@ -74,7 +74,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdowntwo
@@ -83,7 +83,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   skills and livelihood opportunities.{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
                     onClick={() =>
@@ -92,7 +92,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
@@ -110,7 +110,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                 </a>{" "}
                 {""}
                 on Stakeholder Engagement{" "}
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
                   onClick={() =>
@@ -119,7 +119,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownthree
@@ -128,7 +128,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   }
                 >
                   and Monitoring & Evaluation.{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
                     onClick={() =>
@@ -140,7 +140,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
@@ -151,7 +151,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
               <li className="lv2-one-li-one">
                 &#8226; Advisory services to entrepreneurs, startups and small
                 businesses
-                <span
+                {/* <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
                   onClick={() =>
@@ -160,7 +160,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                 >
                   {" "}
                   see more
-                </span>{" "}
+                </span>{" "} */}
                 <span
                   className={
                     isOpenDropdownfour
@@ -170,7 +170,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                 >
                   on professionalization, digital tools for productivity and
                   access to Finance.{" "}
-                  <span
+                  {/* <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}
                     onClick={() =>
@@ -179,7 +179,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   >
                     {" "}
                     see less
-                  </span>{" "}
+                  </span>{" "} */}
                 </span>
               </li>
 
