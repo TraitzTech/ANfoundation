@@ -85,7 +85,12 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 </a>
               </li>
               <li className="dd-lv-1-1-li-two">
+                           <a
+                  href="https://www.google.com/maps/place/University+of+Bamenda+Health+Center/@6.0054338,10.2602418,17z/data=!3m1!4b1!4m6!3m5!1s0x105f41a4423dbd2f:0xe9a0ef7d650aced8!8m2!3d6.0054338!4d10.2628167!16s%2Fg%2F11y1jp3_6g?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                >
                 &#8226; University of Bamenda Health Center
+                               </a>
               </li>
               <li className="dd-lv-1-1-li-three">
                 &#8226; Ntehbang Integrated Health Center
