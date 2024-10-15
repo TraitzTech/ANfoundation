@@ -92,7 +92,10 @@ const ExternalP1 = ({ bgImage, headercontent, text }) => {
             </div>
             {/* end of dropdown lv one first iteom */}
             <li style={{ fontFamily: "jua" }}> MBEWELIGI</li>
-            <li style={{ fontFamily: "jua" }}> LEHDE </li>
+            <li style={{ fontFamily: "jua" }}>
+              {" "}
+              <a href="mailto:Minangtabita5@gmail.com">LEHDE</a>{" "}
+            </li>
 
             {/* duplication dropdown level one */}
 
