@@ -134,7 +134,7 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
               <li className="dd-lv-1-2-li-two">
                 <a href="https://www.facebook.com/profile.php?id=61552908855863">
                   {" "}
-                  &#8226; St Francis of Quasi Parish Ntewshi
+                  &#8226; St. Francis Catholic Church Ntewshi
                 </a>
               </li>
 
