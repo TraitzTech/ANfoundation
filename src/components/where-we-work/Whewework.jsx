@@ -26,7 +26,7 @@ const Whewework = () => {
           <p>
             We believe in the potential of every young person and strive to
             create a brighter future for at-risk youth in Cameroon. We provide
-            comprehensive support for education and skills—including{" "}
+            comprehensive support for education and skills including{" "}
             <a href="https://unevoc.unesco.org/home/TVETipedia+Glossary/lang=en/show=term/term=Technical+and+vocational+education+and+training">
               TVET
             </a>{" "}
