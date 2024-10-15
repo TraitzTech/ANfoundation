@@ -82,7 +82,8 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  {" "}skills and livelihood opportunities.{" "}
+                  {" "}
+                  skills, and livelihood opportunities.{" "}
                   {/* <span
                     id="see"
                     className={isOpenDropdowntwo ? "" : "hidden"}
