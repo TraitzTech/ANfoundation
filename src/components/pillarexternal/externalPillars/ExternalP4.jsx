@@ -132,7 +132,10 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 </a>
               </li>
               <li className="dd-lv-1-2-li-two">
-                &#8226; St Francis of Quasi Parish Ntewshi
+                <a href="https://www.facebook.com/profile.php?id=61552908855863">
+                  {" "}
+                  &#8226; St Francis of Quasi Parish Ntewshi
+                </a>
               </li>
 
               <li className="dd-lv-1-2-li-two">
@@ -141,11 +144,8 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                   &#8226; CCAST Complex Presbyterian Church
                 </a>
               </li>
-
               {/* end of dropdown lv 2 item */}
-
               {/* start of dropdown lv 2 item 2*/}
-
               {/* end of dropdown lv 2 item 2 */}
             </div>
 
