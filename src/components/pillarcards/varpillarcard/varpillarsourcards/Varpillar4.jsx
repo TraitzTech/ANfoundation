@@ -109,7 +109,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                   LESA Apostolic Works
                 </a>{" "}
                 {""}
-                on Stakeholder Engagement{" "}
+                on stakeholder engagement{" "}
                 {/* <span
                   id="see"
                   className={isOpenDropdownthree ? "hidden" : ""}
@@ -127,7 +127,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  and Monitoring & Evaluation.{" "}
+                  and monitoring & evaluation.{" "}
                   {/* <span
                     id="see"
                     className={isOpenDropdownthree ? "" : "hidden"}
