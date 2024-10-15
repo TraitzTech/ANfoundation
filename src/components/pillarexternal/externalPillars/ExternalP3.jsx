@@ -167,7 +167,12 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                   : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
               }
             >
-              <li className="dd-lv-1-1-li-two">&#8226; Bambili Palace</li>
+              <li className="dd-lv-1-1-li-two">
+                <a href="https://www.google.co.uk/maps/place/Mb%C9%99ligi+(Bambili)+Palace/@5.9881404,10.2463711,17z/data=!3m1!4b1!4m6!3m5!1s0x105f3fb9ae710e99:0x9c83f6315e54fa6b!8m2!3d5.9881404!4d10.248946!16s%2Fg%2F11v0nz77tl?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">
+                  {" "}
+                  &#8226; Bambili Palace
+                </a>
+              </li>
               {/* <li className="dd-lv-1-1-li-three">&#8226; Quarters</li> */}
               <li className="dd-lv-1-1-li-four">
                 {" "}
