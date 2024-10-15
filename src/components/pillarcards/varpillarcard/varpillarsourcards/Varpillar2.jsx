@@ -85,6 +85,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
+                  {" "}
                   and skilled trades in partnership with{" "}
                   <a
                     href="https://www.facebook.com/sunlightotherescuecameroun?mibextid=LQQJ4d "
