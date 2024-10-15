@@ -53,7 +53,11 @@ const ExternalP5 = ({ bgImage, headercontent, text }) => {
             ></div>
 
             <li>
-              <a href={document} target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://drive.google.com/file/d/1sap_b6LMquiCaeUrAlkErg533ZPVCDZ0/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 &#8226; Technical Experts
               </a>
             </li>

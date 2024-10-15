@@ -43,7 +43,10 @@ const Whewework = () => {
             achieve their aspirations for a prosperous, resilient society.
           </p>
 
-          <a href={document} target="__blank">
+          <a
+            href="https://drive.google.com/file/d/1DmvTmdaybbNnN7qlJ1-g6NEUFVq2fPJp/view?usp=drivesdk"
+            target="__blank"
+          >
             <button className="fill">Read more</button>
           </a>
         </div>
