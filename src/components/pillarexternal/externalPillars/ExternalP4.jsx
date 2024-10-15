@@ -78,19 +78,19 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
               </h2> */}
               <li className="dd-lv-1-1-li-one">
                 <a
-                  href="https://www.indeed.com/cmp/Bambilli-Medicalised-Health-Centre"
+                  href="https://www.google.co.uk/maps/place/Health+center/@5.627386,9.7011297,7.7z/data=!4m6!3m5!1s0x105f3f1f42a5b5cd:0x145463e25a8e7289!8m2!3d6.0066284!4d10.2526551!16s%2Fg%2F11qsqq7h3n?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                 >
                   &#8226; Bambili Health Center
                 </a>
               </li>
               <li className="dd-lv-1-1-li-two">
-                           <a
+                <a
                   href="https://www.google.com/maps/place/University+of+Bamenda+Health+Center/@6.0054338,10.2602418,17z/data=!3m1!4b1!4m6!3m5!1s0x105f41a4423dbd2f:0xe9a0ef7d650aced8!8m2!3d6.0054338!4d10.2628167!16s%2Fg%2F11y1jp3_6g?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                 >
-                &#8226; University of Bamenda Health Center
-                               </a>
+                  &#8226; University of Bamenda Health Center
+                </a>
               </li>
               <li className="dd-lv-1-1-li-three">
                 &#8226; Ntehbang Integrated Health Center
@@ -135,7 +135,12 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 &#8226; St Francis of Quasi Parish Ntewshi
               </li>
 
-              <li className="dd-lv-1-2-li-two"> &#8226; PC CCAST Complex</li>
+              <li className="dd-lv-1-2-li-two">
+                <a href="https://www.google.co.uk/maps/place/CCAST+Complex+Presbyterian+Church/@6.0051166,10.256424,17z/data=!3m1!4b1!4m6!3m5!1s0x105f3f879be672e7:0x6c21c9ca6f410bd1!8m2!3d6.0051166!4d10.2589989!16s%2Fg%2F1tpb83d5?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">
+                  {" "}
+                  &#8226; CCAST Complex Presbyterian Church
+                </a>
+              </li>
 
               {/* end of dropdown lv 2 item */}
 

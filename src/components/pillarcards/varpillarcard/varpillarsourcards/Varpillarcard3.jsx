@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import document from "../../../../assets/Inaugural SUMMARY REPORT 21Sep2024-1.pdf";
-
+import panelist from "../../../../assets/PANELISTS - Growing Together as Mbeligi -21Sep2024.pdf";
 import "../varpillarcard.css";
 
 const Varpillar3 = ({ bgImage, headercontent, text }) => {
@@ -110,6 +110,11 @@ const Varpillar3 = ({ bgImage, headercontent, text }) => {
                 <li className="lv2-one-li-two">
                   <a href={document} target="_blank">
                     &#8226; Consultation Report;
+                  </a>
+                </li>
+                <li className="lv2-one-li-one">
+                  <a href={panelist} target="_blank">
+                    &#8226; Panelists;
                   </a>
                 </li>
 

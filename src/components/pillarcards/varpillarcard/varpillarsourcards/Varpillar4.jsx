@@ -149,7 +149,7 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Advisory services to entrepreneurs, startups and small
+                &#8226; Advisory services to entrepreneurs, startups, and small
                 businesses
                 {/* <span
                   id="see"
@@ -168,8 +168,9 @@ const Varpillar4 = ({ bgImage, headercontent, text }) => {
                       : "varpillar-dropdown-lv-1 dd-lv-1-1".concat(" hidden")
                   }
                 >
-                  on professionalization, digital tools for productivity and
-                  access to Finance.{" "}
+                  {" "}
+                  on professionalization, digital tools for productivity, and
+                  access to finance.{" "}
                   {/* <span
                     id="see"
                     className={isOpenDropdownfour ? "" : "hidden"}

@@ -53,8 +53,8 @@ const Newsletter = () => {
           </form> */}
           <div className="content-right-email">
             <FaEnvelope size={30} color="rgba(255, 115, 21, 1)" />
-            <a href="mailto:awahsaangeniformfdn@gmail.com">
-              awahsaangeniformfdn@gmail.com
+            <a href="mailto:info@theanfoundation.org">
+              info@theanfoundation.org
             </a>
           </div>
 

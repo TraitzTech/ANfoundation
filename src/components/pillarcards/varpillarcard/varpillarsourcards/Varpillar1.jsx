@@ -106,14 +106,15 @@ const Varpillar1 = ({ bgImage, headercontent, text }) => {
                     &#8226; Introduction & Survey;
                   </a>
                 </li>
-                <li className="lv2-one-li-one">
-                  <a href={panelist} target="_blank">
-                    &#8226; Panelist;
-                  </a>
-                </li>
+
                 <li className="lv2-one-li-two">
                   <a href={document} target="_blank">
                     &#8226; Consultation Report;
+                  </a>
+                </li>
+                <li className="lv2-one-li-one">
+                  <a href={panelist} target="_blank">
+                    &#8226; Panelists;
                   </a>
                 </li>
 
