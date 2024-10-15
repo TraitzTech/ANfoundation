@@ -201,7 +201,7 @@ const Varpillar2 = ({ bgImage, headercontent, text }) => {
               {/* Advisory service Item */}
 
               <li className="lv2-one-li-one">
-                &#8226; Digital skills and Career development support for youth.{" "}
+                &#8226; Digital skills and career development support for youth.{" "}
                 {/* <span
                   id="see"
                   className={isOpenDropdownfour ? "hidden" : ""}
