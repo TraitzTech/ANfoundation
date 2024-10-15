@@ -23,6 +23,11 @@
   font-size: 20px;
 }
 
+.where-we-work-text a {
+  color: orange;
+  text-decoration: none;
+}
+
 .where-we-work-text span {
   font-weight: bold;
 }
@@ -53,7 +58,7 @@
 
   .where-we-work-text img {
     width: 85vw;
-    
+
   }
 }
 

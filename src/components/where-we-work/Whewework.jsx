@@ -1,6 +1,6 @@
 import React from "react";
 import "./wherewework.css";
-import document from "../../assets/Who we are.pdf";
+import document from "../../assets/Who We Are Revised.pdf";
 import { Link } from "react-router-dom";
 
 import Title from "../title/Title";
@@ -17,27 +17,30 @@ const Whewework = () => {
       <div className="where-we-work-text">
         <div>
           <p>
-            The <span>Awahsa'a Ngeniform (AN) Foundation</span> is committed to
+            <span>The Awahsa'a Ngeniform (AN) Foundation</span> is committed to
             supporting at-risk youth and communities facing complex and often
-            intersecting challenges of unemployment, gender inequality and
-            related violence, social exclusion, conflict, climate fragility, and
-            forced displacement.
+            intersecting challenges of unemployment, climate fragility, and
+            social fractures including: gender inequality and related violence,
+            social exclusion, conflict, forced displacement.
           </p>
           <p>
             We believe in the potential of every young person and strive to
-            create a brighter future for all at-risk youth in Cameroon. We
-            provide comprehensive support through education and skills,
-            psychosocial support services, leadership development and advocacy
-            for policy change.{" "}
+            create a brighter future for at-risk youth in Cameroon. We provide
+            comprehensive support for education and skills—including{" "}
+            <a href="https://unevoc.unesco.org/home/TVETipedia+Glossary/lang=en/show=term/term=Technical+and+vocational+education+and+training">
+              TVET
+            </a>{" "}
+            and adaptive digital skills, psychosocial services, livelihoods and
+            entrepreneurship, leadership development and professionalization,
+            together with pertinent policy advocacy.
           </p>
           <p>
             Our approach emphasizes local ownership, fostering sustainable
             solutions for income-generating activities and ensuring long-term
-            impact through beneficiary continuity programs. Our goal is to
-            create a supportive and enabling environment for at-risk youth and
+            impact through continuity programs. Our goal is to create a
+            supportive and enabling environment for at-risk youth and
             communities in Cameroon, equipping them with the necessary tools to
-            achieve their aspirations for a developed and prosperous, resilient
-            society.{" "}
+            achieve their aspirations for a prosperous, resilient society.
           </p>
 
           <a href={document} target="__blank">
