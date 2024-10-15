@@ -154,7 +154,7 @@ const ExternalP2 = ({ bgImage, headercontent, text }) => {
               </li>
               <li className="dd-lv-1-2-li-two">&#8226; Business and Trades</li>
               <li className="dd-lv-1-2-li-two">&#8226; Carpentry</li>
-              <li className="dd-lv-1-2-li-two">&#8226; Wielding</li>
+              <li className="dd-lv-1-2-li-two">&#8226; Welding</li>
               <li className="dd-lv-1-2-li-two">
                 &#8226; Solar Electrification
               </li>
