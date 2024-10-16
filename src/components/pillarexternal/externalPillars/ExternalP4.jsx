@@ -93,10 +93,14 @@ const ExternalP4 = ({ bgImage, headercontent, text }) => {
                 </a>
               </li>
               <li className="dd-lv-1-1-li-three">
-                &#8226; Ntehbang Integrated Health Center
+                <a href="https://drive.google.com/file/d/10dDNNSVH_eBT1L2Tu1DYOGbljBWNYmZr/view?usp=drivesdk ">
+                  &#8226; Ntehbang Integrated Health Center
+                </a>
               </li>
               <li className="dd-lv-1-1-li-two">
-                &#8226; Mamishang Health Center
+                <a href="https://drive.google.com/file/d/10dDNNSVH_eBT1L2Tu1DYOGbljBWNYmZr/view?usp=drivesdk ">
+                  &#8226; Mamishang Health Center
+                </a>
               </li>
 
               {/* end of dropdown lv 2 item */}
