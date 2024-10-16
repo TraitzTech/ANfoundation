@@ -122,6 +122,9 @@
 
   .footer-contents-b5 {
     margin-bottom: -14px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
   }
 
   /* .footer-contents-b1 {
