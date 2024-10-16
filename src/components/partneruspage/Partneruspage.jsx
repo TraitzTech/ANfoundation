@@ -16,8 +16,8 @@ const Partneruspage = () => {
           </p>
           <p>
             Connect with us by filling out our online form or emailing us at
-            <a href="mailto:awahsaangeniformfdn@gmail.com">
-              <span> </span>awahsaangeniformfdn@gmail.com
+            <a href="mailto:info@theanfoundation.org">
+              <span> </span>info@theanfoundation.org
             </a>
           </p>
 
