@@ -105,6 +105,11 @@
     grid-column-end: 3;
   }
 
+  .footer-contents-b5 {
+    grid-column-start: end;
+    margin-bottom: -15px;
+  }
+
   .footer-container hr {
     max-width: 95%;
   }
@@ -116,12 +121,13 @@
   }
 
   .footer-contents-b5 {
-    margin-bottom: 15px;
+    margin-bottom: -14px;
   }
 
   /* .footer-contents-b1 {
     grid-column-start: 1;
     grid-column-end: 3;
+    +
   } */
 
   .footer-contents-b1 p {
