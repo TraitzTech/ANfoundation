@@ -134,10 +134,7 @@ const ExternalP2 = ({ bgImage, headercontent, text }) => {
               </li>
 
               <li className="dd-lv-1-2-li-one">
-                <a
-                  href="https://ccastaa.org/about-us-2-2/about-us/"
-                  target="_blank"
-                >
+                <a href="https://uniba.cm/" target="_blank">
                   {" "}
                   &#8226; Higher Education
                 </a>
@@ -145,7 +142,7 @@ const ExternalP2 = ({ bgImage, headercontent, text }) => {
 
               <li className="dd-lv-1-2-li-one">
                 <a
-                  href="https://ccastaa.org/about-us-2-2/about-us/"
+                  href="https://web.facebook.com/p/Regional-College-of-Agriculture-RCA-Bambili-100083411765530/?_rdc=1&_rdr"
                   target="_blank"
                 >
                   {" "}
