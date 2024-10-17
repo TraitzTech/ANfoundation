@@ -21,7 +21,7 @@ const Whewework = () => {
             supporting at-risk youth and communities facing complex and often
             intersecting challenges of unemployment, climate fragility, and
             social fractures including: gender inequality and related violence,
-            social exclusion, conflict, forced displacement.
+            social exclusion, conflict, and forced displacement.
           </p>
           <p>
             We believe in the potential of every young person and strive to

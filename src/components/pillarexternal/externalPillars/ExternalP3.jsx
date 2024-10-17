@@ -93,7 +93,11 @@ const ExternalP3 = ({ bgImage, headercontent, text }) => {
                 </a>
               </li>
 
-              <li className="dd-lv-1-1-li-four">&#8226; Calendar</li>
+              <li className="dd-lv-1-1-li-four">
+                <a href=" https://www.youtube.com/watch?v=fg65YqkZlzU ">
+                  &#8226; Dance
+                </a>
+              </li>
 
               {/* end of dropdown lv 2 item */}
 
